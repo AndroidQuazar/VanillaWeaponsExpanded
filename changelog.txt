@@ -1,0 +1,57 @@
+Vanilla Weapons Expanded 1.2 Changelog
+
+Charge pistol
+Bullet damage 9 -> 8
+
+Charge shotgun 
+Bullet damage 22 -> 18
+Ranged Weapon Cooldown 1.25 -> 1.1
+Range 12.9 -> 14.9
+
+Charge sniper rifle
+Warmup time 3.5 -> 3.0
+Range 38.9 -> 39.9
+Bullet damage 14 -> 20
+Accuracy touch 0.5 -> 0.7
+Accuracy short 0.7 -> 0.73
+Average accuracy is now 79.25%
+
+Charge minigun
+Bullet damage 8 -> 9
+Range 33.9 -> 31.9
+Ticks between burst shots 5 -> 4
+Burst shot count 35 -> 30
+Accuracy Touch 0.15 -> 0.20
+Accuracy Short 0.25 -> 0.30
+Accuracy Medium 0.25 -> 0.30
+Average accuracy is now 24.5%
+
+Charge SMG
+Range 19.9 -> 24.9
+
+Charge LMG
+Bullet damage 10 -> 9
+Range 25.9 -> 27.9
+
+Flashbang
+Cooldown 3.66 -> 4.8
+
+Toxic gas grenades
+Plasteel cost 165 -> 65
+Advanced component cost 3 -> 2
+
+Throwing rocks
+No longer disappear on drop
+No longer menu hidden
+Can be smelted
+
+Crossbow
+Bullet damage 26 -> 20
+
+Combat handgun
+Cooldown 0.4 -> 0.6
+
+Throwing knives
+Can be smelted
+
+Research projects moved into a new Vanilla Expanded tab.

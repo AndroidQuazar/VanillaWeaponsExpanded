@@ -23,8 +23,8 @@
       <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
     </statBases>
 	<techLevel>Neolithic</techLevel>
-	<menuHidden>True</menuHidden>
-    <destroyOnDrop>true</destroyOnDrop>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
     <tradeability>None</tradeability>
      <!-- Solution #2 <costList>
       <ChunkGranite>1</ChunkGranite>

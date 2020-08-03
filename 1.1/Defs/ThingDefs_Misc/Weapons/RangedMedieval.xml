@@ -71,7 +71,7 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Arrow</damageDef>
-      <damageAmountBase>26</damageAmountBase>
+      <damageAmountBase>20</damageAmountBase>
       <stoppingPower>1</stoppingPower>
 	  <armorPenetrationBase>0.66</armorPenetrationBase>
       <speed>58</speed>
@@ -250,6 +250,8 @@
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <techLevel>Medieval</techLevel>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
 	<costStuffCount>40</costStuffCount>
     <statBases>
       <WorkToMake>4600</WorkToMake>

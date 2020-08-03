@@ -152,8 +152,8 @@
 	</statBases>
 	<costList>
 		<Chemfuel>200</Chemfuel>
-		<Plasteel>165</Plasteel>
-		<ComponentSpacer>3</ComponentSpacer>
+		<Plasteel>65</Plasteel>
+		<ComponentSpacer>2</ComponentSpacer>
 	</costList>
 	<tradeTags>
 		<li>Exotic</li>
@@ -222,7 +222,7 @@
     <techLevel>Industrial</techLevel>
     <statBases>
       <Mass>1</Mass>
-      <RangedWeapon_Cooldown>3.66</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>4.80</RangedWeapon_Cooldown>
       <WorkToMake>24000</WorkToMake>
     </statBases>
 	<recipeMaker>
