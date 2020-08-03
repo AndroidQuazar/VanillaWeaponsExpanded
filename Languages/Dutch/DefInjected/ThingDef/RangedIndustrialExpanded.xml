@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Compound Bow -->
+
+  <VWE_Bow_Compound.label>compoundboog</VWE_Bow_Compound.label>
+  <VWE_Bow_Compound.description>Een moderne boog met hefboomsysteem om over lange afstanden te schieten en alsook weinig geluid te maken. Goed voor te jagen.</VWE_Bow_Compound.description>
+  <VWE_Bow_Compound.tools.0.label>boogframe</VWE_Bow_Compound.tools.0.label>
+
+  <VWE_Arrow_Compound.label>compoundboogpijl</VWE_Arrow_Compound.label>
+
+
+  <!-- Hand Cannon -->
+
+  <VWE_Bullet_HandCannon.label>handkanonskogel</VWE_Bullet_HandCannon.label>
+
+  <VWE_Gun_HandCannon.label>Handkannon</VWE_Gun_HandCannon.label>
+  <VWE_Gun_HandCannon.description>Traag schietende revolver met zwaar kaliber om over lange afstanden te schieten.</VWE_Gun_HandCannon.description>
+  <VWE_Gun_HandCannon.tools.0.label>handvat</VWE_Gun_HandCannon.tools.0.label>
+  <VWE_Gun_HandCannon.tools.1.label>loop</VWE_Gun_HandCannon.tools.1.label>
+
+
+  <!-- Combat Handgun -->
+
+  <VWE_Bullet_CombatHandgun.label>gevechtspistoolkogel</VWE_Bullet_CombatHandgun.label>
+
+  <VWE_CombatHandgun.label>gevechtspistool</VWE_CombatHandgun.label>
+  <VWE_CombatHandgun.description>Semi automatisch pistool voor zelfverdediging. Het geavanceerde contra-terugslagmechanisme helpt om het sneller te richten dan een gewoon pistool.</VWE_CombatHandgun.description>
+  <VWE_CombatHandgun.tools.0.label>handvat</VWE_CombatHandgun.tools.0.label>
+  <VWE_CombatHandgun.tools.1.label>loop</VWE_CombatHandgun.tools.1.label>
+
+
+  <!-- Sawed-off Shotgun -->
+
+  <VWE_Bullet_SawedOffShotgun.label>shotgunschot</VWE_Bullet_SawedOffShotgun.label>
+
+  <VWE_SawedOffShotgun.label>afgezaagd Shotgun</VWE_SawedOffShotgun.label>
+  <VWE_SawedOffShotgun.description>Kort shotgun met afgezaagde loop. Heeft geen groot bereik maar schiet met twee lopen tergelijk.</VWE_SawedOffShotgun.description>
+  <VWE_SawedOffShotgun.tools.0.label>handvat</VWE_SawedOffShotgun.tools.0.label>
+  <VWE_SawedOffShotgun.tools.1.label>loop</VWE_SawedOffShotgun.tools.1.label>
+
+
+  <!-- Grenade Launcher -->
+
+  <VWE_Bullet_GrenadeLauncher.label>fragmentatiegranaat</VWE_Bullet_GrenadeLauncher.label>
+
+  <VWE_Gun_GrenadeLauncher.label>granaatwerper</VWE_Gun_GrenadeLauncher.label>
+  <VWE_Gun_GrenadeLauncher.description>Een militair type van granaatwerper voor anti-infanteriegebruik.</VWE_Gun_GrenadeLauncher.description>
+  <VWE_Gun_GrenadeLauncher.tools.0.label>kolf</VWE_Gun_GrenadeLauncher.tools.0.label>
+  <VWE_Gun_GrenadeLauncher.tools.1.label>loop</VWE_Gun_GrenadeLauncher.tools.1.label>
+
+
+  <!-- Flamethrower -->
+
+  <VWE_Gun_Flamethrower.label>vlammenwerper</VWE_Gun_Flamethrower.label>
+  <VWE_Gun_Flamethrower.description>Mechanisch incendiair wapen voor vuurstromen te lossen op vijanden.</VWE_Gun_Flamethrower.description>
+  <VWE_Gun_Flamethrower.tools.0.label>kolf</VWE_Gun_Flamethrower.tools.0.label>
+  <VWE_Gun_Flamethrower.tools.1.label>loop</VWE_Gun_Flamethrower.tools.1.label>
+
+  <VWE_Bullet_Flamethrower.label>vlammenwerperbrandstof</VWE_Bullet_Flamethrower.label>
+
+
+  <!-- Fire Extinguisher -->
+
+  <VWE_Gun_FireExtinguisher.label>brandblusser</VWE_Gun_FireExtinguisher.label>
+  <VWE_Gun_FireExtinguisher.description>Gevuld met vuuronderdrukkend stof, dit kan gebruikt worden voor elk soort vuur te blussen in het veld.</VWE_Gun_FireExtinguisher.description>
+  <VWE_Gun_FireExtinguisher.tools.0.label>trommel</VWE_Gun_FireExtinguisher.tools.0.label>
+
+  <VWE_Bullet_FireExtinguisher.label>vuuronderdrukkend stof</VWE_Bullet_FireExtinguisher.label>
+
+
+  <!-- Semi-Automatic Rifle -->
+
+  <VWE_Bullet_SemiAutomaticRifle.label>semi-automatisch geweerskogel</VWE_Bullet_SemiAutomaticRifle.label>
+
+  <VWE_Gun_SemiAutomaticRifle.label>semi-automatisch geweer</VWE_Gun_SemiAutomaticRifle.label>
+  <VWE_Gun_SemiAutomaticRifle.description>Semi-automatisch model van de standaard bolt-actiongeweren. Niet zo accuraat maar hogere schietsnelheid.</VWE_Gun_SemiAutomaticRifle.description>
+  <VWE_Gun_SemiAutomaticRifle.tools.0.label>kolf</VWE_Gun_SemiAutomaticRifle.tools.0.label>
+  <VWE_Gun_SemiAutomaticRifle.tools.1.label>loop</VWE_Gun_SemiAutomaticRifle.tools.1.label>
+
+
+  <!-- Lever-Action Rifle -->
+
+  <VWE_Bullet_LeverActionRifle.label>hefboomgeweerkogel</VWE_Bullet_LeverActionRifle.label>
+
+  <VWE_Gun_LeverActionRifle.label>hefboomgeweer</VWE_Gun_LeverActionRifle.label>
+  <VWE_Gun_LeverActionRifle.description>Een geweer dat gebruikt maakt van een hefboom rond de trekker om een nieuw patroon in te laden. Niet zo krachtig als andere geweren maar schiet bijzonder snel.</VWE_Gun_LeverActionRifle.description>
+  <VWE_Gun_LeverActionRifle.tools.0.label>kolf</VWE_Gun_LeverActionRifle.tools.0.label>
+  <VWE_Gun_LeverActionRifle.tools.1.label>loop</VWE_Gun_LeverActionRifle.tools.1.label>
+
+
+  <!-- Light SMG -->
+
+  <VWE_Bullet_LightSMG.label>lichte smg-kogel</VWE_Bullet_LightSMG.label>
+
+  <VWE_Gun_LightSMG.label>lichte smg</VWE_Gun_LightSMG.label>
+  <VWE_Gun_LightSMG.description>Lichte smg met goede koeling voor meerdere kogels te kunnen lossen.</VWE_Gun_LightSMG.description>
+  <VWE_Gun_LightSMG.tools.0.label>handvaty</VWE_Gun_LightSMG.tools.0.label>
+  <VWE_Gun_LightSMG.tools.1.label>loop</VWE_Gun_LightSMG.tools.1.label>
+
+
+  <!-- SMG -->
+
+  <VWE_Bullet_SMG.label>smg-kogel</VWE_Bullet_SMG.label>
+
+  <VWE_Gun_SMG.label>SMG</VWE_Gun_SMG.label>
+  <VWE_Gun_SMG.description>Een compacte smg. Kan niet ver schieten maar doet hoge schade op korte afstand.</VWE_Gun_SMG.description>
+  <VWE_Gun_SMG.tools.0.label>handvat</VWE_Gun_SMG.tools.0.label>
+  <VWE_Gun_SMG.tools.1.label>loop</VWE_Gun_SMG.tools.1.label>
+
+
+  <!-- HMG -->
+
+  <VWE_Bullet_HMG.label>HMG-kogel</VWE_Bullet_HMG.label>
+
+  <VWE_Gun_HMG.label>HMG</VWE_Gun_HMG.label>
+  <VWE_Gun_HMG.description>Een watergekoeld machinegeweer dat zwaar en onhandig is maar verschrikkelijke schade kan aanrichten. Kan lange salvo's afvuren.</VWE_Gun_HMG.description>
+  <VWE_Gun_HMG.tools.0.label>kolf</VWE_Gun_HMG.tools.0.label>
+  <VWE_Gun_HMG.tools.1.label>loop</VWE_Gun_HMG.tools.1.label>
+
+
+  <!-- Service Rifle -->
+
+  <VWE_Bullet_ServiceRifle.label>aanvalsgeweerkogel</VWE_Bullet_ServiceRifle.label>
+
+  <VWE_Gun_ServiceRifle.label>dienstgeweer</VWE_Gun_ServiceRifle.label>
+  <VWE_Gun_ServiceRifle.description>Een veelzijdig wapen die overal gebruikt word. Schiet vier kogels af na elkaar in salvo's.</VWE_Gun_ServiceRifle.description>
+  <VWE_Gun_ServiceRifle.tools.0.label>kolf</VWE_Gun_ServiceRifle.tools.0.label>
+  <VWE_Gun_ServiceRifle.tools.1.label>loop</VWE_Gun_ServiceRifle.tools.1.label>
+
+
+  <!-- Battle Rifle -->
+
+  <VWE_Bullet_BattleRifle.label>aanvalsgeweerkogel</VWE_Bullet_BattleRifle.label>
+
+  <VWE_Gun_BattleRifle.label>aanvalsgeweer</VWE_Gun_BattleRifle.label>
+  <VWE_Gun_BattleRifle.description>Een semi-automatisch geweer vaak gebruikt door speciale eenheden voor zijn bereik en accuraatheid.</VWE_Gun_BattleRifle.description>
+  <VWE_Gun_BattleRifle.tools.0.label>kolf</VWE_Gun_BattleRifle.tools.0.label>
+  <VWE_Gun_BattleRifle.tools.1.label>loop</VWE_Gun_BattleRifle.tools.1.label>
+
+
+  <!-- Carbine -->
+
+  <VWE_Bullet_Carbine.label>karabijnskogel</VWE_Bullet_Carbine.label>
+
+  <VWE_Gun_Carbine.label>karabijn</VWE_Gun_Carbine.label>
+  <VWE_Gun_Carbine.description>Kort bullpupgeweer vaak gebruikt in gevechten op korte afstand.</VWE_Gun_Carbine.description>
+  <VWE_Gun_Carbine.tools.0.label>kolf</VWE_Gun_Carbine.tools.0.label>
+  <VWE_Gun_Carbine.tools.1.label>loop</VWE_Gun_Carbine.tools.1.label>
+
+
+  <!-- Marksman Rifle -->
+
+  <Bullet_MarksmanRifle.label>sluipschuttersgeweerkogel</Bullet_MarksmanRifle.label>
+
+  <VWE_Gun_MarksmanRifle.label>sluipschuttersgeweer</VWE_Gun_MarksmanRifle.label>
+  <VWE_Gun_MarksmanRifle.description>Een sluipschuttergeweer dat twee kogels na elkaar afschiet op lange afstand.</VWE_Gun_MarksmanRifle.description>
+  <VWE_Gun_MarksmanRifle.tools.0.label>kolf</VWE_Gun_MarksmanRifle.tools.0.label>
+  <VWE_Gun_MarksmanRifle.tools.1.label>loop</VWE_Gun_MarksmanRifle.tools.1.label>
+
+
+  <!-- Anti-Materiel Rifle -->
+
+  <Bullet_AntiMaterialRifle.label>anti-materieelkogel</Bullet_AntiMaterialRifle.label>
+
+  <VWE_Gun_AntiMaterialRifle.label>anti-materieelgeweer</VWE_Gun_AntiMaterialRifle.label>
+  <VWE_Gun_AntiMaterialRifle.description>Een extreem zwaar wapen met .50 kaliberkogels speciaal voor zwaar bepantserde vijanden of voertuigen.</VWE_Gun_AntiMaterialRifle.description>
+  <VWE_Gun_AntiMaterialRifle.tools.0.label>kolf</VWE_Gun_AntiMaterialRifle.tools.0.label>
+  <VWE_Gun_AntiMaterialRifle.tools.1.label>loop</VWE_Gun_AntiMaterialRifle.tools.1.label>
+
+
+</LanguageData>

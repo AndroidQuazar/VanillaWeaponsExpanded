@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Damage -->
+
+  <Dam_OPToxin.label>giftig gas</Dam_OPToxin.label>
+  <Dam_OPToxin.deathMessage>{0} is gedood.</Dam_OPToxin.deathMessage>
+
+
+</LanguageData>

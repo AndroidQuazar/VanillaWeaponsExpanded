@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Triple Rocket Launcher -->
+
+  <!--[Core] <Gun_TripleRocket.label>TODO</Gun_TripleRocket.label>-->
+  <!--[Core] <Gun_TripleRocket.description>TODO</Gun_TripleRocket.description>-->
+  <!--[Core] <Gun_TripleRocket.tools.0.label>barrel</Gun_TripleRocket.tools.0.label>-->
+
+
+  <!-- Doomsday Rocket Launcher -->
+
+  <!--[Core] <Gun_DoomsdayRocket.label>TODO</Gun_DoomsdayRocket.label>-->
+  <!--[Core] <Gun_DoomsdayRocket.description>TODO</Gun_DoomsdayRocket.description>-->
+  <!--[Core] <Gun_DoomsdayRocket.tools.0.label>barrel</Gun_DoomsdayRocket.tools.0.label>-->
+
+
+  <!-- Rocket Launcher -->
+
+  <VWE_Gun_RocketLauncher.label>raketwerper</VWE_Gun_RocketLauncher.label>
+  <VWE_Gun_RocketLauncher.description>Vuurt een enkele raket af met hoge accuraatheid.</VWE_Gun_RocketLauncher.description>
+  <VWE_Gun_RocketLauncher.tools.0.label>loop</VWE_Gun_RocketLauncher.tools.0.label>
+
+
+</LanguageData>

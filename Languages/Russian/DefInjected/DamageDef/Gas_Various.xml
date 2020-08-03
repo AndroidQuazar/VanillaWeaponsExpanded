@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Damage -->
+
+  <VWE_ToxicGas.label>токсичный газ</VWE_ToxicGas.label>
+  <VWE_ToxicGas.deathMessage>{0} убит.</VWE_ToxicGas.deathMessage>
+
+
+</LanguageData>

@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Defs>
+
+  <SoundDef>
+    <defName>VWE_Bow_Compound</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/BowA</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>20.70111</min>        
+          <max>47.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9976015</min>        
+          <max>1.1769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+    <SoundDef>
+    <defName>VWE_Explosion_Flamethrower</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_Flamethrower</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>0.7826</min>        
+          <max>0.7827</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1</min>        
+          <max>1</max>
+        </pitchRange>      
+      </li>    
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_Flamethrower</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_Flamethrower</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>56.7826</min>        
+          <max>56.7827</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1</min>        
+          <max>1</max>
+        </pitchRange>      
+      </li>    
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>VWE_Shot_FireExtinguisher</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_FireExtinguisher</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>56.7826</min>        
+          <max>56.7827</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1</min>        
+          <max>1</max>
+        </pitchRange>      
+      </li>    
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Explosion_FireExtinguisher</defName>  
+    <context>MapOnly</context> 
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_FireExtinguisher</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>0.7826</min>        
+          <max>0.7827</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1</min>        
+          <max>1</max>
+        </pitchRange>      
+      </li>    
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_Crossbow</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/VWE_Shot_Crossbow</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>90.70111</min>        
+          <max>97.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.0976015</min>        
+          <max>1.0769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+     <SoundDef>
+    <defName>VWE_Shot_Whip</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/VWE_Shot_Whip</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>10.70111</min>        
+          <max>17.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>1.1769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+       <SoundDef>
+    <defName>VWE_Shot_Musket</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/VWE_Shot_Musket</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>100.70111</min>        
+          <max>127.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.80976015</min>        
+          <max>1.2769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_Handcannon</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/Revolver</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>35</min>        
+          <max>35</max>
+        </volumeRange>   
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>		
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_GrenadeLauncher</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/IncendiaryLauncher</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>40.58823</min>        
+          <max>40.58823</max>
+        </volumeRange>
+		<pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>	
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_LeverActionRifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_LeverActionRifle</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.9770592</min>        
+          <max>1.114706</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+    <SoundDef>
+    <defName>VWE_Shot_LightSMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/MachinePistol</clipFolderPath>
+          </li>
+        </grains>      
+		<pitchRange>
+          <min>1.1770592</min>        
+          <max>1.214706</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>VWE_Shot_SMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <name>Shot</name>      
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/HeavySMG</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>40.58823</min>        
+          <max>40.58823</max>
+        </volumeRange>
+		<pitchRange>
+          <min>1.2770592</min>        
+          <max>1.314706</max>
+        </pitchRange>      
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_HMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxVoices>8</maxVoices>  
+    <maxSimultaneous>4</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_HMG</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>53.52942</min>        
+          <max>73.52942</max>
+        </volumeRange>
+		<pitchRange>
+          <min>0.8770592</min>        
+          <max>1.014706</max>
+        </pitchRange>      
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_ServiceRifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>34.2941</min>        
+          <max>40.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>1.191765</min>        
+          <max>1.231435</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_BattleRifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45.2941</min>        
+          <max>45.2941</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.801765</min>        
+          <max>0.834525</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+    <SoundDef>
+    <defName>VWE_Shot_ChargeSniperRifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_ChargeSniperRifle</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>50</min>        
+          <max>50</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+      <SoundDef>
+    <defName>VWE_Shot_AntiMaterialRifle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_AntiMaterialRifle</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>70</min>        
+          <max>70</max>
+        </volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_ChargePistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/ChargeShotA</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>1.2</min>        
+          <max>1.4</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  
+  <SoundDef>
+    <defName>VWE_Shot_ChargeShotgun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_ChargeShotgun</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.9082353</min>        
+          <max>1.045882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+      <SoundDef>
+    <defName>VWE_Shot_ChargeSMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/ChargeShotA</clipPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>1.0</min>        
+          <max>1.3</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+    <SoundDef>
+    <defName>VWE_Shot_ChargeMinigun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/VWE_Shot_ChargeMinigun</clipFolderPath>
+          </li>
+        </grains>      
+        <pitchRange>
+          <min>0.8082353</min>        
+          <max>1.245882</max>
+        </pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  
+</Defs>

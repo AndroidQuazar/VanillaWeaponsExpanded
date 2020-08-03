@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Rocket Launcher -->
+
+  <VWE_Gun_RocketLauncher.label>ロケットランチャー</VWE_Gun_RocketLauncher.label>
+  <VWE_Gun_RocketLauncher.description>単発の迫撃砲弾を高い命中精度で発射します。</VWE_Gun_RocketLauncher.description>
+  <VWE_Gun_RocketLauncher.tools.barrel.label>バレル</VWE_Gun_RocketLauncher.tools.barrel.label>
+  <VWE_Gun_RocketLauncher.verbs.Verb_ShootOneUse.label>ロケットランチャー</VWE_Gun_RocketLauncher.verbs.Verb_ShootOneUse.label>
+
+</LanguageData>

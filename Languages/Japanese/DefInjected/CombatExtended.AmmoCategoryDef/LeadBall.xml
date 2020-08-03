@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo Category -->
+
+  <LeadBall.label>鉛弾</LeadBall.label>
+  <LeadBall.description>真円では無いでこぼこな金属製の弾です。空力的に抵抗が多いためかなり命中率が不正確ですが、命中時の打撃力と発射された球の直径が大きいために大きな傷を負います。</LeadBall.description>
+
+</LanguageData>

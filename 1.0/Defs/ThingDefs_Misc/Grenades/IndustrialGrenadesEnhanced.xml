@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============ Overtaken and slightly changed ================= -->
+  <!-- ==================== SMOKE GRENADE ========================== -->
+  <ThingDef ParentName="BaseMakeableGrenade">
+		<defName>VWE_SmokeGrenade</defName>
+		<label>smoke grenades</label>
+		<description>Old school condensed smoke canister that explodes into a smoke wall on impact.</description>
+    <tickerType>Normal</tickerType>
+	<graphicData>
+		<texPath>Things/Grenades/SmokeGrenade</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>ThrowGrenade</soundInteract>
+	<techLevel>Industrial</techLevel>
+	<statBases>
+		<Mass>1</Mass>
+		<RangedWeapon_Cooldown>4.66</RangedWeapon_Cooldown>
+		<WorkToMake>5000</WorkToMake>
+    </statBases>
+	<recipeMaker>
+      <researchPrerequisite>VWE_TacticalGrenades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Chemfuel>75</Chemfuel>
+	  <Steel>25</Steel>
+    </costList>
+		<weaponTags>
+			<li>GrenadeDestructive</li>
+		</weaponTags>
+		<thingCategories>
+			<li>Grenades</li>
+		</thingCategories>
+		<verbs>
+			<li>
+				<label>throw smoke grenade</label>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<range>15.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<warmupTime>1.8</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>VWE_Projectile_SmokeGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.66</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile">
+		<defName>VWE_Projectile_SmokeGrenade</defName>
+		<label>smoke grenade</label>
+		<thingClass>ExplosiveTrailsEffect.SmokeGrenade</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/GrenadeSmoke</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <projectile>
+      <explosionRadius>4.3</explosionRadius>
+	  <soundExplode>DispensePaste</soundExplode>
+      <damageDef>Smoke</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <explosionDelay>100</explosionDelay>
+      <preExplosionSpawnThingDef>VWE_SmokeCloud</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== TOXIC GRENADE ========================== -->
+  <ThingDef Name="BaseOPToxMakeableGrenade" ParentName="BaseWeapon" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef Name="BaseOPToxGrenadeProjectile" Abstract="True">
+    <category>Projectile</category>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Projectile_Explosive</thingClass>
+    <label>projectile</label>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>
+      <speed>12</speed>
+      <flyOverhead>false</flyOverhead>
+    </projectile>
+  </ThingDef>
+	
+  <!-- Grenade -->
+  <ThingDef ParentName="BaseOPToxMakeableGrenade">
+	<defName>VWE_ToxicGrenade</defName>
+	<label>toxic grenades</label>
+	<description>Charge powered lethal gas canister causing severe toxic buildup over a very short period of time.</description>
+	<graphicData>
+		<texPath>Things/Grenades/GasGrenade</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>		
+	<soundInteract>Interact_Grenade</soundInteract>
+	<tickerType>Normal</tickerType>
+	<recipeMaker>
+	<researchPrerequisite>VWE_TacticalGrenades</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+		<recipeUsers>
+				<li>FabricationBench</li>
+		</recipeUsers>
+	</recipeMaker>
+	<techLevel>Spacer</techLevel>
+	<weaponTags>
+		<li>GrenadeDestructive</li>
+	</weaponTags>
+	<thingCategories>
+		<li>Grenades</li>
+	</thingCategories>
+	<generateCommonality>0.1</generateCommonality>
+	<statBases>
+		<WorkToMake>20000</WorkToMake>
+		<Mass>1.0</Mass>
+		<RangedWeapon_Cooldown>4.66</RangedWeapon_Cooldown>
+		<Flammability>1.0</Flammability>
+		<SellPriceFactor>0.5</SellPriceFactor>
+		<MarketValue>850</MarketValue>
+	</statBases>
+	<costList>
+		<Chemfuel>200</Chemfuel>
+		<Plasteel>165</Plasteel>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<tradeTags>
+		<li>Exotic</li>
+	</tradeTags>
+	<verbs>
+		<li>
+			<label>throw toxic grenade</label>
+			<forcedMissRadius>1.9</forcedMissRadius>			
+			<verbClass>Verb_LaunchProjectile</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>VWE_Projectile_ToxicGrenade</defaultProjectile>
+			<warmupTime>3.5</warmupTime>
+			<range>12.9</range>
+			<noiseRadius>4</noiseRadius>
+			<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>		
+			<soundCast>ThrowGrenade</soundCast>
+			<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+		</li>
+	</verbs>
+	<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.66</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+		</li>
+	</comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseOPToxGrenadeProjectile">
+    <defName>VWE_Projectile_ToxicGrenade</defName>
+    <label>toxic grenade</label>
+    <graphicData>
+      	<texPath>Things/Projectile/GrenadeToxic</texPath>
+      	<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>ExplosiveTrailsEffect.GasGrenade</thingClass>
+    <projectile>
+      	<damageDef>VWE_ToxicGas</damageDef> <!-- ARL_ToxicGas -->
+      	<speed>10</speed>
+      	<explosionRadius>3.9</explosionRadius>
+      	<flyOverhead>false</flyOverhead>
+      	<soundExplode>DispensePaste</soundExplode>
+      	<postExplosionSpawnThingDef>VWE_ToxicGasCloud</postExplosionSpawnThingDef> <!-- ARL_ToxicGasCloud -->
+      	<postExplosionSpawnChance>1</postExplosionSpawnChance>
+      	<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      	<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+		<explosionDelay>100</explosionDelay>
+    </projectile>
+  </ThingDef>
+  
+  <!-- Flash grenade -->
+
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>VWE_FlashGrenade</defName>
+    <label>flash grenades</label>
+    <description>A flash grenade. Temporarily stuns organic enemies allowing users to close the distance.</description>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Grenades/FlashGrenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>3.66</RangedWeapon_Cooldown>
+      <WorkToMake>24000</WorkToMake>
+    </statBases>
+	<recipeMaker>
+		<researchPrerequisite>VWE_TacticalGrenades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		<recipeUsers Inherit="False">
+			<li>FabricationBench</li>
+		</recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw flash grenade</label>
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>12.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>VWE_Projectile_FlashGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.66</explosiveRadius>
+        <explosiveDamageType>Stun</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+    </comps>
+    <smeltProducts>
+      <Steel>10</Steel>
+    </smeltProducts>
+  </ThingDef>
+  
+    <ThingDef ParentName="BaseGrenadeProjectile">
+		<defName>VWE_Projectile_FlashGrenade</defName>
+		<label>flash grenade</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/GrenadeFlash</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <projectile>
+      <explosionRadius>4.3</explosionRadius>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <explosionDelay>100</explosionDelay>
+    </projectile>
+  </ThingDef>
+  
+</Defs>

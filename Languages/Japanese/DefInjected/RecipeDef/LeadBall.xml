@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipe -->
+
+  <MakeAmmo_VWE_LeadBall.label>鉛弾×100</MakeAmmo_VWE_LeadBall.label>
+  <MakeAmmo_VWE_LeadBall.description>鉛弾を100個作る。</MakeAmmo_VWE_LeadBall.description>
+  <MakeAmmo_VWE_LeadBall.jobString>鉛弾を製作中</MakeAmmo_VWE_LeadBall.jobString>
+
+</LanguageData>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>VWE_Longbow</defName>
+		<label>longbow</label>
+		<description>Craft longbows, a neolithic equivalent to the sniper rifle.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>RecurveBow</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VWE_Crossbow</defName>
+		<label>crossbow</label>
+		<description>Construct crossbows, a medieval ranged weapon effective against armored enemies.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>VWE_Longbow</li>
+		</prerequisites>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>4.50</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VWE_CompoundBow</defName>
+		<label>compound bow</label>
+		<description>Construct compound bows, which use industrial-era components to silently fire arrows with greater efficiency.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>VWE_Longbow</li>
+		</prerequisites>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VWE_Tools</defName>
+		<label>tools</label>
+		<description>Smith worker's tools to assist with manual labor.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3.4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VWE_Gunpowder</defName>
+		<label>gunpowder</label>
+		<description>Synthesize gunpowder, the earliest known chemical explosive.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VWE_TrenchWarfare</defName>
+		<label>trench warfare</label>
+		<description>Adapt a trench warfare doctrine with a selection of weapons for close-quarters combat.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Mortars</li>	
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>4.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VWE_HeavyWeapons</defName>
+		<label>heavy weapons</label>
+		<description>Construct heavy weapons that offer superior firepower, at the cost of being very physically demanding.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>HeavyTurrets</li>
+		</prerequisites>
+		<researchViewX>12.00</researchViewX>
+		<researchViewY>3.35</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VWE_Flamethrower</defName>
+		<label>flamethrower</label>
+		<description>Construct flamethrowers, weapons that project a long, controllable stream of fire. Their lethality has lead to bans on many civilized worlds.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>BiofuelRefining</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>2.60</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>VWE_SpecializedFirearms</defName>
+		<label>specialized firearms</label>
+		<description>Craft specialized guns for demanding combat scenarios.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<researchViewX>12.00</researchViewX>
+		<researchViewY>3.90</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VWE_DesignatedMarksmanRifle</defName>
+		<label>marksman rifle</label>
+		<description>Construct semi-automatic marksman rifles, for use in long-distance engagements.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>12.00</researchViewX>
+		<researchViewY>4.60</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VWE_TacticalGrenades</defName>
+		<label>tactical grenades</label>
+		<description>Craft specialized grenades, useful in a variety of engagements.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>GasOperation</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>4.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VWE_LaserTargetingSystems</defName>
+		<label>laser targeting systems</label>
+		<description>Adapt laser targeting systems for accurate and swift delivery of charged warheads.</description>
+		<baseCost>5000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>VWE_HeavyWeapons</li>
+			<li>ChargedShot</li>
+		</prerequisites>
+		<requiredResearchFacilities><li>MultiAnalyzer</li></requiredResearchFacilities>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>4.55</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

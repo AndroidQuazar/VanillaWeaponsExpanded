@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Throwing Rocks -->
+
+  <VWE_Throwing_Rocks.label>werpstenen</VWE_Throwing_Rocks.label>
+  <VWE_Throwing_Rocks.description>Een handvol stenen die schade kunnen aanrichten. Blijven niet liggen als de gebruiker sterft. Simpel maar effectief.</VWE_Throwing_Rocks.description>
+  <VWE_Throwing_Rocks.tools.0.label>steen</VWE_Throwing_Rocks.tools.0.label>
+
+  <VWE_Rock.label>werpsteen</VWE_Rock.label>
+
+
+  <!-- Long Bow -->
+
+  <VWE_Bow_Long.label>handboog</VWE_Bow_Long.label>
+  <VWE_Bow_Long.description>Handbogen zijn lange neolitische bogen die krachtige pijlen kunnen afvuren op lange afstanden. Deze pijlen vliegen over het hoofd dus kunnen obstakels voorbijgaan.</VWE_Bow_Long.description>
+  <VWE_Bow_Long.tools.0.label>handboogframe</VWE_Bow_Long.tools.0.label>
+
+  <VWE_Arrow_Long.label>handboogpijl</VWE_Arrow_Long.label>
+
+
+</LanguageData>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pickaxe -->
+
+  <VWE_MeleeWeapon_Pickaxe.label>pikhouweel</VWE_MeleeWeapon_Pickaxe.label>
+  <VWE_MeleeWeapon_Pickaxe.description>Een pikhouweel om tunnels te graven en rotsen af te breken. Is ook handig als wapen tegen gepantserde vijanden.</VWE_MeleeWeapon_Pickaxe.description>
+  <VWE_MeleeWeapon_Pickaxe.tools.0.label>handvat</VWE_MeleeWeapon_Pickaxe.tools.0.label>
+  <VWE_MeleeWeapon_Pickaxe.tools.1.label>punt</VWE_MeleeWeapon_Pickaxe.tools.1.label>
+
+
+  <!-- Hammer -->
+
+  <VWE_MeleeWeapon_Hammer.label>hamer</VWE_MeleeWeapon_Hammer.label>
+  <VWE_MeleeWeapon_Hammer.description>Een hamer is een basisgereedchap bij constructies en kan ook dienen als wapen.</VWE_MeleeWeapon_Hammer.description>
+  <VWE_MeleeWeapon_Hammer.tools.0.label>handvat</VWE_MeleeWeapon_Hammer.tools.0.label>
+  <VWE_MeleeWeapon_Hammer.tools.1.label>kop</VWE_MeleeWeapon_Hammer.tools.1.label>
+
+
+  <!-- Battle Axe -->
+
+  <VWE_MeleeWeapon_BattleAxe.label>strijdbijl</VWE_MeleeWeapon_BattleAxe.label>
+  <VWE_MeleeWeapon_BattleAxe.description>Een heftig wapen en zeer gevaarlijk in de juiste handen op het slagveld.</VWE_MeleeWeapon_BattleAxe.description>
+  <VWE_MeleeWeapon_BattleAxe.tools.0.label>handvat</VWE_MeleeWeapon_BattleAxe.tools.0.label>
+  <VWE_MeleeWeapon_BattleAxe.tools.1.label>lemmet</VWE_MeleeWeapon_BattleAxe.tools.1.label>
+
+
+  <!-- Halberd -->
+
+  <VWE_MeleeWeapon_Halberd.label>hellebaard</VWE_MeleeWeapon_Halberd.label>
+  <VWE_MeleeWeapon_Halberd.description>Een hellebaard is een speer met een kleine bijlkop vanboven. Handig tegen ruiters en gepantserde vijanden.</VWE_MeleeWeapon_Halberd.description>
+  <VWE_MeleeWeapon_Halberd.tools.0.label>handvat</VWE_MeleeWeapon_Halberd.tools.0.label>
+  <VWE_MeleeWeapon_Halberd.tools.1.label>lemmet</VWE_MeleeWeapon_Halberd.tools.1.label>
+  <VWE_MeleeWeapon_Halberd.tools.2.label>punt</VWE_MeleeWeapon_Halberd.tools.2.label>
+
+
+</LanguageData>

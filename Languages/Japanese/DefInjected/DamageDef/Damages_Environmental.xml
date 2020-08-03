@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VWE_Shock.label>電撃</VWE_Shock.label>
+  <VWE_Shock.deathMessage>{0}は電撃によって死んだ</VWE_Shock.deathMessage>
+
+  <VWE_HauntingFlame.label>燃焼</VWE_HauntingFlame.label>
+  <VWE_HauntingFlame.deathMessage>{0}は燃え上がって死んだ</VWE_HauntingFlame.deathMessage>
+
+</LanguageData>

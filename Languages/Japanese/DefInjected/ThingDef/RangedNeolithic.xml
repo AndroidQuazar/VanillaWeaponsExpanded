@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Throwing Rocks -->
+
+  <VWE_Throwing_Rocks.label>投石</VWE_Throwing_Rocks.label>
+  <VWE_Throwing_Rocks.description>手で握れる大きさに磨いた石玉を投げます。近距離で当たると軽傷を負う可能性がありますが、死ぬことは無いでしょう。単純ですが効果的な武器です。</VWE_Throwing_Rocks.description>
+  <VWE_Throwing_Rocks.tools.edge.label>石片</VWE_Throwing_Rocks.tools.edge.label>
+  <VWE_Throwing_Rocks.verbs.Verb_Shoot.label>投石</VWE_Throwing_Rocks.verbs.Verb_Shoot.label>
+
+  <VWE_Rock.label>小型の石</VWE_Rock.label>
+
+
+  <!-- Long Bow -->
+
+  <VWE_Bow_Long.label>ロングボウ</VWE_Bow_Long.label>
+  <VWE_Bow_Long.description>ロングボウは石器時代の巨大な長距離武器で、非常に長い射程を持ち強力な矢を放つことができます。\n\nこの弓から発射された矢は頭上を弧を描いて飛ぶので、障害物に邪魔されません。</VWE_Bow_Long.description>
+  <VWE_Bow_Long.tools.limb.label>リム</VWE_Bow_Long.tools.limb.label>
+  <VWE_Bow_Long.verbs.Verb_Shoot.label>ロングボウ</VWE_Bow_Long.verbs.Verb_Shoot.label>
+
+  <VWE_Arrow_Long.label>ロングボウの矢</VWE_Arrow_Long.label>
+
+</LanguageData>

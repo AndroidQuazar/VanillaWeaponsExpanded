@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SMOKE GRENADE -->
+
+  <VWE_SmokeGrenade.label>煙幕手榴弾</VWE_SmokeGrenade.label>
+  <VWE_SmokeGrenade.description>命中時に爆発して煙幕を張る旧式の煙幕手榴弾です。</VWE_SmokeGrenade.description>
+  <VWE_SmokeGrenade.verbs.throw_smoke_grenade.label>手榴弾を投擲</VWE_SmokeGrenade.verbs.throw_smoke_grenade.label>
+
+  <VWE_Projectile_SmokeGrenade.label>煙幕手榴弾</VWE_Projectile_SmokeGrenade.label>
+
+
+  <!-- Grenade -->
+
+  <VWE_ToxicGrenade.label>ガス手榴弾</VWE_ToxicGrenade.label>
+  <VWE_ToxicGrenade.description>非常に短時間で深刻な中毒を引き起こすチャージパワー式の毒ガス手榴弾です。</VWE_ToxicGrenade.description>
+  <VWE_ToxicGrenade.verbs.throw_toxic_grenade.label>手榴弾を投擲</VWE_ToxicGrenade.verbs.throw_toxic_grenade.label>
+
+  <VWE_Projectile_ToxicGrenade.label>ガス手榴弾</VWE_Projectile_ToxicGrenade.label>
+
+
+  <!-- Flash grenade -->
+
+  <VWE_FlashGrenade.label>閃光手榴弾</VWE_FlashGrenade.label>
+  <VWE_FlashGrenade.description>閃光手榴弾です。一時的に目を持つ敵の視覚を眩ませて、使用者が接近することを可能にします。</VWE_FlashGrenade.description>
+  <VWE_FlashGrenade.verbs.throw_flash_grenade.label>手榴弾を投擲</VWE_FlashGrenade.verbs.throw_flash_grenade.label>
+
+  <VWE_Projectile_FlashGrenade.label>閃光手榴弾</VWE_Projectile_FlashGrenade.label>
+
+</LanguageData>

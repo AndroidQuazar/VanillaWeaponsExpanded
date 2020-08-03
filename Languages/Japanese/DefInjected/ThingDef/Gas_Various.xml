@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gas : Thing -->
+
+  <VWE_ToxicGasCloud.label>毒ガス</VWE_ToxicGasCloud.label>
+
+
+  <!-- Smoke : Thing -->
+
+  <VWE_SmokeCloud.label>煙幕</VWE_SmokeCloud.label>
+
+</LanguageData>

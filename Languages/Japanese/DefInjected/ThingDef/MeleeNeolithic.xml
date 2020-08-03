@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Axe -->
+
+  <VWE_MeleeWeapon_Axe.label>アックス</VWE_MeleeWeapon_Axe.label>
+  <VWE_MeleeWeapon_Axe.description>斧頭を柄に固定しています。刃がくさび形をしているので、甲冑や肉を切る際に大きな力を必要とせず、片手で使用できます。</VWE_MeleeWeapon_Axe.description>
+  <VWE_MeleeWeapon_Axe.tools.handle.label>柄</VWE_MeleeWeapon_Axe.tools.handle.label>
+  <VWE_MeleeWeapon_Axe.tools.blade.label>刃</VWE_MeleeWeapon_Axe.tools.blade.label>
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_VWE_Flamethrower.label>火炎放射器燃料</Ammo_VWE_Flamethrower.label>
+  <Ammo_VWE_Flamethrower.description>火炎放射器で使用する燃料です。</Ammo_VWE_Flamethrower.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_VWE_Flamethrower.label>ナパーム投射</Bullet_VWE_Flamethrower.label>
+
+</LanguageData>

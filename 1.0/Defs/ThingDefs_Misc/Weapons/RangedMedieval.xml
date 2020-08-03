@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Crossbow -->
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_Bow_Crossbow</defName>
+    <label>crossbow</label>
+    <description>A crossbow is a type of ranged weapon in similar principle to a bow, consisting of a bow-like assembly mounted horizontally on a main frame, which is handheld in a similar fashion to the stock of a long gun.\n\nThis weapon attempt of early mankind can send a bolt even through strongest metal.</description> <!-- Your Text + Inspirations -->
+    <graphicData>
+      <texPath>Things/WeaponRanged/Crossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>100</WoodLog>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.68</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+	  <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_Crossbow</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Arrow_Bolt</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>21.9</range>
+        <soundCast>VWE_Shot_Crossbow</soundCast> <!-- SoundDef missing -->
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_Arrow_Bolt</defName>
+    <label>crossbow bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Bolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>26</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.66</armorPenetrationBase>
+      <speed>58</speed>
+    </projectile>
+  </ThingDef>
+
+<!-- Musket -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_Musket</defName>
+    <label>musket</label>
+    <description>An ancient pattern musket. As one the first of its kind, it only has short range and low fire rate.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Musket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.11</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+	<comps>
+      <li> <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.58</AccuracyMedium>
+      <AccuracyLong>0.42</AccuracyLong>
+      <RangedWeapon_Cooldown>3.4</RangedWeapon_Cooldown>
+    </statBases>
+	<equippedAngleOffset>50</equippedAngleOffset>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+	  <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <costList>
+      <WoodLog>80</WoodLog>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+	  <researchPrerequisite>VWE_Gunpowder</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>SmokingGun.Verb_ShootWithSmoke</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Leadball</defaultProjectile>
+        <warmupTime>1.55</warmupTime>
+        <range>30.9</range>
+        <soundCast>VWE_Shot_Musket</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Leadball</defName>
+    <label>lead ball</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>56</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Musket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+</ThingDef>
+
+<!-- Flintlock -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_Flintlock</defName>
+    <label>flintlock</label>
+    <description>This pistol features a smoothbore barrel and a long, wooden grip ending in a knob. As its name implies, the flintlock pistol is operated by a flintlock mechanism.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Flintlock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>1.6</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.48</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+	  <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <costList>
+      <WoodLog>30</WoodLog>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+	  <researchPrerequisite>VWE_Gunpowder</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>SmokingGun.Verb_ShootWithSmoke</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Leadball</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>25.9</range>
+        <soundCast>VWE_Shot_Musket</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Throwing Knives -->
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_Throwing_Knives</defName> <!-- unique -->
+    <label>throwing knives</label>
+    <description>A set of well balanced knives, perfect for throwing.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/ThrowingKnives</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <techLevel>Medieval</techLevel>
+	<costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>4600</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.47</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+	<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+	  <researchPrerequisite>Smithing</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_FlyingBlade</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>14.9</range>
+        <soundCast>ThrowGrenade</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_FlyingBlade</defName>
+    <label>small knife</label>
+    <graphicData>
+      <texPath>Things/Projectile/KnifeThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <speed>16</speed>
+    </projectile>
+  </ThingDef>
+
+<!-- Whip -->
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_Tool_Whip</defName>
+    <label>Whip</label>
+    <description>A traditional tool used for striking animals to aid guidance and earn obedience.\n\nCan be used on people.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Whip</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <techLevel>Medieval</techLevel>
+    <costList>
+      <Cloth>65</Cloth>
+    </costList>
+    <statBases>
+      <WorkToMake>6800</WorkToMake>
+      <Mass>0.8</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases> <!-- Raiders won't wield those -->
+	<equippedStatOffsets>
+      <AnimalGatherSpeed>0.15</AnimalGatherSpeed>
+      <AnimalGatherYield>0.10</AnimalGatherYield>
+    </equippedStatOffsets>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>CraftingSpot</li> <!-- Changed from FueledSmithy ElectricSmithy -->
+	  </recipeUsers>
+	  <researchPrerequisite>VWE_Tools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_WhipSlash</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>3.9</range>
+        <soundCast>VWE_Shot_Whip</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_WhipSlash</defName>
+    <label>whip slash</label>
+    <graphicData>
+      <texPath>Things/Projectile/WhipSlash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

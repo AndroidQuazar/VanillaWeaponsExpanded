@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Grenade -->
+
+  <VWE_OPOrbBombGrenade.label>Ruimtebombardementsgranaat</VWE_OPOrbBombGrenade.label>
+  <VWE_OPOrbBombGrenade.description>Eenmalig bruikbare granaat die rook gebruikt om een bombardement op te roepen.</VWE_OPOrbBombGrenade.description>
+  <VWE_OPOrbBombGrenade.verbs.0.label>Lanceringsmarkeringsgranaat</VWE_OPOrbBombGrenade.verbs.0.label>
+
+  <VWE_Grenade_OPOrbBomb.label>Orbital Bombardment Flare Marker</VWE_Grenade_OPOrbBomb.label>
+
+
+  <!-- Gas Thing -->
+
+  <VWE_Gas_OPBombMark.label>OP Bombardment Marker Gas</VWE_Gas_OPBombMark.label>
+
+
+  <!-- Bombardment Def -->
+
+  <OPBombardment.label>bombardment</OPBombardment.label>
+
+
+</LanguageData>

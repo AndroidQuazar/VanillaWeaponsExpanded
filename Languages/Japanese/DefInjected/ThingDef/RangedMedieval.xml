@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Crossbow -->
+
+  <VWE_Bow_Crossbow.label>クロスボウ</VWE_Bow_Crossbow.label>
+  <VWE_Bow_Crossbow.description>クロスボウは弓と似た原理の遠距離武器の一種で、銃床に水平に取り付けられた弓のような弦で構成されています。銃床は火薬式ライフル銃のストックと同じように持ち手が付けられています。\n\n人類史の初期に登場したこの武器は、スチールの装甲さえ矢を貫通させることが可能です。</VWE_Bow_Crossbow.description>
+  <VWE_Bow_Crossbow.tools.limb.label>リム</VWE_Bow_Crossbow.tools.limb.label>
+  <VWE_Bow_Crossbow.verbs.Verb_Shoot.label>クロスボウ</VWE_Bow_Crossbow.verbs.Verb_Shoot.label>
+
+  <VWE_Arrow_Bolt.label>クロスボウの矢</VWE_Arrow_Bolt.label>
+
+
+  <!-- Musket -->
+
+  <VWE_Gun_Musket.label>マスケット銃</VWE_Gun_Musket.label>
+  <VWE_Gun_Musket.description>黒色火薬を使用する古式のマスケット(火縄)銃です。最初に登場した火薬式の銃であり、短い射程と低い発射速度が特徴です。</VWE_Gun_Musket.description>
+  <VWE_Gun_Musket.tools.stock.label>ストック</VWE_Gun_Musket.tools.stock.label>
+  <VWE_Gun_Musket.tools.barrel.label>バレル</VWE_Gun_Musket.tools.barrel.label>
+  <VWE_Gun_Musket.verbs.Verb_ShootWithSmoke.label>マスケット銃</VWE_Gun_Musket.verbs.Verb_ShootWithSmoke.label>
+
+  <Bullet_Leadball.label>鉛球</Bullet_Leadball.label>
+
+
+  <!-- Flintlock -->
+
+  <VWE_Gun_Flintlock.label>フリントロック銃</VWE_Gun_Flintlock.label>
+  <VWE_Gun_Flintlock.description>このピストルは長い滑空式の銃身を持ち、金属の銃床が付いた木製グリップを付いています。その名前が示すように、フリントロックピストルは火打石(フリント)を叩きつけて着火する銃機構により火薬に着火して球を飛ばします。</VWE_Gun_Flintlock.description>
+  <VWE_Gun_Flintlock.tools.stock.label>ストック</VWE_Gun_Flintlock.tools.stock.label>
+  <VWE_Gun_Flintlock.tools.barrel.label>バレル</VWE_Gun_Flintlock.tools.barrel.label>
+  <VWE_Gun_Flintlock.verbs.Verb_ShootWithSmoke.label>フリントロック銃</VWE_Gun_Flintlock.verbs.Verb_ShootWithSmoke.label>
+
+
+  <!-- Throwing Knives -->
+
+  <VWE_Throwing_Knives.label>スローイングナイフ</VWE_Throwing_Knives.label>
+  <VWE_Throwing_Knives.description>投げるに最適なバランスがとれたナイフのセットです。</VWE_Throwing_Knives.description>
+  <VWE_Throwing_Knives.tools.handle.label>柄</VWE_Throwing_Knives.tools.handle.label>
+  <VWE_Throwing_Knives.tools.blade.label>刃</VWE_Throwing_Knives.tools.blade.label>
+  <VWE_Throwing_Knives.tools.point.label>切っ先</VWE_Throwing_Knives.tools.point.label>
+  <VWE_Throwing_Knives.verbs.Verb_Shoot.label>スローイングナイフ</VWE_Throwing_Knives.verbs.Verb_Shoot.label>
+
+  <VWE_FlyingBlade.label>小型ナイフ</VWE_FlyingBlade.label>
+
+
+  <!-- Whip -->
+
+  <VWE_Tool_Whip.label>鞭</VWE_Tool_Whip.label>
+  <VWE_Tool_Whip.description>動物を叩いて調教して、服従させるための伝統的な道具です。\n\n人間に対して使用する事もできます。</VWE_Tool_Whip.description>
+  <VWE_Tool_Whip.tools.edge.label>ボディ</VWE_Tool_Whip.tools.edge.label>
+  <VWE_Tool_Whip.verbs.Verb_Shoot.label>鞭</VWE_Tool_Whip.verbs.Verb_Shoot.label>
+
+  <VWE_WhipSlash.label>鞭の一撃</VWE_WhipSlash.label>
+
+</LanguageData>

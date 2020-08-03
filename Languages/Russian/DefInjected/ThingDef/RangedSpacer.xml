@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Charge Pistol -->
+
+  <VWE_Bullet_ChargePistol.label>заряженный выстрел</VWE_Bullet_ChargePistol.label>
+
+  <VWE_Gun_ChargePistol.label>энергопистолет</VWE_Gun_ChargePistol.label>
+  <VWE_Gun_ChargePistol.description>Пистолет с энергетическими патронами. Технология импульса позволяет выстреливать заряженными патронами. Освобожденная при попадании, энергия значительно увеличивает наносимый урон.\n\nЭтот пистолет является частью стандартного вооружения имперской космопехоты.</VWE_Gun_ChargePistol.description>
+  <VWE_Gun_ChargePistol.tools.0.label>ствол</VWE_Gun_ChargePistol.tools.0.label>
+
+
+  <!-- Charge Shotgun -->
+
+  <VWE_Bullet_ChargeShotgun.label>заряженный выстрел</VWE_Bullet_ChargeShotgun.label>
+
+  <VWE_Gun_ChargeShotgun.label>энергодробовик</VWE_Gun_ChargeShotgun.label>
+  <VWE_Gun_ChargeShotgun.description>осколочная пушка с энергетическими патронами. Технология импульса позволяет выстреливать заряженными патронами. Освобожденная при попадании, энергия значительно увеличивает наносимый урон.\n\nСмертоносный на близком расстоянии, этот дробовик был запрещен имперскими военными за причинение неизмеримой боли.</VWE_Gun_ChargeShotgun.description>
+  <VWE_Gun_ChargeShotgun.tools.0.label>ствол</VWE_Gun_ChargeShotgun.tools.0.label>
+
+
+  <!-- Charge SMG -->
+
+  <VWE_Bullet_ChargeSMG.label>заряженный выстрел</VWE_Bullet_ChargeSMG.label>
+
+  <VWE_Gun_ChargeSMG.label>энерго пистолет-пулемет</VWE_Gun_ChargeSMG.label>
+  <VWE_Gun_ChargeSMG.description>Пистолет-пулемет с энергетическими патронами. Технология импульса позволяет выстреливать заряженными патронами. Освобожденная при попадании, энергия значительно увеличивает наносимый урон.\n\nСтреляет быстро, но требует короткого расстояния до мишени.</VWE_Gun_ChargeSMG.description>
+  <VWE_Gun_ChargeSMG.tools.0.label>ствол</VWE_Gun_ChargeSMG.tools.0.label>
+
+
+  <!-- Charge LMG -->
+
+  <VWE_Bullet_ChargeLMG.label>заряженный выстрел</VWE_Bullet_ChargeLMG.label>
+
+  <VWE_Gun_ChargeLMG.label>энергопулемет</VWE_Gun_ChargeLMG.label>
+  <VWE_Gun_ChargeLMG.description>Пулемет с энергетическими патронами. Технология импульса позволяет выстреливать заряженными патронами. Освобожденная при попадании, энергия значительно увеличивает наносимый урон.\n\nПулемет стреляет залпом снарядов на предельной скорости, что делает его идеальным для подавления врагов в зоне действия.</VWE_Gun_ChargeLMG.description>
+  <VWE_Gun_ChargeLMG.tools.0.label>ствол</VWE_Gun_ChargeLMG.tools.0.label>
+
+
+  <!-- Charge Sniper Rifle -->
+
+  <VWE_Bullet_ChargeSniperRifle.label>заряженный высокоточный выстрел</VWE_Bullet_ChargeSniperRifle.label>
+
+  <VWE_Gun_ChargeSniperRifle.label>снайперская энерговинтовка</VWE_Gun_ChargeSniperRifle.label>
+  <VWE_Gun_ChargeSniperRifle.description>Высокоточная продвинутая винтовка. Технология импульса позволяет выстреливать заряженными патронами. Освобожденная при попадании, энергия значительно увеличивает наносимый урон.\n\nНаносит огромный урон на большом расстоянии.</VWE_Gun_ChargeSniperRifle.description>
+  <VWE_Gun_ChargeSniperRifle.tools.0.label>приклад</VWE_Gun_ChargeSniperRifle.tools.0.label>
+  <VWE_Gun_ChargeSniperRifle.tools.1.label>ствол</VWE_Gun_ChargeSniperRifle.tools.1.label>
+
+
+  <!-- Charge Minigun -->
+
+  <VWE_Bullet_ChargeMinigun.label>заряженный выстрел</VWE_Bullet_ChargeMinigun.label>
+
+  <VWE_Gun_ChargeMinigun.label>многоствольный энергопулемет</VWE_Gun_ChargeMinigun.label>
+  <VWE_Gun_ChargeMinigun.description>Пулемет с вращающимся блоком стволов и импульсными патронами. Технология импульса позволяет выстреливать заряженными патронами. Освобожденная при попадании, энергия значительно увеличивает наносимый урон.\n\nСпособный покрывать всю область ливнем бронебойных снарядов, этот многоствольный пулемет часто используется наемниками из высокотехнологичных миров в корпоративных войнах.</VWE_Gun_ChargeMinigun.description>
+  <VWE_Gun_ChargeMinigun.tools.0.label>приклад</VWE_Gun_ChargeMinigun.tools.0.label>
+  <VWE_Gun_ChargeMinigun.tools.1.label>ствол</VWE_Gun_ChargeMinigun.tools.1.label>
+
+
+</LanguageData>

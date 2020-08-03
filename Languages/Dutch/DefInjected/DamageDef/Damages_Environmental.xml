@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VWE_Shock.label>schok</VWE_Shock.label>
+  <VWE_Shock.deathMessage>{0} is doodgeschokt .</VWE_Shock.deathMessage>
+
+  <VWE_HauntingFlame.label>flame</VWE_HauntingFlame.label>
+  <VWE_HauntingFlame.deathMessage>{0} is doodgebrand.</VWE_HauntingFlame.deathMessage>
+
+
+</LanguageData>

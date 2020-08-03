@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Damage -->
+
+  <VWE_ToxicGas.label>毒ガス</VWE_ToxicGas.label>
+  <VWE_ToxicGas.deathMessage>{0}は死んだ</VWE_ToxicGas.deathMessage>
+
+</LanguageData>

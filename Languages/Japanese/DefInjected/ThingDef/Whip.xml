@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_VWE_Whip.label>鞭の先端</Ammo_VWE_Whip.label>
+  <Ammo_VWE_Whip.description>.</Ammo_VWE_Whip.description>
+
+
+  <!-- Projectile -->
+
+  <Projectile_VWE_Whip.label>鞭の先端</Projectile_VWE_Whip.label>
+
+</LanguageData>

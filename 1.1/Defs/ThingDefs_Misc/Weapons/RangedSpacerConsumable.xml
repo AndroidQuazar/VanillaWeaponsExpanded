@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Charge Rocket Launcher -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_ChargeRocketLauncher</defName> <!-- unique -->
+    <label>charge rocket launcher</label>
+    <description>Fires a single anti grain shell at precise accuracy due to laser targeting. The warhead explodes in the air, releasing a wave of deadly electroshock.</description>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Heavy/ChargeRocketLauncher</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.22</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>85000</WorkToMake>
+      <MarketValue>7000</MarketValue>
+      <Mass>12</Mass>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>VWE_LaserTargetingSystems</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>SingleUseWeapon</li>
+    </thingSetMakerTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Rocket_AntiGrain</defaultProjectile>
+        <burstShotCount>1</burstShotCount>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <warmupTime>6</warmupTime>
+        <range>145.9</range>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+          <canTargetPawns>false</canTargetPawns>
+        </targetParams>
+        <muzzleFlashScale>30</muzzleFlashScale>
+        <ai_AvoidFriendlyFireRadius>44</ai_AvoidFriendlyFireRadius>
+        <minRange>40</minRange>
+        <requireLineOfSight>false</requireLineOfSight>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+      <li>Blunt</li>
+      </capacities>
+      <power>10</power>
+      <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>9.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      </li>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Rocket_AntiGrain</defName>
+    <label>antigrain rocket</label>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Charge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+	<thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>VWE_Shock</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>13.8</explosionRadius>
+      <speed>45</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

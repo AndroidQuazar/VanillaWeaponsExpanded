@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_VWE_LeadBall.label>鉛玉</Ammo_VWE_LeadBall.label>
+  <Ammo_VWE_LeadBall.description>この発射体は、伝統的な滑空銃口のマスケット銃とフリントロック銃から発射されます。</Ammo_VWE_LeadBall.description>
+
+
+  <!-- Projectile -->
+
+  <Bullet_VWE_LeadBall.label>鉛玉</Bullet_VWE_LeadBall.label>
+
+</LanguageData>

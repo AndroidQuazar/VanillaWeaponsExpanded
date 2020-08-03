@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<!-- Axe -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>VWE_MeleeWeapon_Axe</defName> <!-- unique -->
+    <label>axe</label>
+    <description>An axe head fastened to a handle. Suitable for one hand, due to the shape of a wedge it doesn't require significant force to cut armor and flesh.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/Axe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+	  <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>2200</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.33</PlantWorkSpeed> <!-- 0.15 to 0.5 max, balanced out in comparison with other community tools in its category, some ppl went crazy here, effects harvesting too -->
+    </equippedStatOffsets>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+      </recipeUsers>
+	  <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <tools> <!-- adjust # Dok DPS 14 -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+		<armorPenetration>0.25</armorPenetration> <!-- reduced to 0.15 # Doc 0.5 -->
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

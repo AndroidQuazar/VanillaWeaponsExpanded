@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipe -->
+
+  <MakeAmmo_VWE_CompoundArrow.label>コンパウンドボウの矢×10</MakeAmmo_VWE_CompoundArrow.label>
+  <MakeAmmo_VWE_CompoundArrow.description>コンパウンドボウの矢を10本作る。</MakeAmmo_VWE_CompoundArrow.description>
+  <MakeAmmo_VWE_CompoundArrow.jobString>コンパウンドボウの矢を製作中</MakeAmmo_VWE_CompoundArrow.jobString>
+
+</LanguageData>

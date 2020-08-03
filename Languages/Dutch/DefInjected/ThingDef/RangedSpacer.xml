@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Charge Pistol -->
+
+  <VWE_Bullet_ChargePistol.label>charge pistol shot</VWE_Bullet_ChargePistol.label>
+
+  <VWE_Gun_ChargePistol.label>charge pistol</VWE_Gun_ChargePistol.label>
+  <VWE_Gun_ChargePistol.description>A charged-shot pistol. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.\n\nThis three round burst pistol is a very effective sidearm deployed across all regiments of imperial commandos.</VWE_Gun_ChargePistol.description>
+  <VWE_Gun_ChargePistol.tools.0.label>barrel</VWE_Gun_ChargePistol.tools.0.label>
+
+
+  <!-- Charge Shotgun -->
+
+  <VWE_Bullet_ChargeShotgun.label>charge shotgun blast</VWE_Bullet_ChargeShotgun.label>
+
+  <VWE_Gun_ChargeShotgun.label>charge shotgun</VWE_Gun_ChargeShotgun.label>
+  <VWE_Gun_ChargeShotgun.description>A charged-shot slug thrower. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.\n\nDeadly in close range, this shotgun has been banned by the imperial military for inflicting unmeasurable pain.</VWE_Gun_ChargeShotgun.description>
+  <VWE_Gun_ChargeShotgun.tools.0.label>barrel</VWE_Gun_ChargeShotgun.tools.0.label>
+
+
+  <!-- Charge SMG -->
+
+  <VWE_Bullet_ChargeSMG.label>rapid charge shot</VWE_Bullet_ChargeSMG.label>
+
+  <VWE_Gun_ChargeSMG.label>charge SMG</VWE_Gun_ChargeSMG.label>
+  <VWE_Gun_ChargeSMG.description>A charged-shot submachine gun. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.\n\nFires rapidly but requires to close the distance between the target.</VWE_Gun_ChargeSMG.description>
+  <VWE_Gun_ChargeSMG.tools.0.label>barrel</VWE_Gun_ChargeSMG.tools.0.label>
+
+
+  <!-- Charge LMG -->
+
+  <VWE_Bullet_ChargeLMG.label>charge LMG shot</VWE_Bullet_ChargeLMG.label>
+
+  <VWE_Gun_ChargeLMG.label>charge LMG</VWE_Gun_ChargeLMG.label>
+  <VWE_Gun_ChargeLMG.description>A charged-shot light machine gun. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.\n\nCharge light machine gun fires a volley of projectiles at extreme speed which makes it ideal for area denial.</VWE_Gun_ChargeLMG.description>
+  <VWE_Gun_ChargeLMG.tools.0.label>barrel</VWE_Gun_ChargeLMG.tools.0.label>
+
+
+  <!-- Charge Sniper Rifle -->
+
+  <VWE_Bullet_ChargeSniperRifle.label>charge sniper shot</VWE_Bullet_ChargeSniperRifle.label>
+
+  <VWE_Gun_ChargeSniperRifle.label>charge sniper rifle</VWE_Gun_ChargeSniperRifle.label>
+  <VWE_Gun_ChargeSniperRifle.description>A charged-shot triple barreled sniper rifle. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.\n\nDue to three separate barrels firing simultaneously, weapon power is reduced and rate of fire is decreased.</VWE_Gun_ChargeSniperRifle.description>
+  <VWE_Gun_ChargeSniperRifle.tools.0.label>stock</VWE_Gun_ChargeSniperRifle.tools.0.label>
+  <VWE_Gun_ChargeSniperRifle.tools.1.label>barrel</VWE_Gun_ChargeSniperRifle.tools.1.label>
+
+
+  <!-- Charge Minigun -->
+
+  <VWE_Bullet_ChargeMinigun.label>charge minigun shot</VWE_Bullet_ChargeMinigun.label>
+
+  <VWE_Gun_ChargeMinigun.label>charge minigun</VWE_Gun_ChargeMinigun.label>
+  <VWE_Gun_ChargeMinigun.description>A charged-shot minigun. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done.\n\nCapable of covering the entire area in volley of anti-armor rounds, this minigun is often used by glitterworld mercenaries during their infamous raids.</VWE_Gun_ChargeMinigun.description>
+  <VWE_Gun_ChargeMinigun.tools.0.label>stock</VWE_Gun_ChargeMinigun.tools.0.label>
+  <VWE_Gun_ChargeMinigun.tools.1.label>barrel</VWE_Gun_ChargeMinigun.tools.1.label>
+
+
+</LanguageData>

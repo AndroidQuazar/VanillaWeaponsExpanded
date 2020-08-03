@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Damage -->
+
+  <VWE_ToxicGas.label>ARL_GiftigGas</VWE_ToxicGas.label>
+  <VWE_ToxicGas.deathMessage>{0} is gedood.</VWE_ToxicGas.deathMessage>
+
+
+</LanguageData>

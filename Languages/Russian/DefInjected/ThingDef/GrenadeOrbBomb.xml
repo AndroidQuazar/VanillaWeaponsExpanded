@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Grenade -->
+
+  <VWE_OPOrbBombGrenade.label>Маяк орбитальной бомбардировки</VWE_OPOrbBombGrenade.label>
+  <VWE_OPOrbBombGrenade.description>Одноразовая пусковая установка, которая указывает цель для бомбардировки.</VWE_OPOrbBombGrenade.description>
+  <VWE_OPOrbBombGrenade.verbs.0.label>бросить маяк</VWE_OPOrbBombGrenade.verbs.0.label>
+
+  <VWE_Grenade_OPOrbBomb.label>Отметка маяка орбитальной бомбардировки</VWE_Grenade_OPOrbBomb.label>
+
+
+  <!-- Gas Thing -->
+
+  <VWE_Gas_OPBombMark.label>газ маяка орбитальной бомбардировки</VWE_Gas_OPBombMark.label>
+
+
+  <!-- Bombardment Def -->
+
+  <OPBombardment.label>бомбардировка</OPBombardment.label>
+
+
+</LanguageData>

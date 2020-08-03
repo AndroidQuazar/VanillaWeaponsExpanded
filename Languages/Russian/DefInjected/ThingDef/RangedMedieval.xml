@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Crossbow -->
+
+  <VWE_Bow_Crossbow.label>арбалет</VWE_Bow_Crossbow.label>
+  <VWE_Bow_Crossbow.description>Арбалет - это тип оружия дальнего боя по принципу действия похожий на лук. Состоит из лука, укрепленного на основной раме.\n\nЭто несложное в освоении оружие способно пробить даже толстую броню.</VWE_Bow_Crossbow.description>
+  <VWE_Bow_Crossbow.tools.0.label>дуга</VWE_Bow_Crossbow.tools.0.label>
+
+  <VWE_Arrow_Bolt.label>болт арбалета</VWE_Arrow_Bolt.label>
+
+
+  <!-- Musket -->
+
+  <VWE_Gun_Musket.label>мушкет</VWE_Gun_Musket.label>
+  <VWE_Gun_Musket.description>Древний образец мушкета. Как один из первых в своем роде, стреляет не точно и крайне медленно перезаряжается.</VWE_Gun_Musket.description>
+  <VWE_Gun_Musket.tools.0.label>приклад</VWE_Gun_Musket.tools.0.label>
+  <VWE_Gun_Musket.tools.1.label>ствол</VWE_Gun_Musket.tools.1.label>
+
+  <Bullet_Leadball.label>свинцовая пуля</Bullet_Leadball.label>
+
+
+  <!-- Flintlock -->
+
+  <VWE_Gun_Flintlock.label>кремневое ружье</VWE_Gun_Flintlock.label>
+  <VWE_Gun_Flintlock.description>Продвинутый вариант старого гладкоствольного оружия с кремневым замком.</VWE_Gun_Flintlock.description>
+  <VWE_Gun_Flintlock.tools.0.label>приклад</VWE_Gun_Flintlock.tools.0.label>
+  <VWE_Gun_Flintlock.tools.1.label>ствол</VWE_Gun_Flintlock.tools.1.label>
+
+
+  <!-- Throwing Knives -->
+
+  <VWE_Throwing_Knives.label>метательные ножи</VWE_Throwing_Knives.label>
+  <VWE_Throwing_Knives.description>Набор сбалансированных ножей предназначенных для метания.</VWE_Throwing_Knives.description>
+  <VWE_Throwing_Knives.tools.0.label>рукоять</VWE_Throwing_Knives.tools.0.label>
+  <VWE_Throwing_Knives.tools.1.label>лезвие</VWE_Throwing_Knives.tools.1.label>
+  <VWE_Throwing_Knives.tools.2.label>острие</VWE_Throwing_Knives.tools.2.label>
+
+  <VWE_FlyingBlade.label>метательный нож</VWE_FlyingBlade.label>
+
+
+  <!-- Whip -->
+
+  <VWE_Tool_Whip.label>плеть</VWE_Tool_Whip.label>
+  <VWE_Tool_Whip.description>Традиционный инструмент, используемый для нанесения ударов по животным, позволяет добиться послушания.\n\nМожно бить и людей.</VWE_Tool_Whip.description>
+  <VWE_Tool_Whip.tools.0.label>кончик</VWE_Tool_Whip.tools.0.label>
+
+  <VWE_WhipSlash.label>удар плети</VWE_WhipSlash.label>
+
+
+</LanguageData>

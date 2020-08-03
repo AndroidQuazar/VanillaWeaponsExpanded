@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VWE_Extinguish.label>消滅</VWE_Extinguish.label>
+  <VWE_Extinguish.deathMessage>{0}は死亡した</VWE_Extinguish.deathMessage>
+
+</LanguageData>

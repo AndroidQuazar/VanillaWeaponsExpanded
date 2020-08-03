@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_VWE_CompoundArrow.label>コンパウンドボウの矢</Ammo_VWE_CompoundArrow.label>
+  <Ammo_VWE_CompoundArrow.description>コンパウンドボウから発射するために設計されたカーボン製のシャフトが付いた現代的な矢です。</Ammo_VWE_CompoundArrow.description>
+
+
+  <!-- Projectile -->
+
+  <Projectile_VWE_CompoundArrow.label>コンパウンドボウの矢</Projectile_VWE_CompoundArrow.label>
+
+</LanguageData>

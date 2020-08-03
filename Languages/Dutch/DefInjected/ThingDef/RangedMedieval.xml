@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Crossbow -->
+
+  <VWE_Bow_Crossbow.label>kruisboog</VWE_Bow_Crossbow.label>
+  <VWE_Bow_Crossbow.description>Een kruisboog is een middeleeuws afstandswapen handig tegenover zwaar bepantserde vijanden.</VWE_Bow_Crossbow.description>
+  <VWE_Bow_Crossbow.tools.0.label>kruisboogframe</VWE_Bow_Crossbow.tools.0.label>
+
+  <VWE_Arrow_Bolt.label>kruisboogpijl</VWE_Arrow_Bolt.label>
+
+
+  <!-- Musket -->
+
+  <VWE_Gun_Musket.label>musket</VWE_Gun_Musket.label>
+  <VWE_Gun_Musket.description>Een eeuwenoud wapen dat werkt op buskruid. Als een van de eerste van zijn soort heeft het weinig bereik en schiet het traag alhoewel de ronde kogels veel schade kunnen aanrichten.</VWE_Gun_Musket.description>
+  <VWE_Gun_Musket.tools.0.label>kolf</VWE_Gun_Musket.tools.0.label>
+  <VWE_Gun_Musket.tools.1.label>loop</VWE_Gun_Musket.tools.1.label>
+
+  <Bullet_Leadball.label>loden kogel</Bullet_Leadball.label>
+
+
+  <!-- Flintlock -->
+
+  <VWE_Gun_Flintlock.label>vuursteenpistool</VWE_Gun_Flintlock.label>
+  <VWE_Gun_Flintlock.description>Dit pistool heeft een gladde binnenkant en een lange houten handvat die eindigt in een knuppelachtig uiteinde.</VWE_Gun_Flintlock.description>
+  <VWE_Gun_Flintlock.tools.0.label>kolf</VWE_Gun_Flintlock.tools.0.label>
+  <VWE_Gun_Flintlock.tools.1.label>loop</VWE_Gun_Flintlock.tools.1.label>
+
+
+  <!-- Throwing Knives -->
+
+  <VWE_Throwing_Knives.label>werpmessen</VWE_Throwing_Knives.label>
+  <VWE_Throwing_Knives.description>Een set van gebalanceerde werpmessen, perfect om te gooien.</VWE_Throwing_Knives.description>
+  <VWE_Throwing_Knives.tools.0.label>handvat</VWE_Throwing_Knives.tools.0.label>
+  <VWE_Throwing_Knives.tools.1.label>lemmet</VWE_Throwing_Knives.tools.1.label>
+  <VWE_Throwing_Knives.tools.2.label>punt</VWE_Throwing_Knives.tools.2.label>
+
+  <VWE_FlyingBlade.label>klein mes</VWE_FlyingBlade.label>
+
+
+  <!-- Whip -->
+
+  <VWE_Tool_Whip.label>Zweep</VWE_Tool_Whip.label>
+  <VWE_Tool_Whip.description>Een traditioneel gereedschap voor dieren te trainen en kan ook op mensen gebruikt worden.</VWE_Tool_Whip.description>
+  <VWE_Tool_Whip.tools.0.label>zweep</VWE_Tool_Whip.tools.0.label>
+
+  <VWE_WhipSlash.label>zweepslag</VWE_WhipSlash.label>
+
+
+</LanguageData>

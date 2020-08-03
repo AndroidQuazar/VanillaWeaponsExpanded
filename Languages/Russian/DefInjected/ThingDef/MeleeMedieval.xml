@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pickaxe -->
+
+  <VWE_MeleeWeapon_Pickaxe.label>кирка</VWE_MeleeWeapon_Pickaxe.label>
+  <VWE_MeleeWeapon_Pickaxe.description>Это базовое изобретение эффективно в качестве оружия, и в то же время является инструментом. Необходимо приложить некоторую физическую силу, но делает горные работы более комфортными.\n\nОстрая рабочая часть легко пробивает броню.</VWE_MeleeWeapon_Pickaxe.description>
+  <VWE_MeleeWeapon_Pickaxe.tools.0.label>рукоять</VWE_MeleeWeapon_Pickaxe.tools.0.label>
+  <VWE_MeleeWeapon_Pickaxe.tools.1.label>острие</VWE_MeleeWeapon_Pickaxe.tools.1.label>
+
+
+  <!-- Hammer -->
+
+  <VWE_MeleeWeapon_Hammer.label>молоток</VWE_MeleeWeapon_Hammer.label>
+  <VWE_MeleeWeapon_Hammer.description>Молоток - это инструмент, который состоит из тяжелого куска металла или камня на рукояти. Применений же у такого простого предмета великое множество.\n\nЭтот предмет как оружие так и рабочий инструмент. Требует приложения физических усилий, но создание строений с ним проходит легче.</VWE_MeleeWeapon_Hammer.description>
+  <VWE_MeleeWeapon_Hammer.tools.0.label>рукоять</VWE_MeleeWeapon_Hammer.tools.0.label>
+  <VWE_MeleeWeapon_Hammer.tools.1.label>головка</VWE_MeleeWeapon_Hammer.tools.1.label>
+
+
+  <!-- Battle Axe -->
+
+  <VWE_MeleeWeapon_BattleAxe.label>боевой топор</VWE_MeleeWeapon_BattleAxe.label>
+  <VWE_MeleeWeapon_BattleAxe.description>Могучее оружие на поле битвы в правильных руках. Легко рубит проть и кости.\n\nОдобренный кланами берсерков, боевой топор - оружие, обычно используемое средневековыми рыцарями. Тяжелые удары в ближнем бою способны убить большинство врагов.</VWE_MeleeWeapon_BattleAxe.description>
+  <VWE_MeleeWeapon_BattleAxe.tools.0.label>рукоять</VWE_MeleeWeapon_BattleAxe.tools.0.label>
+  <VWE_MeleeWeapon_BattleAxe.tools.1.label>лезвие</VWE_MeleeWeapon_BattleAxe.tools.1.label>
+
+
+  <!-- Halberd -->
+
+  <VWE_MeleeWeapon_Halberd.label>алебарда</VWE_MeleeWeapon_Halberd.label>
+  <VWE_MeleeWeapon_Halberd.description>Алебарда - это топор насаженный на длинное древко. Благодаря острому копейному наконечнику, это отличный инструмент против бронированных врагов.\n\nАктивно применялась против конных врагов в средние века, все благодаря общей длине оружия.</VWE_MeleeWeapon_Halberd.description>
+  <VWE_MeleeWeapon_Halberd.tools.0.label>рукоять</VWE_MeleeWeapon_Halberd.tools.0.label>
+  <VWE_MeleeWeapon_Halberd.tools.1.label>лезвие</VWE_MeleeWeapon_Halberd.tools.1.label>
+  <VWE_MeleeWeapon_Halberd.tools.2.label>острие</VWE_MeleeWeapon_Halberd.tools.2.label>
+
+
+</LanguageData>

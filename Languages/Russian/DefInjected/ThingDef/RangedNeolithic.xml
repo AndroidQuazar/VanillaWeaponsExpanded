@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Throwing Rocks -->
+
+  <VWE_Throwing_Rocks.label>метательные камни</VWE_Throwing_Rocks.label>
+  <VWE_Throwing_Rocks.description>Горсть камней. Может нанести незначительные травмы с близкого расстояния. Не падает при смерти. Простое, но эффективное оружие.</VWE_Throwing_Rocks.description>
+  <VWE_Throwing_Rocks.tools.0.label>кончик</VWE_Throwing_Rocks.tools.0.label>
+
+  <VWE_Rock.label>камень</VWE_Rock.label>
+
+
+  <!-- Long Bow -->
+
+  <VWE_Bow_Long.label>длинный лук</VWE_Bow_Long.label>
+  <VWE_Bow_Long.description>Длинный лук - массивное неолитическое оружие большой дальности, способное выпускать мощные стрелы на очень большие расстояния.\n\nСтрелы этого лука летят по дуге позволяя стрелять из него из за спин товарищей.</VWE_Bow_Long.description>
+  <VWE_Bow_Long.tools.0.label>дуга</VWE_Bow_Long.tools.0.label>
+
+  <VWE_Arrow_Long.label>длинная стреля</VWE_Arrow_Long.label>
+
+
+</LanguageData>

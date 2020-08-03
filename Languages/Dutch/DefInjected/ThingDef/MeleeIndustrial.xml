@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Shovel -->
+
+  <VWE_MeleeWeapon_Shovel.label>schop</VWE_MeleeWeapon_Shovel.label>
+  <VWE_MeleeWeapon_Shovel.description>Vaak gebruikt op het slagveld voor loopgraven, en een goed slagwapen.</VWE_MeleeWeapon_Shovel.description>
+  <VWE_MeleeWeapon_Shovel.tools.0.label>handle</VWE_MeleeWeapon_Shovel.tools.0.label>
+  <VWE_MeleeWeapon_Shovel.tools.1.label>head</VWE_MeleeWeapon_Shovel.tools.1.label>
+
+
+  <!-- Baton -->
+
+  <VWE_MeleeWeapon_Baton.label>knuppel</VWE_MeleeWeapon_Baton.label>
+  <VWE_MeleeWeapon_Baton.description>Een korte knuppel voor de orde te handhaven. Vaak gebruikt door vredeskorpsen.</VWE_MeleeWeapon_Baton.description>
+  <VWE_MeleeWeapon_Baton.tools.0.label>handvat</VWE_MeleeWeapon_Baton.tools.0.label>
+  <VWE_MeleeWeapon_Baton.tools.1.label>wapenstok</VWE_MeleeWeapon_Baton.tools.1.label>
+
+
+  <!-- Combat Knife -->
+
+  <VWE_MeleeWeapon_CombatKnife.label>vechtmes</VWE_MeleeWeapon_CombatKnife.label>
+  <VWE_MeleeWeapon_CombatKnife.description>Een van de oudste creaties van de mens. Het mes heeft vele vormen maar het blijft altijd hetzelfde: een handvat voor vast te houden en een scherpe kant om te snijden.</VWE_MeleeWeapon_CombatKnife.description>
+  <VWE_MeleeWeapon_CombatKnife.tools.0.label>handvat</VWE_MeleeWeapon_CombatKnife.tools.0.label>
+  <VWE_MeleeWeapon_CombatKnife.tools.1.label>lemmet</VWE_MeleeWeapon_CombatKnife.tools.1.label>
+  <VWE_MeleeWeapon_CombatKnife.tools.2.label>punt</VWE_MeleeWeapon_CombatKnife.tools.2.label>
+
+
+  <!-- Wrench -->
+
+  <VWE_MeleeWeapon_Wrench.label>moersleutel</VWE_MeleeWeapon_Wrench.label>
+  <VWE_MeleeWeapon_Wrench.description>Een universeel instrument om dingen te repareren. Helpt bij het uiteenhalen van mechanoïden en constructie.</VWE_MeleeWeapon_Wrench.description>
+  <VWE_MeleeWeapon_Wrench.tools.0.label>handvat</VWE_MeleeWeapon_Wrench.tools.0.label>
+  <VWE_MeleeWeapon_Wrench.tools.1.label>kop</VWE_MeleeWeapon_Wrench.tools.1.label>
+
+
+  <!-- Cleaver -->
+
+  <VWE_MeleeWeapon_Cleaver.label>hakmes</VWE_MeleeWeapon_Cleaver.label>
+  <VWE_MeleeWeapon_Cleaver.description>Een slagershakmes voor dieren te villen en maaltijden te bereiden.</VWE_MeleeWeapon_Cleaver.description>
+  <VWE_MeleeWeapon_Cleaver.tools.0.label>handvat</VWE_MeleeWeapon_Cleaver.tools.0.label>
+  <VWE_MeleeWeapon_Cleaver.tools.1.label>lemmet</VWE_MeleeWeapon_Cleaver.tools.1.label>
+
+
+  <!-- Scalpel -->
+
+  <VWE_MeleeWeapon_Scalpel.label>scalpel</VWE_MeleeWeapon_Scalpel.label>
+  <VWE_MeleeWeapon_Scalpel.description>Een chirurgisch mes voor operaties en precies snijwerk.</VWE_MeleeWeapon_Scalpel.description>
+  <VWE_MeleeWeapon_Scalpel.tools.0.label>lemmet</VWE_MeleeWeapon_Scalpel.tools.0.label>
+  <VWE_MeleeWeapon_Scalpel.tools.1.label>punt</VWE_MeleeWeapon_Scalpel.tools.1.label>
+
+
+</LanguageData>

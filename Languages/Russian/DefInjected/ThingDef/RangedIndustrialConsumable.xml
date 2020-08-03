@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Triple Rocket Launcher -->
+
+  <!--[Core] <Gun_TripleRocket.label>ракетница «Тройка»</Gun_TripleRocket.label>-->
+  <!--[Core] <Gun_TripleRocket.description>Одноразовая пусковая установка, выпускающая быструю очередь из трёх ракет. Эффективна против небольших групп хорошо защищённых целей.\n\nИз-за неудобства в обращении, одноразовости и большой разрушительной мощи говорят, что нужно быть слегка сумасшедшим, чтобы пользоваться этим оружием.</Gun_TripleRocket.description>-->
+  <!--[Core] <Gun_TripleRocket.tools.0.label>barrel</Gun_TripleRocket.tools.0.label>-->
+
+
+  <!-- Doomsday Rocket Launcher -->
+
+  <!--[Core] <Gun_DoomsdayRocket.label>ракетница судного дня</Gun_DoomsdayRocket.label>-->
+  <!--[Core] <Gun_DoomsdayRocket.description>Одноразовая пусковая установка с ракетой огромной разрушительной силы. Эффективна против крупных скоплений незащищённых целей. Вызывает пожары.\n\nИз-за неудобства в обращении и одноразовости говорят, что нужно быть слегка сумасшедшим, чтобы пользоваться этим оружием.</Gun_DoomsdayRocket.description>-->
+  <!--[Core] <Gun_DoomsdayRocket.tools.0.label>barrel</Gun_DoomsdayRocket.tools.0.label>-->
+
+
+  <!-- Rocket Launcher -->
+
+  <VWE_Gun_RocketLauncher.label>ракетница</VWE_Gun_RocketLauncher.label>
+  <VWE_Gun_RocketLauncher.description>По сути большая труба, являющееся направляющей для ракеты, запускаемой с высокой точностью во врага.</VWE_Gun_RocketLauncher.description>
+  <VWE_Gun_RocketLauncher.tools.0.label>ствол</VWE_Gun_RocketLauncher.tools.0.label>
+
+
+</LanguageData>

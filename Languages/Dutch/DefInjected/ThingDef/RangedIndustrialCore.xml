@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Revolver -->
+
+  <!--[Core] <Bullet_Revolver.label>TODO</Bullet_Revolver.label>-->
+
+  <!--[Core] <Gun_Revolver.label>TODO</Gun_Revolver.label>-->
+  <!--[Core] <Gun_Revolver.description>TODO</Gun_Revolver.description>-->
+  <!--[Core] <Gun_Revolver.tools.0.label>grip</Gun_Revolver.tools.0.label>-->
+  <!--[Core] <Gun_Revolver.tools.1.label>barrel</Gun_Revolver.tools.1.label>-->
+
+
+  <!-- Autopistol -->
+
+  <!--[Core] <Gun_Autopistol.label>TODO</Gun_Autopistol.label>-->
+  <!--[Core] <Gun_Autopistol.description>TODO</Gun_Autopistol.description>-->
+  <!--[Core] <Gun_Autopistol.tools.0.label>grip</Gun_Autopistol.tools.0.label>-->
+  <!--[Core] <Gun_Autopistol.tools.1.label>barrel</Gun_Autopistol.tools.1.label>-->
+
+  <!--[Core] <Bullet_Autopistol.label>TODO</Bullet_Autopistol.label>-->
+
+
+  <!-- Machine Pistol -->
+
+  <!--[Core] <Gun_MachinePistol.label>TODO</Gun_MachinePistol.label>-->
+  <!--[Core] <Gun_MachinePistol.description>TODO</Gun_MachinePistol.description>-->
+  <!--[Core] <Gun_MachinePistol.tools.0.label>grip</Gun_MachinePistol.tools.0.label>-->
+  <!--[Core] <Gun_MachinePistol.tools.1.label>barrel</Gun_MachinePistol.tools.1.label>-->
+
+  <!--[Core] <Bullet_MachinePistol.label>TODO</Bullet_MachinePistol.label>-->
+
+
+  <!-- Incendiary Launcher -->
+
+  <!--[Core] <Gun_IncendiaryLauncher.label>TODO</Gun_IncendiaryLauncher.label>-->
+  <!--[Core] <Gun_IncendiaryLauncher.description>TODO</Gun_IncendiaryLauncher.description>-->
+  <!--[Core] <Gun_IncendiaryLauncher.tools.0.label>stock</Gun_IncendiaryLauncher.tools.0.label>-->
+  <!--[Core] <Gun_IncendiaryLauncher.tools.1.label>barrel</Gun_IncendiaryLauncher.tools.1.label>-->
+
+  <!--[Core] <Bullet_IncendiaryLauncher.label>TODO</Bullet_IncendiaryLauncher.label>-->
+
+
+  <!-- Bolt-Action Rifle -->
+
+  <!--[Core] <Gun_BoltActionRifle.label>TODO</Gun_BoltActionRifle.label>-->
+  <!--[Core] <Gun_BoltActionRifle.description>TODO</Gun_BoltActionRifle.description>-->
+  <!--[Core] <Gun_BoltActionRifle.tools.0.label>stock</Gun_BoltActionRifle.tools.0.label>-->
+  <!--[Core] <Gun_BoltActionRifle.tools.1.label>barrel</Gun_BoltActionRifle.tools.1.label>-->
+
+  <!--[Core] <Bullet_BoltActionRifle.label>TODO</Bullet_BoltActionRifle.label>-->
+
+
+  <!-- Pump Shotgun -->
+
+  <!--[Core] <Gun_PumpShotgun.label>TODO</Gun_PumpShotgun.label>-->
+  <!--[Core] <Gun_PumpShotgun.description>TODO</Gun_PumpShotgun.description>-->
+  <!--[Core] <Gun_PumpShotgun.tools.0.label>stock</Gun_PumpShotgun.tools.0.label>-->
+  <!--[Core] <Gun_PumpShotgun.tools.1.label>barrel</Gun_PumpShotgun.tools.1.label>-->
+
+  <!--[Core] <Bullet_Shotgun.label>TODO</Bullet_Shotgun.label>-->
+
+
+  <!-- Chain Shotgun -->
+
+  <!--[Core] <Gun_ChainShotgun.label>TODO</Gun_ChainShotgun.label>-->
+  <!--[Core] <Gun_ChainShotgun.description>TODO</Gun_ChainShotgun.description>-->
+  <!--[Core] <Gun_ChainShotgun.tools.0.label>stock</Gun_ChainShotgun.tools.0.label>-->
+  <!--[Core] <Gun_ChainShotgun.tools.1.label>barrel</Gun_ChainShotgun.tools.1.label>-->
+
+
+  <!-- Heavy SMG -->
+
+  <!--[Core] <Gun_HeavySMG.label>TODO</Gun_HeavySMG.label>-->
+  <!--[Core] <Gun_HeavySMG.description>TODO</Gun_HeavySMG.description>-->
+  <!--[Core] <Gun_HeavySMG.tools.0.label>grip</Gun_HeavySMG.tools.0.label>-->
+  <!--[Core] <Gun_HeavySMG.tools.1.label>barrel</Gun_HeavySMG.tools.1.label>-->
+
+  <!--[Core] <Bullet_HeavySMG.label>TODO</Bullet_HeavySMG.label>-->
+
+
+  <!-- LMG -->
+
+  <!--[Core] <Gun_LMG.label>TODO</Gun_LMG.label>-->
+  <!--[Core] <Gun_LMG.description>TODO</Gun_LMG.description>-->
+  <!--[Core] <Gun_LMG.tools.0.label>stock</Gun_LMG.tools.0.label>-->
+  <!--[Core] <Gun_LMG.tools.1.label>barrel</Gun_LMG.tools.1.label>-->
+
+  <!--[Core] <Bullet_LMG.label>TODO</Bullet_LMG.label>-->
+
+
+  <!-- Assault Rifle -->
+
+  <!--[Core] <Gun_AssaultRifle.label>TODO</Gun_AssaultRifle.label>-->
+  <!--[Core] <Gun_AssaultRifle.description>TODO</Gun_AssaultRifle.description>-->
+  <!--[Core] <Gun_AssaultRifle.tools.0.label>stock</Gun_AssaultRifle.tools.0.label>-->
+  <!--[Core] <Gun_AssaultRifle.tools.1.label>barrel</Gun_AssaultRifle.tools.1.label>-->
+
+  <!--[Core] <Bullet_AssaultRifle.label>TODO</Bullet_AssaultRifle.label>-->
+
+
+  <!-- Sniper Rifle -->
+
+  <!--[Core] <Gun_SniperRifle.label>TODO</Gun_SniperRifle.label>-->
+  <!--[Core] <Gun_SniperRifle.description>TODO</Gun_SniperRifle.description>-->
+  <!--[Core] <Gun_SniperRifle.tools.0.label>stock</Gun_SniperRifle.tools.0.label>-->
+  <!--[Core] <Gun_SniperRifle.tools.1.label>barrel</Gun_SniperRifle.tools.1.label>-->
+
+  <!--[Core] <Bullet_SniperRifle.label>TODO</Bullet_SniperRifle.label>-->
+
+
+  <!-- Minigun -->
+
+  <!--[Core] <Gun_Minigun.label>TODO</Gun_Minigun.label>-->
+  <!--[Core] <Gun_Minigun.description>TODO</Gun_Minigun.description>-->
+  <!--[Core] <Gun_Minigun.tools.0.label>barrels</Gun_Minigun.tools.0.label>-->
+
+  <!--[Core] <Bullet_Minigun.label>TODO</Bullet_Minigun.label>-->
+
+
+</LanguageData>

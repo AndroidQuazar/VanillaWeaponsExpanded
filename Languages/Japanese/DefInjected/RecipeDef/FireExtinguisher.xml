@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_VWE_Extinguisher.label>消火剤×400</MakeAmmo_VWE_Extinguisher.label>
+  <MakeAmmo_VWE_Extinguisher.description>消火剤を400セット作る。</MakeAmmo_VWE_Extinguisher.description>
+  <MakeAmmo_VWE_Extinguisher.jobString>消火剤を製作中</MakeAmmo_VWE_Extinguisher.jobString>
+
+</LanguageData>

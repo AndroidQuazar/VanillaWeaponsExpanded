@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vanilla Weapons Expanded</name>
+	<author>Oskar Potocki, Trunken</author>
+	<supportedVersions><li>1.0</li><li>1.1</li><li>1.2</li></supportedVersions>
+	<packageId>VanillaExpanded.VWE</packageId>
+	<description>
+Vanilla Weapons Expanded is part of a series of mods expanding on everyday life on the Rimworld. When paired together with a brand new Vanilla Apparel Expanded and Vanilla Armours Expanded, you can bring something to your game that will keep you interested in it for days.
+
+Weapons are spread across the technology tree allowing for realistic and time-consuming progression, making the higher-tech weapons even more rewarding. Bear in mind, however, that all weapons are perfectly balanced in line with Vanilla weapons, which means that a Battle Rifle added by this mod might not necessarily be better than a standard assault rifle in some situations.
+	</description>
+</ModMetaData>

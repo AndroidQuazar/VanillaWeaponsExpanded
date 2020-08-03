@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_VWE_Flamethrower.label>火炎放射器燃料×100</MakeAmmo_VWE_Flamethrower.label>
+  <MakeAmmo_VWE_Flamethrower.description>火炎放射器燃料を100セット作る。</MakeAmmo_VWE_Flamethrower.description>
+  <MakeAmmo_VWE_Flamethrower.jobString>火炎放射器燃料を製作中</MakeAmmo_VWE_Flamethrower.jobString>
+
+</LanguageData>

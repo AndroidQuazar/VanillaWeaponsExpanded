@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gas : Thing -->
+
+  <VWE_ToxicGasCloud.label>токсичный газ</VWE_ToxicGasCloud.label>
+
+
+  <!-- Smoke : Thing -->
+
+  <VWE_SmokeCloud.label>облака дыма</VWE_SmokeCloud.label>
+
+
+</LanguageData>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+<!-- Throwing Rocks -->
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_Throwing_Rocks</defName> <!-- unique -->
+    <label>throwing rocks</label>
+    <description>A handful of rocks. Can inflict minor injuries in close range. Doesn't drop on death. Simple but effective.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/ThrowingRocks</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract> <!-- Bow_Small -->
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.47</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+    </statBases>
+	<techLevel>Neolithic</techLevel>
+	<menuHidden>True</menuHidden>
+    <destroyOnDrop>true</destroyOnDrop>
+    <tradeability>None</tradeability>
+     <!-- Solution #2 <costList>
+      <ChunkGranite>1</ChunkGranite>
+    </costList> -->
+	<stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+	<costStuffCount>1</costStuffCount>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Rock</defaultProjectile> <!-- NEEDs adjust -->
+        <warmupTime>1.8</warmupTime>
+        <range>14.9</range>
+        <soundCast>ThrowGrenade</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_Rock</defName>
+    <label>small rock</label>
+    <graphicData>
+      <texPath>Things/Projectile/RockThrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Blunt</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <speed>12</speed>
+    </projectile>
+  </ThingDef>
+
+<!-- Long Bow -->
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_Bow_Long</defName> <!-- unique -->
+    <label>long bow</label>
+    <description>Longbow is a massive long range neolithic weapon, capable of firing a powerful arrow over extremely long distances.\n\nArrows fired from this bow fly overhead, avoiding getting stopped by obstacles.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Longbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.12</drawSize>
+    </graphicData>
+	<comps>
+      <li> <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>65</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>11200</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.64</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.90</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li> <!-- recommended -->
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>VWE_Longbow</researchPrerequisite>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Arrow_Long</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>35.9</range>
+        <soundCast>Bow_Large</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_Arrow_Long</defName>
+    <label>longbow arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Large</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>44</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

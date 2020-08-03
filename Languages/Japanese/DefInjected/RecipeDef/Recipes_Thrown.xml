@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Knives -->
+
+  <MakeVWEThrowingKnives.label>小型ナイフ×10</MakeVWEThrowingKnives.label>
+  <MakeVWEThrowingKnives.description>小型ナイフを10本作る。</MakeVWEThrowingKnives.description>
+  <MakeVWEThrowingKnives.jobString>小型ナイフを製作中</MakeVWEThrowingKnives.jobString>
+
+
+  <!-- Rocks -->
+
+  <!--[Duplicated] <MakeVWESmokeGrenade.label>小型の石×10</MakeVWESmokeGrenade.label>-->
+  <!--[Duplicated] <MakeVWESmokeGrenade.description>小型の石を10個磨く。</MakeVWESmokeGrenade.description>-->
+  <!--[Duplicated] <MakeVWESmokeGrenade.jobString>小型の石を研磨中</MakeVWESmokeGrenade.jobString>-->
+
+
+  <!-- Smoke Grenade -->
+
+  <MakeVWESmokeGrenade.label>煙幕手榴弾×10</MakeVWESmokeGrenade.label>
+  <MakeVWESmokeGrenade.description>煙幕手榴弾を10個作る。</MakeVWESmokeGrenade.description>
+  <MakeVWESmokeGrenade.jobString>煙幕手榴弾を製作中</MakeVWESmokeGrenade.jobString>
+
+
+  <!-- Flash Grenade -->
+
+  <MakeVWEFlashGrenade.label>閃光手榴弾×10</MakeVWEFlashGrenade.label>
+  <MakeVWEFlashGrenade.description>閃光手榴弾を10個作る。</MakeVWEFlashGrenade.description>
+  <MakeVWEFlashGrenade.jobString>閃光手榴弾を製作中</MakeVWEFlashGrenade.jobString>
+
+
+  <!-- Toxic Grenade -->
+
+  <MakeVWEToxicGrenade.label>ガス手榴弾×10</MakeVWEToxicGrenade.label>
+  <MakeVWEToxicGrenade.description>ガス手榴弾を10個作る。</MakeVWEToxicGrenade.description>
+  <MakeVWEToxicGrenade.jobString>ガス手榴弾を製作中</MakeVWEToxicGrenade.jobString>
+
+
+  <!-- Orbital Bombardment Grenade -->
+
+  <MakeVWEOrbGrenade.label>軌道爆撃グレネードを作る</MakeVWEOrbGrenade.label>
+  <MakeVWEOrbGrenade.description>軌道爆撃グレネードを1つ作る。</MakeVWEOrbGrenade.description>
+  <MakeVWEOrbGrenade.jobString>軌道爆撃グレネードを製作中</MakeVWEOrbGrenade.jobString>
+
+
+</LanguageData>

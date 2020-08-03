@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Compound Bow -->
+
+  <VWE_Bow_Compound.label>コンパウンドボウ</VWE_Bow_Compound.label>
+  <VWE_Bow_Compound.description>滑車とケーブルを使って、より遠くへ矢を放つ現代的な弓です。\n\n消音性が高い構造で、発射時に大きな音を発しないので、狩猟で役立ちます。</VWE_Bow_Compound.description>
+  <VWE_Bow_Compound.tools.limb.label>リム</VWE_Bow_Compound.tools.limb.label>
+  <VWE_Bow_Compound.verbs.Verb_Shoot.label>コンパウンドボウ</VWE_Bow_Compound.verbs.Verb_Shoot.label>
+
+  <VWE_Arrow_Compound.label>コンパウンドボウの矢</VWE_Arrow_Compound.label>
+
+
+  <!-- Hand Cannon -->
+
+  <VWE_Bullet_HandCannon.label>ハンドキャノン弾</VWE_Bullet_HandCannon.label>
+
+  <VWE_Gun_HandCannon.label>ハンドキャノン</VWE_Gun_HandCannon.label>
+  <VWE_Gun_HandCannon.description>遠距離の目標に対して大口径の発射体(砲弾)を発射する発射速度が遅い大型リボルバー砲です。</VWE_Gun_HandCannon.description>
+  <VWE_Gun_HandCannon.tools.grip.label>グリップ</VWE_Gun_HandCannon.tools.grip.label>
+  <VWE_Gun_HandCannon.tools.barrel.label>バレル</VWE_Gun_HandCannon.tools.barrel.label>
+  <VWE_Gun_HandCannon.verbs.Verb_Shoot.label>ハンドキャノン</VWE_Gun_HandCannon.verbs.Verb_Shoot.label>
+
+
+  <!-- Combat Handgun -->
+
+  <VWE_Bullet_CombatHandgun.label>軍用拳銃弾</VWE_Bullet_CombatHandgun.label>
+
+  <VWE_CombatHandgun.label>軍用拳銃</VWE_CombatHandgun.label>
+  <VWE_CombatHandgun.description>個人的な防御手段として設計された半自動拳銃です。先進的な衝撃吸収システムは、標準的な自動拳銃と比べてより速い発射を可能にしています。</VWE_CombatHandgun.description>
+  <VWE_CombatHandgun.tools.grip.label>グリップ</VWE_CombatHandgun.tools.grip.label>
+  <VWE_CombatHandgun.tools.barrel.label>バレル</VWE_CombatHandgun.tools.barrel.label>
+  <VWE_CombatHandgun.verbs.Verb_Shoot.label>軍用拳銃</VWE_CombatHandgun.verbs.Verb_Shoot.label>
+
+
+  <!-- Sawed-off Shotgun -->
+
+  <VWE_Bullet_SawedOffShotgun.label>散弾</VWE_Bullet_SawedOffShotgun.label>
+
+  <VWE_SawedOffShotgun.label>ソードオフショットガン</VWE_SawedOffShotgun.label>
+  <VWE_SawedOffShotgun.description>2本の短く切り詰められた銃身が付いた散弾銃です。標準的な散弾銃よりも射程距離が短くなっていますが、一度の攻撃で2本の銃身を使って二連射する事が可能です。</VWE_SawedOffShotgun.description>
+  <VWE_SawedOffShotgun.tools.grip.label>グリップ</VWE_SawedOffShotgun.tools.grip.label>
+  <VWE_SawedOffShotgun.tools.barrel.label>バレル</VWE_SawedOffShotgun.tools.barrel.label>
+  <VWE_SawedOffShotgun.verbs.Verb_Shoot.label>ソードオフショットガン</VWE_SawedOffShotgun.verbs.Verb_Shoot.label>
+
+
+  <!-- Grenade Launcher -->
+
+  <VWE_Bullet_GrenadeLauncher.label>破片榴弾</VWE_Bullet_GrenadeLauncher.label>
+
+  <VWE_Gun_GrenadeLauncher.label>グレネードランチャー</VWE_Gun_GrenadeLauncher.label>
+  <VWE_Gun_GrenadeLauncher.description>戦闘で対人用破片手榴弾を発射するランチャーです。</VWE_Gun_GrenadeLauncher.description>
+  <VWE_Gun_GrenadeLauncher.tools.stock.label>ストック</VWE_Gun_GrenadeLauncher.tools.stock.label>
+  <VWE_Gun_GrenadeLauncher.tools.barrel.label>バレル</VWE_Gun_GrenadeLauncher.tools.barrel.label>
+  <VWE_Gun_GrenadeLauncher.verbs.Verb_Shoot.label>グレネードランチャー</VWE_Gun_GrenadeLauncher.verbs.Verb_Shoot.label>
+
+
+  <!-- Flamethrower -->
+
+  <VWE_Gun_Flamethrower.label>火炎放射器</VWE_Gun_Flamethrower.label>
+  <VWE_Gun_Flamethrower.description>燃焼する化学燃料を制御して、狙った場所に放出できるように設計された機械式の火炎放射装置です。</VWE_Gun_Flamethrower.description>
+  <VWE_Gun_Flamethrower.tools.stock.label>ストック</VWE_Gun_Flamethrower.tools.stock.label>
+  <VWE_Gun_Flamethrower.tools.barrel.label>バレル</VWE_Gun_Flamethrower.tools.barrel.label>
+  <VWE_Gun_Flamethrower.verbs.Verb_Shoot.label>火炎放射器</VWE_Gun_Flamethrower.verbs.Verb_Shoot.label>
+
+  <VWE_Bullet_Flamethrower.label>火炎放射器燃料</VWE_Bullet_Flamethrower.label>
+
+
+  <!-- Fire Extinguisher -->
+
+  <VWE_Gun_FireExtinguisher.label>消火器</VWE_Gun_FireExtinguisher.label>
+  <VWE_Gun_FireExtinguisher.description>通常火災だけでなく化学薬品火災などにも対応できる多用途の消火剤が充填されていて、屋外で遭遇するあらゆる種類の火災の消火に使用可能です。</VWE_Gun_FireExtinguisher.description>
+  <VWE_Gun_FireExtinguisher.tools.canister.label>キャニスター</VWE_Gun_FireExtinguisher.tools.canister.label>
+  <VWE_Gun_FireExtinguisher.verbs.Verb_Shoot.label>消火器</VWE_Gun_FireExtinguisher.verbs.Verb_Shoot.label>
+
+  <VWE_Bullet_FireExtinguisher.label>消火剤</VWE_Bullet_FireExtinguisher.label>
+
+
+  <!-- Semi-Automatic Rifle -->
+
+  <VWE_Bullet_SemiAutomaticRifle.label>半自動ライフル弾</VWE_Bullet_SemiAutomaticRifle.label>
+
+  <VWE_Gun_SemiAutomaticRifle.label>半自動ライフル</VWE_Gun_SemiAutomaticRifle.label>
+  <VWE_Gun_SemiAutomaticRifle.description>標準的なボルトアクション式ライフルの半自動モデルです。以前のモデルほど命中精度が高くありませんが、十分に速い発射速度を実現しています。</VWE_Gun_SemiAutomaticRifle.description>
+  <VWE_Gun_SemiAutomaticRifle.tools.stock.label>ストック</VWE_Gun_SemiAutomaticRifle.tools.stock.label>
+  <VWE_Gun_SemiAutomaticRifle.tools.barrel.label>バレル</VWE_Gun_SemiAutomaticRifle.tools.barrel.label>
+  <VWE_Gun_SemiAutomaticRifle.verbs.Verb_Shoot.label>半自動ライフル</VWE_Gun_SemiAutomaticRifle.verbs.Verb_Shoot.label>
+
+
+  <!-- Lever-Action Rifle -->
+
+  <VWE_Bullet_LeverActionRifle.label>レバーアクションライフル弾</VWE_Bullet_LeverActionRifle.label>
+
+  <VWE_Gun_LeverActionRifle.label>レバーアクションライフル</VWE_Gun_LeverActionRifle.label>
+  <VWE_Gun_LeverActionRifle.description>トリガーガード部分の場所に取り付けられたレバーを使用して新しい弾丸を装填する古代のライフルです。他のライフル銃ほど強力ではありませんが、この銃は高速な再装填を可能にします。\n\n馬上から一人で装填と射撃ができることから、銀河西方世界で広く使われています。</VWE_Gun_LeverActionRifle.description>
+  <VWE_Gun_LeverActionRifle.tools.stock.label>ストック</VWE_Gun_LeverActionRifle.tools.stock.label>
+  <VWE_Gun_LeverActionRifle.tools.barrel.label>バレル</VWE_Gun_LeverActionRifle.tools.barrel.label>
+  <VWE_Gun_LeverActionRifle.verbs.Verb_Shoot.label>レバーアクションライフル</VWE_Gun_LeverActionRifle.verbs.Verb_Shoot.label>
+
+
+  <!-- Light SMG -->
+
+  <VWE_Bullet_LightSMG.label>小型短機関銃用拳銃弾</VWE_Bullet_LightSMG.label>
+
+  <VWE_Gun_LightSMG.label>小型短機関銃</VWE_Gun_LightSMG.label>
+  <VWE_Gun_LightSMG.description>射撃間隔と連射性能に重点を置いたオープンボルト式の軽量小型サブマシンガンです。攻撃のクールタイムよりも長い連射が可能になっています。</VWE_Gun_LightSMG.description>
+  <VWE_Gun_LightSMG.tools.grip.label>グリップ</VWE_Gun_LightSMG.tools.grip.label>
+  <VWE_Gun_LightSMG.tools.barrel.label>バレル</VWE_Gun_LightSMG.tools.barrel.label>
+  <VWE_Gun_LightSMG.verbs.Verb_Shoot.label>小型短機関銃</VWE_Gun_LightSMG.verbs.Verb_Shoot.label>
+
+
+  <!-- SMG -->
+
+  <VWE_Bullet_SMG.label>短機関銃弾</VWE_Bullet_SMG.label>
+
+  <VWE_Gun_SMG.label>短機関銃</VWE_Gun_SMG.label>
+  <VWE_Gun_SMG.description>より持ち運びやすくなった短機関銃です。長距離射撃には向きませんが、かわりに短距離で多大な損害を与えます。</VWE_Gun_SMG.description>
+  <VWE_Gun_SMG.tools.grip.label>グリップ</VWE_Gun_SMG.tools.grip.label>
+  <VWE_Gun_SMG.tools.barrel.label>バレル</VWE_Gun_SMG.tools.barrel.label>
+  <VWE_Gun_SMG.verbs.Verb_Shoot.label>短機関銃</VWE_Gun_SMG.verbs.Verb_Shoot.label>
+
+
+  <!-- HMG -->
+
+  <VWE_Bullet_HMG.label>重機関銃弾</VWE_Bullet_HMG.label>
+
+  <VWE_Gun_HMG.label>重機関銃</VWE_Gun_HMG.label>
+  <VWE_Gun_HMG.description>水冷式の大口径機関銃です。重くて扱いにくいですが、装甲を貫通可能な銃弾によって甚大な損害を与えます。そのベルト式の給弾方法によって、射撃手が銃を支えるのに十分な筋力を持っているなら、敵を制圧できる弾幕を可能にします。</VWE_Gun_HMG.description>
+  <VWE_Gun_HMG.tools.stock.label>ストック</VWE_Gun_HMG.tools.stock.label>
+  <VWE_Gun_HMG.tools.barrel.label>バレル</VWE_Gun_HMG.tools.barrel.label>
+  <VWE_Gun_HMG.verbs.Verb_Shoot.label>重機関銃</VWE_Gun_HMG.verbs.Verb_Shoot.label>
+
+
+  <!-- Service Rifle -->
+
+  <VWE_Bullet_ServiceRifle.label>軍用ライフル弾</VWE_Bullet_ServiceRifle.label>
+
+  <VWE_Gun_ServiceRifle.label>民兵ライフル</VWE_Gun_ServiceRifle.label>
+  <VWE_Gun_ServiceRifle.description>民兵組織や傭兵たちによって銀河辺境地帯で広く使用されている多用途で頑丈な軍用ライフルです。\n\n軍用ライフルほど強力ではありませんが、一度に4連射することが可能です。</VWE_Gun_ServiceRifle.description>
+  <VWE_Gun_ServiceRifle.tools.stock.label>ストック</VWE_Gun_ServiceRifle.tools.stock.label>
+  <VWE_Gun_ServiceRifle.tools.barrel.label>バレル</VWE_Gun_ServiceRifle.tools.barrel.label>
+  <VWE_Gun_ServiceRifle.verbs.Verb_Shoot.label>民兵ライフル</VWE_Gun_ServiceRifle.verbs.Verb_Shoot.label>
+
+
+  <!-- Battle Rifle -->
+
+  <VWE_Bullet_BattleRifle.label>軍用ライフル弾</VWE_Bullet_BattleRifle.label>
+
+  <VWE_Gun_BattleRifle.label>バトルライフル</VWE_Gun_BattleRifle.label>
+  <VWE_Gun_BattleRifle.description>その射程範囲と命中精度の高さで特殊部隊によく使われている半自動小銃です。\n\n軍用ライフルよりもやや射程が長く高ダメージですが、一度に弾丸を2発だけ発射します。</VWE_Gun_BattleRifle.description>
+  <VWE_Gun_BattleRifle.tools.stock.label>ストック</VWE_Gun_BattleRifle.tools.stock.label>
+  <VWE_Gun_BattleRifle.tools.barrel.label>バレル</VWE_Gun_BattleRifle.tools.barrel.label>
+  <VWE_Gun_BattleRifle.verbs.Verb_Shoot.label>バトルライフル</VWE_Gun_BattleRifle.verbs.Verb_Shoot.label>
+
+
+  <!-- Carbine -->
+
+  <VWE_Bullet_Carbine.label>カービン弾</VWE_Bullet_Carbine.label>
+
+  <VWE_Gun_Carbine.label>カービン銃</VWE_Gun_Carbine.label>
+  <VWE_Gun_Carbine.description>ストックが短いブルパップ式のカービン銃で、市街戦でよく使われます。\n\n短距離では正確な命中率ですが、ストックが短いため、中・長距離では命中率が高くありません。</VWE_Gun_Carbine.description>
+  <VWE_Gun_Carbine.tools.stock.label>ストック</VWE_Gun_Carbine.tools.stock.label>
+  <VWE_Gun_Carbine.tools.barrel.label>バレル</VWE_Gun_Carbine.tools.barrel.label>
+  <VWE_Gun_Carbine.verbs.Verb_Shoot.label>カービン銃</VWE_Gun_Carbine.verbs.Verb_Shoot.label>
+
+
+  <!-- Marksman Rifle -->
+
+  <Bullet_MarksmanRifle.label>狙撃ライフル弾</Bullet_MarksmanRifle.label>
+
+  <VWE_Gun_MarksmanRifle.label>セミオート狙撃銃</VWE_Gun_MarksmanRifle.label>
+  <VWE_Gun_MarksmanRifle.description>選ばれた狙撃手用の銃です。\n\n標準的なボルトアクション式の狙撃銃と似ていますが、2発連続して発射可能なので短所を克服しています。</VWE_Gun_MarksmanRifle.description>
+  <VWE_Gun_MarksmanRifle.tools.stock.label>ストック</VWE_Gun_MarksmanRifle.tools.stock.label>
+  <VWE_Gun_MarksmanRifle.tools.barrel.label>バレル</VWE_Gun_MarksmanRifle.tools.barrel.label>
+  <VWE_Gun_MarksmanRifle.verbs.Verb_Shoot.label>セミオート狙撃銃</VWE_Gun_MarksmanRifle.verbs.Verb_Shoot.label>
+
+
+  <!-- Anti-Materiel Rifle -->
+
+  <Bullet_AntiMaterialRifle.label>対物破砕弾</Bullet_AntiMaterialRifle.label>
+
+  <VWE_Gun_AntiMaterialRifle.label>対物ライフル</VWE_Gun_AntiMaterialRifle.label>
+  <VWE_Gun_AntiMaterialRifle.description>50口径の弾頭を使用するライフルで、この武器は敵の重装甲を貫通させるために設計されました。\nメカノイド戦争時にはリムワールドで広く利用されていました。対人でも効果は有効で1発で即死させる事が可能です。</VWE_Gun_AntiMaterialRifle.description>
+  <VWE_Gun_AntiMaterialRifle.tools.stock.label>ストック</VWE_Gun_AntiMaterialRifle.tools.stock.label>
+  <VWE_Gun_AntiMaterialRifle.tools.barrel.label>バレル</VWE_Gun_AntiMaterialRifle.tools.barrel.label>
+  <VWE_Gun_AntiMaterialRifle.verbs.Verb_Shoot.label>対物ライフル</VWE_Gun_AntiMaterialRifle.verbs.Verb_Shoot.label>
+
+</LanguageData>

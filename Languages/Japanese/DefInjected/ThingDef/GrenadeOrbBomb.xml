@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Grenade -->
+
+  <VWE_OPOrbBombGrenade.label>軌道爆撃グレネード</VWE_OPOrbBombGrenade.label>
+  <VWE_OPOrbBombGrenade.description>命中時に煙幕マーカーを噴射する使い捨てのランチャーです。</VWE_OPOrbBombGrenade.description>
+  <VWE_OPOrbBombGrenade.verbs.launch_marker_grenade.label>爆撃マーカー</VWE_OPOrbBombGrenade.verbs.launch_marker_grenade.label>
+
+  <VWE_Grenade_OPOrbBomb.label>軌道爆撃指示マーカー</VWE_Grenade_OPOrbBomb.label>
+
+
+  <!-- Gas Thing -->
+
+  <VWE_Gas_OPBombMark.label>軌道爆撃煙幕マーカー</VWE_Gas_OPBombMark.label>
+
+
+  <!-- Bombardment Def -->
+
+  <OPBombardment.label>軌道爆撃</OPBombardment.label>
+
+</LanguageData>

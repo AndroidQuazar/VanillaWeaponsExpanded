@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pickaxe -->
+
+  <VWE_MeleeWeapon_Pickaxe.label>ツルハシ</VWE_MeleeWeapon_Pickaxe.label>
+  <VWE_MeleeWeapon_Pickaxe.description>この基本的な発明は、武器としても使用できるのと同時に、便利な道具でもあります。その作業には多少の筋力が必要ですが、鉱山の掘削がより快適になります。\n\nツルハシの先端は、ぶ厚い鎧でも貫くことができます。</VWE_MeleeWeapon_Pickaxe.description>
+  <VWE_MeleeWeapon_Pickaxe.tools.handle.label>柄</VWE_MeleeWeapon_Pickaxe.tools.handle.label>
+  <VWE_MeleeWeapon_Pickaxe.tools.point.label>先端</VWE_MeleeWeapon_Pickaxe.tools.point.label>
+
+
+  <!-- Hammer -->
+
+  <VWE_MeleeWeapon_Hammer.label>ハンマー</VWE_MeleeWeapon_Hammer.label>
+  <VWE_MeleeWeapon_Hammer.description>ハンマーとは、持ち手の先に頑丈な金属や石が付いている道具です。木や壁などに釘を打ち込む場合などに使います。\n\nこの基本的な発明は、武器としても使用できるのと同時に、便利な道具でもあります。その作業には多少の筋力が必要ですが、作業がより快適になります。</VWE_MeleeWeapon_Hammer.description>
+  <VWE_MeleeWeapon_Hammer.tools.handle.label>柄</VWE_MeleeWeapon_Hammer.tools.handle.label>
+  <VWE_MeleeWeapon_Hammer.tools.head.label>頭</VWE_MeleeWeapon_Hammer.tools.head.label>
+
+
+  <!-- Battle Axe -->
+
+  <VWE_MeleeWeapon_BattleAxe.label>バトルアックス</VWE_MeleeWeapon_BattleAxe.label>
+  <VWE_MeleeWeapon_BattleAxe.description>戦場でとても強い武器です。肉も骨も同じように切り裂くことができます。\n\nバトルアックスは狂戦士の部族に好まれ、中世の騎士がよく使用する武器です。強力な振り降ろし攻撃で、接近戦でほとんどの敵を排除することが可能です。</VWE_MeleeWeapon_BattleAxe.description>
+  <VWE_MeleeWeapon_BattleAxe.tools.handle.label>柄</VWE_MeleeWeapon_BattleAxe.tools.handle.label>
+  <VWE_MeleeWeapon_BattleAxe.tools.blade.label>刃</VWE_MeleeWeapon_BattleAxe.tools.blade.label>
+
+
+  <!-- Halberd -->
+
+  <VWE_MeleeWeapon_Halberd.label>ハルバード</VWE_MeleeWeapon_Halberd.label>
+  <VWE_MeleeWeapon_Halberd.description>「ハルバード」とは、小さな斧頭をつけたパイクを指します。槍のような先の尖った切っ先を持ち、プレートアーマーを着た敵を撃退するのに最適な武器です。\n\n中世では騎士を倒すのに用いられましたが、大変長いのが特徴です。</VWE_MeleeWeapon_Halberd.description>
+  <VWE_MeleeWeapon_Halberd.tools.handle.label>柄</VWE_MeleeWeapon_Halberd.tools.handle.label>
+  <VWE_MeleeWeapon_Halberd.tools.blade.label>刃</VWE_MeleeWeapon_Halberd.tools.blade.label>
+  <VWE_MeleeWeapon_Halberd.tools.point.label>切っ先</VWE_MeleeWeapon_Halberd.tools.point.label>
+
+</LanguageData>

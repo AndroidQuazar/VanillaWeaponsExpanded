@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipe Users: TableMachining, FabricationBench -->
+
+  <Make_VWE_SmokeGrenade.label>煙幕手榴弾を作る</Make_VWE_SmokeGrenade.label>
+  <Make_VWE_SmokeGrenade.description>煙幕手榴弾を作る。</Make_VWE_SmokeGrenade.description>
+  <Make_VWE_SmokeGrenade.jobString>煙幕手榴弾を製作中</Make_VWE_SmokeGrenade.jobString>
+
+  <Make_VWE_ToxicGrenade.label>ガス手榴弾を作る</Make_VWE_ToxicGrenade.label>
+  <Make_VWE_ToxicGrenade.description>ガス手榴弾を作る。</Make_VWE_ToxicGrenade.description>
+  <Make_VWE_ToxicGrenade.jobString>ガス手榴弾を製作中</Make_VWE_ToxicGrenade.jobString>
+
+  <Make_VWE_FlashGrenade.label>閃光手榴弾を作る</Make_VWE_FlashGrenade.label>
+  <Make_VWE_FlashGrenade.description>閃光手榴弾を作る。</Make_VWE_FlashGrenade.description>
+  <Make_VWE_FlashGrenade.jobString>閃光手榴弾を製作中</Make_VWE_FlashGrenade.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, FueledSmithy, ElectricSmithy -->
+
+  <Make_VWE_MeleeWeapon_Shovel.label>シャベルを作る</Make_VWE_MeleeWeapon_Shovel.label>
+  <Make_VWE_MeleeWeapon_Shovel.description>シャベルを作る。</Make_VWE_MeleeWeapon_Shovel.description>
+  <Make_VWE_MeleeWeapon_Shovel.jobString>シャベルを製作中</Make_VWE_MeleeWeapon_Shovel.jobString>
+
+  <Make_VWE_MeleeWeapon_Baton.label>警棒を作る</Make_VWE_MeleeWeapon_Baton.label>
+  <Make_VWE_MeleeWeapon_Baton.description>警棒を作る。</Make_VWE_MeleeWeapon_Baton.description>
+  <Make_VWE_MeleeWeapon_Baton.jobString>警棒を製作中</Make_VWE_MeleeWeapon_Baton.jobString>
+
+  <Make_VWE_MeleeWeapon_CombatKnife.label>軍用ナイフを作る</Make_VWE_MeleeWeapon_CombatKnife.label>
+  <Make_VWE_MeleeWeapon_CombatKnife.description>軍用ナイフを作る。</Make_VWE_MeleeWeapon_CombatKnife.description>
+  <Make_VWE_MeleeWeapon_CombatKnife.jobString>軍用ナイフを製作中</Make_VWE_MeleeWeapon_CombatKnife.jobString>
+
+  <Make_VWE_MeleeWeapon_Wrench.label>レンチを作る</Make_VWE_MeleeWeapon_Wrench.label>
+  <Make_VWE_MeleeWeapon_Wrench.description>レンチを作る。</Make_VWE_MeleeWeapon_Wrench.description>
+  <Make_VWE_MeleeWeapon_Wrench.jobString>レンチを製作中</Make_VWE_MeleeWeapon_Wrench.jobString>
+
+  <Make_VWE_MeleeWeapon_Cleaver.label>肉包丁を作る</Make_VWE_MeleeWeapon_Cleaver.label>
+  <Make_VWE_MeleeWeapon_Cleaver.description>肉包丁を作る。</Make_VWE_MeleeWeapon_Cleaver.description>
+  <Make_VWE_MeleeWeapon_Cleaver.jobString>肉包丁を製作中</Make_VWE_MeleeWeapon_Cleaver.jobString>
+
+  <Make_VWE_MeleeWeapon_Scalpel.label>外科用メスを作る</Make_VWE_MeleeWeapon_Scalpel.label>
+  <Make_VWE_MeleeWeapon_Scalpel.description>外科用メスを作る。</Make_VWE_MeleeWeapon_Scalpel.description>
+  <Make_VWE_MeleeWeapon_Scalpel.jobString>外科用メスを製作中</Make_VWE_MeleeWeapon_Scalpel.jobString>
+
+  <Make_VWE_MeleeWeapon_Pickaxe.label>ツルハシを作る</Make_VWE_MeleeWeapon_Pickaxe.label>
+  <Make_VWE_MeleeWeapon_Pickaxe.description>ツルハシを作る。</Make_VWE_MeleeWeapon_Pickaxe.description>
+  <Make_VWE_MeleeWeapon_Pickaxe.jobString>ツルハシを製作中</Make_VWE_MeleeWeapon_Pickaxe.jobString>
+
+  <Make_VWE_MeleeWeapon_Hammer.label>ハンマーを作る</Make_VWE_MeleeWeapon_Hammer.label>
+  <Make_VWE_MeleeWeapon_Hammer.description>ハンマーを作る。</Make_VWE_MeleeWeapon_Hammer.description>
+  <Make_VWE_MeleeWeapon_Hammer.jobString>ハンマーを製作中</Make_VWE_MeleeWeapon_Hammer.jobString>
+
+  <Make_VWE_MeleeWeapon_BattleAxe.label>バトルアックスを作る</Make_VWE_MeleeWeapon_BattleAxe.label>
+  <Make_VWE_MeleeWeapon_BattleAxe.description>バトルアックスを作る。</Make_VWE_MeleeWeapon_BattleAxe.description>
+  <Make_VWE_MeleeWeapon_BattleAxe.jobString>バトルアックスを製作中</Make_VWE_MeleeWeapon_BattleAxe.jobString>
+
+  <Make_VWE_MeleeWeapon_Halberd.label>ハルバードを作る</Make_VWE_MeleeWeapon_Halberd.label>
+  <Make_VWE_MeleeWeapon_Halberd.description>ハルバードを作る。</Make_VWE_MeleeWeapon_Halberd.description>
+  <Make_VWE_MeleeWeapon_Halberd.jobString>ハルバードを製作中</Make_VWE_MeleeWeapon_Halberd.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot, FueledSmithy, ElectricSmithy -->
+
+  <Make_VWE_MeleeWeapon_Axe.label>アックスを作る</Make_VWE_MeleeWeapon_Axe.label>
+  <Make_VWE_MeleeWeapon_Axe.description>アックスを作る。</Make_VWE_MeleeWeapon_Axe.description>
+  <Make_VWE_MeleeWeapon_Axe.jobString>アックスを製作中</Make_VWE_MeleeWeapon_Axe.jobString>
+
+
+  <!-- Recipe Users: TableMachining -->
+
+  <Make_Gun_TripleRocket.label>三連装ロケットランチャーを作る</Make_Gun_TripleRocket.label>
+  <Make_Gun_TripleRocket.description>三連装ロケットランチャーを作る。</Make_Gun_TripleRocket.description>
+  <Make_Gun_TripleRocket.jobString>三連装ロケットランチャーを製作中</Make_Gun_TripleRocket.jobString>
+
+  <Make_Gun_DoomsdayRocket.label>最終ロケット兵器を作る</Make_Gun_DoomsdayRocket.label>
+  <Make_Gun_DoomsdayRocket.description>最終ロケット兵器を作る。</Make_Gun_DoomsdayRocket.description>
+  <Make_Gun_DoomsdayRocket.jobString>最終ロケット兵器を製作中</Make_Gun_DoomsdayRocket.jobString>
+
+  <Make_VWE_Gun_RocketLauncher.label>ロケットランチャーを作る</Make_VWE_Gun_RocketLauncher.label>
+  <Make_VWE_Gun_RocketLauncher.description>ロケットランチャーを作る。</Make_VWE_Gun_RocketLauncher.description>
+  <Make_VWE_Gun_RocketLauncher.jobString>ロケットランチャーを製作中</Make_VWE_Gun_RocketLauncher.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, FueledSmithy, ElectricSmithy -->
+
+  <Make_VWE_Bow_Compound.label>コンパウンドボウを作る</Make_VWE_Bow_Compound.label>
+  <Make_VWE_Bow_Compound.description>コンパウンドボウを作る。</Make_VWE_Bow_Compound.description>
+  <Make_VWE_Bow_Compound.jobString>コンパウンドボウを製作中</Make_VWE_Bow_Compound.jobString>
+
+
+  <!-- Recipe Users: TableMachining, TableMachining -->
+
+  <Make_VWE_Gun_HandCannon.label>ハンドキャノンを作る</Make_VWE_Gun_HandCannon.label>
+  <Make_VWE_Gun_HandCannon.description>ハンドキャノンを作る。</Make_VWE_Gun_HandCannon.description>
+  <Make_VWE_Gun_HandCannon.jobString>ハンドキャノンを製作中</Make_VWE_Gun_HandCannon.jobString>
+
+  <Make_VWE_CombatHandgun.label>軍用拳銃を作る</Make_VWE_CombatHandgun.label>
+  <Make_VWE_CombatHandgun.description>軍用拳銃を作る。</Make_VWE_CombatHandgun.description>
+  <Make_VWE_CombatHandgun.jobString>軍用拳銃を製作中</Make_VWE_CombatHandgun.jobString>
+
+  <Make_VWE_SawedOffShotgun.label>ソードオフショットガンを作る</Make_VWE_SawedOffShotgun.label>
+  <Make_VWE_SawedOffShotgun.description>ソードオフショットガンを作る。</Make_VWE_SawedOffShotgun.description>
+  <Make_VWE_SawedOffShotgun.jobString>ソードオフショットガンを製作中</Make_VWE_SawedOffShotgun.jobString>
+
+  <Make_VWE_Gun_GrenadeLauncher.label>グレネードランチャーを作る</Make_VWE_Gun_GrenadeLauncher.label>
+  <Make_VWE_Gun_GrenadeLauncher.description>グレネードランチャーを作る。</Make_VWE_Gun_GrenadeLauncher.description>
+  <Make_VWE_Gun_GrenadeLauncher.jobString>グレネードランチャーを製作中</Make_VWE_Gun_GrenadeLauncher.jobString>
+
+  <Make_VWE_Gun_Flamethrower.label>火炎放射器を作る</Make_VWE_Gun_Flamethrower.label>
+  <Make_VWE_Gun_Flamethrower.description>火炎放射器を作る。</Make_VWE_Gun_Flamethrower.description>
+  <Make_VWE_Gun_Flamethrower.jobString>火炎放射器を製作中</Make_VWE_Gun_Flamethrower.jobString>
+
+  <Make_VWE_Gun_FireExtinguisher.label>消火器を作る</Make_VWE_Gun_FireExtinguisher.label>
+  <Make_VWE_Gun_FireExtinguisher.description>消火器を作る。</Make_VWE_Gun_FireExtinguisher.description>
+  <Make_VWE_Gun_FireExtinguisher.jobString>消火器を製作中</Make_VWE_Gun_FireExtinguisher.jobString>
+
+  <Make_VWE_Gun_SemiAutomaticRifle.label>半自動ライフルを作る</Make_VWE_Gun_SemiAutomaticRifle.label>
+  <Make_VWE_Gun_SemiAutomaticRifle.description>半自動ライフルを作る。</Make_VWE_Gun_SemiAutomaticRifle.description>
+  <Make_VWE_Gun_SemiAutomaticRifle.jobString>半自動ライフルを製作中</Make_VWE_Gun_SemiAutomaticRifle.jobString>
+
+  <Make_VWE_Gun_LeverActionRifle.label>レバーアクションライフルを作る</Make_VWE_Gun_LeverActionRifle.label>
+  <Make_VWE_Gun_LeverActionRifle.description>レバーアクションライフルを作る。</Make_VWE_Gun_LeverActionRifle.description>
+  <Make_VWE_Gun_LeverActionRifle.jobString>レバーアクションライフルを製作中</Make_VWE_Gun_LeverActionRifle.jobString>
+
+  <Make_VWE_Gun_LightSMG.label>小型短機関銃を作る</Make_VWE_Gun_LightSMG.label>
+  <Make_VWE_Gun_LightSMG.description>小型短機関銃を作る。</Make_VWE_Gun_LightSMG.description>
+  <Make_VWE_Gun_LightSMG.jobString>小型短機関銃を製作中</Make_VWE_Gun_LightSMG.jobString>
+
+  <Make_VWE_Gun_SMG.label>短機関銃を作る</Make_VWE_Gun_SMG.label>
+  <Make_VWE_Gun_SMG.description>短機関銃を作る。</Make_VWE_Gun_SMG.description>
+  <Make_VWE_Gun_SMG.jobString>短機関銃を製作中</Make_VWE_Gun_SMG.jobString>
+
+  <Make_VWE_Gun_HMG.label>重機関銃を作る</Make_VWE_Gun_HMG.label>
+  <Make_VWE_Gun_HMG.description>重機関銃を作る。</Make_VWE_Gun_HMG.description>
+  <Make_VWE_Gun_HMG.jobString>重機関銃を製作中</Make_VWE_Gun_HMG.jobString>
+
+  <Make_VWE_Gun_ServiceRifle.label>民兵ライフルを作る</Make_VWE_Gun_ServiceRifle.label>
+  <Make_VWE_Gun_ServiceRifle.description>民兵ライフルを作る。</Make_VWE_Gun_ServiceRifle.description>
+  <Make_VWE_Gun_ServiceRifle.jobString>民兵ライフルを製作中</Make_VWE_Gun_ServiceRifle.jobString>
+
+  <Make_VWE_Gun_BattleRifle.label>バトルライフルを作る</Make_VWE_Gun_BattleRifle.label>
+  <Make_VWE_Gun_BattleRifle.description>バトルライフルを作る。</Make_VWE_Gun_BattleRifle.description>
+  <Make_VWE_Gun_BattleRifle.jobString>バトルライフルを製作中</Make_VWE_Gun_BattleRifle.jobString>
+
+  <Make_VWE_Gun_Carbine.label>カービン銃を作る</Make_VWE_Gun_Carbine.label>
+  <Make_VWE_Gun_Carbine.description>カービン銃を作る。</Make_VWE_Gun_Carbine.description>
+  <Make_VWE_Gun_Carbine.jobString>カービン銃を製作中</Make_VWE_Gun_Carbine.jobString>
+
+  <Make_VWE_Gun_MarksmanRifle.label>セミオート狙撃銃を作る</Make_VWE_Gun_MarksmanRifle.label>
+  <Make_VWE_Gun_MarksmanRifle.description>セミオート狙撃銃を作る。</Make_VWE_Gun_MarksmanRifle.description>
+  <Make_VWE_Gun_MarksmanRifle.jobString>セミオート狙撃銃を製作中</Make_VWE_Gun_MarksmanRifle.jobString>
+
+  <Make_VWE_Gun_AntiMaterialRifle.label>対物ライフルを作る</Make_VWE_Gun_AntiMaterialRifle.label>
+  <Make_VWE_Gun_AntiMaterialRifle.description>対物ライフルを作る。</Make_VWE_Gun_AntiMaterialRifle.description>
+  <Make_VWE_Gun_AntiMaterialRifle.jobString>対物ライフルを製作中</Make_VWE_Gun_AntiMaterialRifle.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, FueledSmithy, ElectricSmithy -->
+
+  <Make_VWE_Bow_Crossbow.label>クロスボウを作る</Make_VWE_Bow_Crossbow.label>
+  <Make_VWE_Bow_Crossbow.description>クロスボウを作る。</Make_VWE_Bow_Crossbow.description>
+  <Make_VWE_Bow_Crossbow.jobString>クロスボウを製作中</Make_VWE_Bow_Crossbow.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FueledSmithy, ElectricSmithy -->
+
+  <Make_VWE_Gun_Musket.label>マスケット銃を作る</Make_VWE_Gun_Musket.label>
+  <Make_VWE_Gun_Musket.description>マスケット銃を作る。</Make_VWE_Gun_Musket.description>
+  <Make_VWE_Gun_Musket.jobString>マスケット銃を製作中</Make_VWE_Gun_Musket.jobString>
+
+  <Make_VWE_Gun_Flintlock.label>フリントロック銃を作る</Make_VWE_Gun_Flintlock.label>
+  <Make_VWE_Gun_Flintlock.description>フリントロック銃を作る。</Make_VWE_Gun_Flintlock.description>
+  <Make_VWE_Gun_Flintlock.jobString>フリントロック銃を製作中</Make_VWE_Gun_Flintlock.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, FueledSmithy, ElectricSmithy -->
+
+  <Make_VWE_Throwing_Knives.label>スローイングナイフを作る</Make_VWE_Throwing_Knives.label>
+  <Make_VWE_Throwing_Knives.description>スローイングナイフを作る。</Make_VWE_Throwing_Knives.description>
+  <Make_VWE_Throwing_Knives.jobString>スローイングナイフを製作中</Make_VWE_Throwing_Knives.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, CraftingSpot -->
+
+  <Make_VWE_Tool_Whip.label>鞭を作る</Make_VWE_Tool_Whip.label>
+  <Make_VWE_Tool_Whip.description>鞭を作る。</Make_VWE_Tool_Whip.description>
+  <Make_VWE_Tool_Whip.jobString>鞭を製作中</Make_VWE_Tool_Whip.jobString>
+
+  <Make_VWE_Throwing_Rocks.label>投石用の石を磨く</Make_VWE_Throwing_Rocks.label>
+  <Make_VWE_Throwing_Rocks.description>投石用の石を磨く。</Make_VWE_Throwing_Rocks.description>
+  <Make_VWE_Throwing_Rocks.jobString>投石用の石を研磨中</Make_VWE_Throwing_Rocks.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, FueledSmithy, ElectricSmithy -->
+
+  <Make_VWE_Bow_Long.label>ロングボウを作る</Make_VWE_Bow_Long.label>
+  <Make_VWE_Bow_Long.description>ロングボウを作る。</Make_VWE_Bow_Long.description>
+  <Make_VWE_Bow_Long.jobString>ロングボウを製作中</Make_VWE_Bow_Long.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench -->
+
+  <Make_VWE_Gun_ChargePistol.label>チャージピストルを作る</Make_VWE_Gun_ChargePistol.label>
+  <Make_VWE_Gun_ChargePistol.description>チャージピストルを作る。</Make_VWE_Gun_ChargePistol.description>
+  <Make_VWE_Gun_ChargePistol.jobString>チャージピストルを製作中</Make_VWE_Gun_ChargePistol.jobString>
+
+  <Make_VWE_Gun_ChargeShotgun.label>チャージショットガンを作る</Make_VWE_Gun_ChargeShotgun.label>
+  <Make_VWE_Gun_ChargeShotgun.description>チャージショットガンを作る。</Make_VWE_Gun_ChargeShotgun.description>
+  <Make_VWE_Gun_ChargeShotgun.jobString>チャージショットガンを製作中</Make_VWE_Gun_ChargeShotgun.jobString>
+
+  <Make_VWE_Gun_ChargeSMG.label>チャージサブマシンガンを作る</Make_VWE_Gun_ChargeSMG.label>
+  <Make_VWE_Gun_ChargeSMG.description>チャージサブマシンガンを作る。</Make_VWE_Gun_ChargeSMG.description>
+  <Make_VWE_Gun_ChargeSMG.jobString>チャージサブマシンガンを製作中</Make_VWE_Gun_ChargeSMG.jobString>
+
+  <Make_VWE_Gun_ChargeLMG.label>チャージ軽機関銃を作る</Make_VWE_Gun_ChargeLMG.label>
+  <Make_VWE_Gun_ChargeLMG.description>チャージ軽機関銃を作る。</Make_VWE_Gun_ChargeLMG.description>
+  <Make_VWE_Gun_ChargeLMG.jobString>チャージ軽機関銃を製作中</Make_VWE_Gun_ChargeLMG.jobString>
+
+  <Make_VWE_Gun_ChargeSniperRifle.label>チャージ狙撃銃を作る</Make_VWE_Gun_ChargeSniperRifle.label>
+  <Make_VWE_Gun_ChargeSniperRifle.description>チャージ狙撃銃を作る。</Make_VWE_Gun_ChargeSniperRifle.description>
+  <Make_VWE_Gun_ChargeSniperRifle.jobString>チャージ狙撃銃を製作中</Make_VWE_Gun_ChargeSniperRifle.jobString>
+
+  <Make_VWE_Gun_ChargeMinigun.label>チャージガトリングを作る</Make_VWE_Gun_ChargeMinigun.label>
+  <Make_VWE_Gun_ChargeMinigun.description>チャージガトリングを作る。</Make_VWE_Gun_ChargeMinigun.description>
+  <Make_VWE_Gun_ChargeMinigun.jobString>チャージガトリングを製作中</Make_VWE_Gun_ChargeMinigun.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_VWE_Gun_ChargeRocketLauncher.label>チャージロケットランチャーを作る</Make_VWE_Gun_ChargeRocketLauncher.label>
+  <Make_VWE_Gun_ChargeRocketLauncher.description>チャージロケットランチャーを作る。</Make_VWE_Gun_ChargeRocketLauncher.description>
+  <Make_VWE_Gun_ChargeRocketLauncher.jobString>チャージロケットランチャーを製作中</Make_VWE_Gun_ChargeRocketLauncher.jobString>
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Charge Rocket Launcher -->
+
+  <VWE_Gun_ChargeRocketLauncher.label>продвинутая ракетница</VWE_Gun_ChargeRocketLauncher.label>
+  <VWE_Gun_ChargeRocketLauncher.description>Выпускает одну высокоточную ракету корректирующую курс по лазерному наведению, ракета взрывается в воздухе выпуская облака частиц уничтожающих все смертельным электроразрядом.</VWE_Gun_ChargeRocketLauncher.description>
+  <VWE_Gun_ChargeRocketLauncher.tools.0.label>ствол</VWE_Gun_ChargeRocketLauncher.tools.0.label>
+
+  <VWE_Rocket_AntiGrain.label>ракета частиц</VWE_Rocket_AntiGrain.label>
+
+
+</LanguageData>

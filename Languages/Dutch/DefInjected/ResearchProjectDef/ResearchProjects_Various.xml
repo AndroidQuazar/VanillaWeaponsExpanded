@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VWE_Longbow.label>handboog</VWE_Longbow.label>
+  <VWE_Longbow.description>Maak handbogen, neolitische varianten van sluipschuttersgeweren.</VWE_Longbow.description>
+
+  <VWE_Crossbow.label>kruisboog</VWE_Crossbow.label>
+  <VWE_Crossbow.description>Maak kruisbogen, middeleeuwse boog die door sterk pantser geraakt.</VWE_Crossbow.description>
+
+  <VWE_CompoundBow.label>compoundboog</VWE_CompoundBow.label>
+  <VWE_CompoundBow.description>aak compoundbogen, deze gebruiken industriële delen om stil te vuren met veel effect.</VWE_CompoundBow.description>
+
+  <VWE_Tools.label>gereedschap</VWE_Tools.label>
+  <VWE_Tools.description>Gereedschap voor een smid om te helpen bij manueel werk.</VWE_Tools.description>
+
+  <VWE_Gunpowder.label>buskruid</VWE_Gunpowder.label>
+  <VWE_Gunpowder.description>Ontwikkel buskruid, het eerst bekende chemisch explosief.</VWE_Gunpowder.description>
+
+  <VWE_TrenchWarfare.label>loopgravenkennis</VWE_TrenchWarfare.label>
+  <VWE_TrenchWarfare.description>Neem een loopgravenoorlogsdoctrine aan met een selectie van wapens voor man-op-mangevechten.</VWE_TrenchWarfare.description>
+
+  <VWE_HeavyWeapons.label>zware wapens</VWE_HeavyWeapons.label>
+  <VWE_HeavyWeapons.description>Ontwikkel zware wapens met stevige vuurkracht, deze zijn zwaar om mee te nemen.</VWE_HeavyWeapons.description>
+
+  <VWE_Flamethrower.label>vlammenwerper</VWE_Flamethrower.label>
+  <VWE_Flamethrower.description>Ontwikkel vlammenwerpers, wapens die lange stromen aan vuur afschieten. Hun dodelijkheid heeft voor een ban gezorgd op meerdere werelden.</VWE_Flamethrower.description>
+
+  <VWE_SpecializedFirearms.label>Gespecialiseerde wapens</VWE_SpecializedFirearms.label>
+  <VWE_SpecializedFirearms.description>Ontwikkel gespecialiseerde wapens voor uitdagende gevechtsscenario's.</VWE_SpecializedFirearms.description>
+
+  <VWE_DesignatedMarksmanRifle.label>sluipschuttersgeweer</VWE_DesignatedMarksmanRifle.label>
+  <VWE_DesignatedMarksmanRifle.description>Maak semi-automatische sluipschuttersgeweren voor lange afstandsgevechten.</VWE_DesignatedMarksmanRifle.description>
+
+  <VWE_TacticalGrenades.label>tactische granaten</VWE_TacticalGrenades.label>
+  <VWE_TacticalGrenades.description>Maak speciale granaten die handig zijn in allerlei soorten gevechten.</VWE_TacticalGrenades.description>
+
+  <VWE_LaserTargetingSystems.label>laser richtsysteem</VWE_LaserTargetingSystems.label>
+  <VWE_LaserTargetingSystems.description>Maa gebruik van laser richtsystemen voor accurate en snelle inslagen van nucleaire bommen.</VWE_LaserTargetingSystems.description>
+
+  <VWE_OrbitalSupport.label>ruimteondersteuning</VWE_OrbitalSupport.label>
+  <VWE_OrbitalSupport.description>Verbind met een netwerk van sattelieten om ruimtebombardementsgranaten te maken.</VWE_OrbitalSupport.description>
+
+
+</LanguageData>

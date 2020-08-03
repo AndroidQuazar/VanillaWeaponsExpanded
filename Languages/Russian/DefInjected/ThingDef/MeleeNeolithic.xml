@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Axe -->
+
+  <VWE_MeleeWeapon_Axe.label>топор</VWE_MeleeWeapon_Axe.label>
+  <VWE_MeleeWeapon_Axe.description>Топорище на рукояти. Можно держать одной рукой, из-за формы клина не требует значительного усилия для разрубания доспехов и плоти.</VWE_MeleeWeapon_Axe.description>
+  <VWE_MeleeWeapon_Axe.tools.0.label>рукоять</VWE_MeleeWeapon_Axe.tools.0.label>
+  <VWE_MeleeWeapon_Axe.tools.1.label>лезвие</VWE_MeleeWeapon_Axe.tools.1.label>
+
+
+</LanguageData>

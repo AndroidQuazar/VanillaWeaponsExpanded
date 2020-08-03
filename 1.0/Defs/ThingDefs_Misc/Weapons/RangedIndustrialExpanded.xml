@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Compound Bow -->
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>VWE_Bow_Compound</defName> <!-- unique -->
+    <label>compound bow</label>
+    <description>A modern day bow using levers system to fire an arrow over long distances.\n\nDue to the silencing mechanism, this bow doesn't emit any considerable sound upon firing, which makes it useful in hunting.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/CompoundBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <generateCommonality>0.05</generateCommonality>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>1.6</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+    </statBases>
+	<weaponTags Inherit="False">
+		<li>SniperRifle</li>
+	</weaponTags>
+    <recipeMaker>
+      <researchPrerequisite>VWE_CompoundBow</researchPrerequisite>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<equippedStatOffsets>
+      <HuntingStealth>0.85</HuntingStealth>
+	</equippedStatOffsets>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Arrow_Compound</defaultProjectile>
+        <warmupTime>1.45</warmupTime>
+        <range>29.9</range>
+        <soundCast>VWE_Bow_Compound</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>VWE_Arrow_Compound</defName>
+    <label>compound bow arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Modern</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>52</speed>
+    </projectile>
+  </ThingDef>
+
+<!-- Hand Cannon -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_HandCannon</defName>
+    <label>hand cannon bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <speed>45</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_HandCannon</defName>
+    <label>Hand Cannon</label>
+    <description>Slow firing revolver firing large caliber projectiles over long distances.</description> <!-- adjust -->
+    <graphicData>
+      <texPath>Things/WeaponRanged/HandCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_HandCannon</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>29.9</range>
+        <soundCast>VWE_Shot_Handcannon</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>SimpleGun</li>
+	  <li>Revolver</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Combat Handgun -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_CombatHandgun</defName>
+     <label>combat handgun bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_CombatHandgun</defName>
+    <label>combat handgun</label>
+    <description>Semi-automatic pistol designed for personal defense. The advanced counter-recoil system allows this weapon to be fired significantly faster than a standard autopistol.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/CombatHandgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_CombatHandgun</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>22.9</range>
+        <soundCast>Shot_Autopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>SimpleGun</li>
+	</weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Sawed-off Shotgun -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_SawedOffShotgun</defName>
+     <label>shotgun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_SawedOff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_SawedOffShotgun</defName>
+    <label>sawed-off Shotgun</label>
+    <description>Short double-barreled shotgun. Whilst not having the same range as a standard shotgun, this weapon fires two barrels in quick successions.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/SawedOffShotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>1.6</Mass>
+      <AccuracyTouch>0.56</AccuracyTouch>
+      <AccuracyShort>0.54</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<recipeUsers>
+		<li>TableMachining</li>
+	</recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_SawedOffShotgun</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>10.9</range>
+		<burstShotCount>2</burstShotCount>
+		<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Grenade Launcher -->
+<ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_GrenadeLauncher</defName>
+    <label>frag grenade</label>
+    <graphicData>
+      <texPath>Things/Projectile/ExplosiveCannonShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>Bomb</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>1.9</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
+	  <explosionDelay>30</explosionDelay>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>VWE_Gun_GrenadeLauncher</defName>
+	<label>grenade launcher</label>
+    <description>A military issue grenade launcher intended for anti-infantry use.</description>
+	<graphicData>
+		<texPath>Things/WeaponRanged/GrenadeLauncher</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Rifle</soundInteract>
+	<generateCommonality>0.3</generateCommonality>
+	<statBases>
+		<WorkToMake>10000</WorkToMake>
+		<Mass>3.4</Mass>
+		<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+	</statBases>
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+	</costList>
+    <recipeMaker>
+	<recipeUsers>
+		<li>TableMachining</li>
+	</recipeUsers>
+      <researchPrerequisite>VWE_HeavyWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>VWE_Bullet_GrenadeLauncher</defaultProjectile>
+			<warmupTime>3.5</warmupTime>
+			<range>23.9</range>
+			<forcedMissRadius>2.9</forcedMissRadius>
+			<burstShotCount>1</burstShotCount>
+			<soundCast>VWE_Shot_GrenadeLauncher</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>14</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+	</verbs>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+    <!-- Flamethrower -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>VWE_Gun_Flamethrower</defName>
+	<label>flamethrower</label>
+    <description>Mechanical incendiary device designed to release a controllable stream of burning chemfuel.</description>
+	<graphicData>
+		<texPath>Things/WeaponRanged/Flamethrower</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.12</drawSize>
+    </graphicData>
+	<soundInteract>Interact_Rifle</soundInteract>
+	<tickerType>Normal</tickerType>
+	<generateCommonality>0.1</generateCommonality>
+	<statBases>
+		<WorkToMake>10000</WorkToMake>
+		<Mass>5.4</Mass>
+		<RangedWeapon_Cooldown>5.5</RangedWeapon_Cooldown>
+	</statBases>
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+		<Chemfuel>40</Chemfuel>
+	</costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+		<li>TableMachining</li>
+		</recipeUsers>
+	  <researchPrerequisite>VWE_Flamethrower</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>VWE_Bullet_Flamethrower</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>12.9</range>
+			<forcedMissRadius>2.9</forcedMissRadius>
+			<burstShotCount>20</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>VWE_Shot_Flamethrower</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>14</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+	</verbs>
+	<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>4.66</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+		</li>
+		<li> <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+		</li>
+	</comps>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_Flamethrower</defName>
+    <label>flamethrower fuel</label>
+    <graphicData>
+      <texPath>Things/Projectile/Proj_Flamethrower</texPath>
+      <graphicClass>Graphic_Flicker</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>ExplosiveTrailsEffect.Projectile_FlameThrower</thingClass>
+    <projectile>
+      <speed>30</speed>
+      <damageDef>VWE_HauntingFlame</damageDef>
+      <explosionRadius>0.9</explosionRadius>
+	  <soundExplode>VWE_Explosion_Flamethrower</soundExplode>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+	  <explosionChanceToStartFire>1.0</explosionChanceToStartFire>
+    </projectile>
+  </ThingDef>
+  
+  <!-- Fire Extinguisher -->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>VWE_Gun_FireExtinguisher</defName>
+	<label>fire extinguisher</label>
+    <description>Filled with a multi-purpose flame supressant, this item can be used to extinguish any kind of fire encountered in the field.</description>
+	<graphicData>
+		<texPath>Things/WeaponRanged/FireExtinguisher</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Metal_Drop</soundInteract>
+	<tickerType>Normal</tickerType>
+    <generateCommonality>0.005</generateCommonality>
+	<statBases>
+		<WorkToMake>10000</WorkToMake>
+		<Mass>4.6</Mass>
+		<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+	</statBases>
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+	</costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+		<li>TableMachining</li>
+		</recipeUsers>
+	  <researchPrerequisite>Firefoam</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>VWE_Bullet_FireExtinguisher</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>12.9</range>
+			<forcedMissRadius>2.9</forcedMissRadius>
+			<burstShotCount>20</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>VWE_Shot_FireExtinguisher</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>14</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+	</verbs>
+	<comps>
+		<li Class="CompProperties_Explosive">
+				<explosiveRadius>6.66</explosiveRadius>
+				<explosiveDamageType>Extinguish</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+		</li>
+	</comps>
+    <tools>
+      <li>
+        <label>canister</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<weaponTags>
+      <li>ToolDecent</li>
+    </weaponTags>
+	</ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_FireExtinguisher</defName>
+    <label>flame suppresant</label>
+    <graphicData>
+      <texPath>Things/Projectile/Proj_FireExtinguisher</texPath>
+      <graphicClass>Graphic_Flicker</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>ExplosiveTrailsEffect.SmokeGrenade</thingClass>
+    <projectile>
+      <speed>30</speed>
+      <damageDef>VWE_Extinguish</damageDef>
+      <explosionRadius>0.9</explosionRadius>
+	  <soundExplode>VWE_Explosion_FireExtinguisher</soundExplode>
+      <preExplosionSpawnThingDef>Filth_FireFoam</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
+
+<!-- Semi-Automatic Rifle -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_SemiAutomaticRifle</defName>
+    <label>semi-automatic rifle bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+</ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_SemiAutomaticRifle</defName>
+    <label>semi-automatic rifle</label>
+    <description>Semi-automatic model of a standard bolt action rifle. Whilst not as accurate and powerful as the predecessor, it makes up with fast firing speed.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/SemiAutomaticRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.68</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<recipeUsers>
+		<li>TableMachining</li>
+	</recipeUsers>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_SemiAutomaticRifle</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>30.9</range>
+        <soundCast>Shot_BoltActionRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Lever-Action Rifle -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_LeverActionRifle</defName>
+    <label>lever-action rifle bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+</ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_LeverActionRifle</defName>
+    <label>lever-action rifle</label>
+    <description>A rifle that uses a lever located around the trigger guard area to load fresh cartridges. Whilst not as powerful as other rifles, this gun allows for rapid reload.\n\nUsed widely around the western worlds for the ability to be shot single-handedly on the horseback.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/LeverActionRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.8</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	<recipeUsers>
+		<li>TableMachining</li>
+	</recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_LeverActionRifle</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>25.9</range>
+        <soundCast>VWE_Shot_LeverActionRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Light SMG -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_LightSMG</defName>
+    <label>light SMG pistol bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_LightSMG</defName>
+    <label>light SMG</label>
+    <description>Open bolt lightweight submachine gun with improved cooling, allowing for longer bursts before weapon needs to be cooled.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/LightSMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>13000</WorkToMake>
+      <Mass>2.7</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_LightSMG</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>19.9</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>VWE_Shot_LightSMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- SMG -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_SMG</defName>
+    <label>smg bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>52</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_SMG</defName>
+    <label>SMG</label>
+    <description>A compact submachine gun. Whilst it doesn't have long range of fire, it deals significant damage in close range.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/SMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_SMG</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>21.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>VWE_Shot_SMG</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- HMG -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_HMG</defName>
+    <label>HMG bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_VeryBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+	<defName>VWE_Gun_HMG</defName>
+	<label>HMG</label>
+	<description>A water-cooled type of machine gun. It's heavy and unwieldy, but delivers tremendous amount of damage thanks to armor piercing ammunition. Belt-fed ammunition ensures continuous volley of bullets as long as the person firing them is strong enough to hold the gun.</description>
+	<graphicData>
+		<texPath>Things/WeaponRanged/HMG</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.06</drawSize>
+    </graphicData>
+	<comps>
+      <li> <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+	<soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_HeavyWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<statBases>
+		<WorkToMake>40000</WorkToMake> <!-- phew, might be worth it -->
+		<Mass>10</Mass>
+		<AccuracyTouch>0.4</AccuracyTouch>
+		<AccuracyShort>0.48</AccuracyShort>
+		<AccuracyMedium>0.30</AccuracyMedium>
+		<AccuracyLong>0.20</AccuracyLong>
+		<RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+	</statBases>
+	<equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed> <!-- drawback -->
+	</equippedStatOffsets>
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>6</ComponentIndustrial>
+	</costList>
+    <verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>VWE_Bullet_HMG</defaultProjectile>
+			<warmupTime>2.4</warmupTime>
+			<range>25.9</range>
+			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+			<burstShotCount>5</burstShotCount>
+			<soundCast>VWE_Shot_HMG</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<weaponTags>
+		<li>IndustrialGunAdvanced</li>
+		<li>GunHeavy</li>
+	</weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Service Rifle -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_ServiceRifle</defName>
+    <label>assault rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_ServiceRifle</defName>
+    <label>service rifle</label>
+    <description>A versatile and rugged assault rifle widely used around the galaxy by militia forces and mercenaries.\n\nNot as powerful as an assault rifle, but deliver 4 shot bursts.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/ServiceRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_SpecializedFirearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_ServiceRifle</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>VWE_Shot_ServiceRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+	<weaponTags>
+		<li>IndustrialGunAdvanced</li>
+	</weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Battle Rifle -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_BattleRifle</defName>
+    <label>assault rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_BattleRifle</defName>
+    <label>battle rifle</label>
+    <description>A semi-automatic rifle commonly used by special forces due to it's range and accuracy.\n\nSlightly longer range and higher damage than an Assault Rifle, but only fires two round bursts.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/BattleRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_SpecializedFirearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_BattleRifle</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>33.9</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>VWE_Shot_BattleRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+	<weaponTags>
+		<li>IndustrialGunAdvanced</li>
+	</weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Carbine -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>VWE_Bullet_Carbine</defName>
+    <label>carbine bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_Carbine</defName>
+    <label>carbine</label>
+    <description>Short bullpup carbine, used often in close quarters urban combat.\n\nWhilst it's accurate at close range, due to the short stock it is incapable of firing accurately at rifle range.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/Carbine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_SpecializedFirearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>VWE_Bullet_Carbine</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>22.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+	<weaponTags>
+		<li>IndustrialGunAdvanced</li>
+	</weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Marksman Rifle -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MarksmanRifle</defName>
+    <label>marksman rifle bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>80</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_MarksmanRifle</defName>
+    <label>marksman rifle</label>
+    <description>A designated marksman rifle.\n\nWhilst it shares similarities with a standard bolt-action rifle, it trades off it's damage for firing two shots in quick succession.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/MarksmanRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.32</drawSize>
+    </graphicData>
+	<comps>
+      <li> <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.70</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_DesignatedMarksmanRifle</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_MarksmanRifle</defaultProjectile>
+        <warmupTime>1.6</warmupTime>
+        <range>36.9</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>36</ticksBetweenBurstShots>
+        <soundCast>Shot_BoltActionRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+	<weaponTags>
+		<li>SniperRifle</li>
+	</weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Anti-Materiel Rifle -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AntiMaterialRifle</defName>
+    <label>anti-material impact shell</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>56</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>1</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_VeryBig</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>VWE_Gun_AntiMaterialRifle</defName>
+    <label>anti-material rifle</label>
+    <description>Being a .50 caliber rifle, this weapon was designed to fight enemy armored equipment.\n\nUsed widely around the rim in mechanoid warzones, this weapon is also useful against infantry, allowing for a 1-hit kill.</description>
+    <graphicData>
+      <texPath>Things/WeaponRanged/AntiMaterialRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.34</drawSize>
+    </graphicData>
+	<comps>
+      <li> <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>8</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.45</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.92</AccuracyLong>
+      <RangedWeapon_Cooldown>3.8</RangedWeapon_Cooldown>
+    </statBases>
+	<equippedAngleOffset>50</equippedAngleOffset>
+	<equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed> <!-- drawback -->
+	</equippedStatOffsets>
+    <costList>
+      <Steel>160</Steel>
+      <ComponentIndustrial>16</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_HeavyWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting> <!-- adapted # Dok 7 -->
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AntiMaterialRifle</defaultProjectile>
+        <warmupTime>4.6</warmupTime>
+        <range>42.9</range>
+        <soundCast>VWE_Shot_AntiMaterialRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+	<weaponTags Inherit="False"> <!-- make sure no other raiders wield this monstrum -->
+		<li>SniperRifle</li>
+	</weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

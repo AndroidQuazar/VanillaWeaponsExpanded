@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Shovel -->
+
+  <VWE_MeleeWeapon_Shovel.label>シャベル</VWE_MeleeWeapon_Shovel.label>
+  <VWE_MeleeWeapon_Shovel.description>塹壕を掘るために戦場のあちらこちらで普通に使われており、この小さな携帯用シャベルは優れた近接武器でもあります。</VWE_MeleeWeapon_Shovel.description>
+  <VWE_MeleeWeapon_Shovel.tools.handle.label>柄</VWE_MeleeWeapon_Shovel.tools.handle.label>
+  <VWE_MeleeWeapon_Shovel.tools.head.label>刃先</VWE_MeleeWeapon_Shovel.tools.head.label>
+
+
+  <!-- Baton -->
+
+  <VWE_MeleeWeapon_Baton.label>警棒</VWE_MeleeWeapon_Baton.label>
+  <VWE_MeleeWeapon_Baton.description>刑務官や都市に居る民兵がよく使う短い警棒です。</VWE_MeleeWeapon_Baton.description>
+  <VWE_MeleeWeapon_Baton.tools.handle.label>柄</VWE_MeleeWeapon_Baton.tools.handle.label>
+  <VWE_MeleeWeapon_Baton.tools.head.label>柄頭</VWE_MeleeWeapon_Baton.tools.head.label>
+
+
+  <!-- Combat Knife -->
+
+  <VWE_MeleeWeapon_CombatKnife.label>軍用ナイフ</VWE_MeleeWeapon_CombatKnife.label>
+  <VWE_MeleeWeapon_CombatKnife.description>人類最古の武器の一つです。ナイフはさまざまな形をとってきましたが、その概念は常に同じで、柄と刃というスタイルでした。\n\n軍用ナイフは、多くの軍隊で標準的な近接戦の格闘武器です。</VWE_MeleeWeapon_CombatKnife.description>
+  <VWE_MeleeWeapon_CombatKnife.tools.handle.label>柄</VWE_MeleeWeapon_CombatKnife.tools.handle.label>
+  <VWE_MeleeWeapon_CombatKnife.tools.blade.label>刃</VWE_MeleeWeapon_CombatKnife.tools.blade.label>
+  <VWE_MeleeWeapon_CombatKnife.tools.point.label>切っ先</VWE_MeleeWeapon_CombatKnife.tools.point.label>
+
+
+  <!-- Wrench -->
+
+  <VWE_MeleeWeapon_Wrench.label>レンチ</VWE_MeleeWeapon_Wrench.label>
+  <VWE_MeleeWeapon_Wrench.description>とても固くなったボルトも回す事ができる万能道具です。\n\nメカノイドの分解や機械の修理に役立ちます。</VWE_MeleeWeapon_Wrench.description>
+  <VWE_MeleeWeapon_Wrench.tools.handle.label>柄</VWE_MeleeWeapon_Wrench.tools.handle.label>
+  <VWE_MeleeWeapon_Wrench.tools.head.label>頭</VWE_MeleeWeapon_Wrench.tools.head.label>
+
+
+  <!-- Cleaver -->
+
+  <VWE_MeleeWeapon_Cleaver.label>肉包丁</VWE_MeleeWeapon_Cleaver.label>
+  <VWE_MeleeWeapon_Cleaver.description>人類最古の武器の一つです。ナイフはさまざまな形をとってきましたが、その概念は常に同じで、柄と刃というスタイルでした。\n\nこのタイプのナイフは、肉と骨などを切るために料理人によってよく使われます。</VWE_MeleeWeapon_Cleaver.description>
+  <VWE_MeleeWeapon_Cleaver.tools.handle.label>柄</VWE_MeleeWeapon_Cleaver.tools.handle.label>
+  <VWE_MeleeWeapon_Cleaver.tools.blade.label>刃</VWE_MeleeWeapon_Cleaver.tools.blade.label>
+
+
+  <!-- Scalpel -->
+
+  <VWE_MeleeWeapon_Scalpel.label>外科用メス</VWE_MeleeWeapon_Scalpel.label>
+  <VWE_MeleeWeapon_Scalpel.description>人類最古の武器の一つです。ナイフはさまざまな形をとってきましたが、その概念は常に同じで、柄と刃というスタイルでした。\n\nこれらのメスは切れ味が非常に鋭いので、外科医によく使われています。</VWE_MeleeWeapon_Scalpel.description>
+  <VWE_MeleeWeapon_Scalpel.tools.blade.label>刃</VWE_MeleeWeapon_Scalpel.tools.blade.label>
+  <VWE_MeleeWeapon_Scalpel.tools.point.label>切っ先</VWE_MeleeWeapon_Scalpel.tools.point.label>
+
+</LanguageData>

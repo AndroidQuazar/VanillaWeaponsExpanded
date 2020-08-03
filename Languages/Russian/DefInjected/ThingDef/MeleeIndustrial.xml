@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Shovel -->
+
+  <VWE_MeleeWeapon_Shovel.label>саперная лопатка</VWE_MeleeWeapon_Shovel.label>
+  <VWE_MeleeWeapon_Shovel.description>Эта небольшая портативная лопата, которая обычно используется на полях сражений для рытья траншей, так же является превосходным оружием ближнего боя.</VWE_MeleeWeapon_Shovel.description>
+  <VWE_MeleeWeapon_Shovel.tools.0.label>лревко</VWE_MeleeWeapon_Shovel.tools.0.label>
+  <VWE_MeleeWeapon_Shovel.tools.1.label>полотно</VWE_MeleeWeapon_Shovel.tools.1.label>
+
+
+  <!-- Baton -->
+
+  <VWE_MeleeWeapon_Baton.label>дубинка</VWE_MeleeWeapon_Baton.label>
+  <VWE_MeleeWeapon_Baton.description>Короткая дубинка используемая тюремными надзирателями или представителями органов правопорядка.</VWE_MeleeWeapon_Baton.description>
+  <VWE_MeleeWeapon_Baton.tools.0.label>рукоятка</VWE_MeleeWeapon_Baton.tools.0.label>
+  <VWE_MeleeWeapon_Baton.tools.1.label>наконечник</VWE_MeleeWeapon_Baton.tools.1.label>
+
+
+  <!-- Combat Knife -->
+
+  <VWE_MeleeWeapon_CombatKnife.label>боевой нож</VWE_MeleeWeapon_CombatKnife.label>
+  <VWE_MeleeWeapon_CombatKnife.description>Одно из старейших творений человечества. Нож принимает множество форм, но концепция всегда одинакова: рукоять для того что бы держать, лезвие для работы.\n\nБоевой нож - стандартная часть вооружения боевых формирований по всей вселенной.</VWE_MeleeWeapon_CombatKnife.description>
+  <VWE_MeleeWeapon_CombatKnife.tools.0.label>рукоятка</VWE_MeleeWeapon_CombatKnife.tools.0.label>
+  <VWE_MeleeWeapon_CombatKnife.tools.1.label>лезвие</VWE_MeleeWeapon_CombatKnife.tools.1.label>
+  <VWE_MeleeWeapon_CombatKnife.tools.2.label>острие</VWE_MeleeWeapon_CombatKnife.tools.2.label>
+
+
+  <!-- Wrench -->
+
+  <VWE_MeleeWeapon_Wrench.label>ключ</VWE_MeleeWeapon_Wrench.label>
+  <VWE_MeleeWeapon_Wrench.description>Универсальный инструмент, чтобы заставить работать даже самые заржавевшие вещи.\n\nПомогает при строительстве и разрушении конструкций механоидов.</VWE_MeleeWeapon_Wrench.description>
+  <VWE_MeleeWeapon_Wrench.tools.0.label>рукоятка</VWE_MeleeWeapon_Wrench.tools.0.label>
+  <VWE_MeleeWeapon_Wrench.tools.1.label>головка</VWE_MeleeWeapon_Wrench.tools.1.label>
+
+
+  <!-- Cleaver -->
+
+  <VWE_MeleeWeapon_Cleaver.label>мясницкий нож</VWE_MeleeWeapon_Cleaver.label>
+  <VWE_MeleeWeapon_Cleaver.description>Одно из старейших творений человечества. Нож принимает множество форм, но концепция всегда одинакова: рукоять для того что бы держать, лезвие для работы.\n\nЭтот здоровый и тяжелый нож предназначен для разделки и хорошо рубит мясо и кости.</VWE_MeleeWeapon_Cleaver.description>
+  <VWE_MeleeWeapon_Cleaver.tools.0.label>рукоятка</VWE_MeleeWeapon_Cleaver.tools.0.label>
+  <VWE_MeleeWeapon_Cleaver.tools.1.label>лезвие</VWE_MeleeWeapon_Cleaver.tools.1.label>
+
+
+  <!-- Scalpel -->
+
+  <VWE_MeleeWeapon_Scalpel.label>скальпель</VWE_MeleeWeapon_Scalpel.label>
+  <VWE_MeleeWeapon_Scalpel.description>Одно из старейших творений человечества. Нож принимает множество форм, но концепция всегда одинакова: рукоять для того что бы держать, лезвие для работы.\n\nЭтот нож предназначен для проведения операция и потому чрезвычайно острый.</VWE_MeleeWeapon_Scalpel.description>
+  <VWE_MeleeWeapon_Scalpel.tools.0.label>лезвие</VWE_MeleeWeapon_Scalpel.tools.0.label>
+  <VWE_MeleeWeapon_Scalpel.tools.1.label>острие</VWE_MeleeWeapon_Scalpel.tools.1.label>
+
+
+</LanguageData>

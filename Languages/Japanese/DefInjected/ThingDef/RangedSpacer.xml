@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Charge Pistol -->
+
+  <VWE_Bullet_ChargePistol.label>チャージピストル弾</VWE_Bullet_ChargePistol.label>
+
+  <VWE_Gun_ChargePistol.label>チャージピストル</VWE_Gun_ChargePistol.label>
+  <VWE_Gun_ChargePistol.description>チャージドショットピストルです。荷電粒子技術は、一発ずつのチャージ弾が銃身を出るときに不安定化した荷電エネルギーを加速して射出します。命中した衝撃により放出される荷電エネルギーは、ダメージをより大きくします。\n\nこの3連射できるピストルは、銀河帝国の特殊部隊に装備された非常に効果的な予備武器です。</VWE_Gun_ChargePistol.description>
+  <VWE_Gun_ChargePistol.tools.barrel.label>バレル</VWE_Gun_ChargePistol.tools.barrel.label>
+  <VWE_Gun_ChargePistol.verbs.Verb_Shoot.label>チャージピストル</VWE_Gun_ChargePistol.verbs.Verb_Shoot.label>
+
+
+  <!-- Charge Shotgun -->
+
+  <VWE_Bullet_ChargeShotgun.label>チャージ散弾</VWE_Bullet_ChargeShotgun.label>
+
+  <VWE_Gun_ChargeShotgun.label>チャージショットガン</VWE_Gun_ChargeShotgun.label>
+  <VWE_Gun_ChargeShotgun.description>チャージドショット散弾銃です。荷電粒子技術は、一発ずつのチャージ弾が銃身を出るときに不安定化した荷電エネルギーを加速して射出します。命中した衝撃により放出される荷電エネルギーは、ダメージをより大きくします。\n\n至近距離で使用されるこの散弾銃は、信じられない苦痛を与えるとして、銀河帝国軍によって使用が禁止されました。</VWE_Gun_ChargeShotgun.description>
+  <VWE_Gun_ChargeShotgun.tools.barrel.label>バレル</VWE_Gun_ChargeShotgun.tools.barrel.label>
+  <VWE_Gun_ChargeShotgun.verbs.Verb_Shoot.label>チャージショットガン</VWE_Gun_ChargeShotgun.verbs.Verb_Shoot.label>
+
+
+  <!-- Charge SMG -->
+
+  <VWE_Bullet_ChargeSMG.label>連射チャージ弾</VWE_Bullet_ChargeSMG.label>
+
+  <VWE_Gun_ChargeSMG.label>チャージサブマシンガン</VWE_Gun_ChargeSMG.label>
+  <VWE_Gun_ChargeSMG.description>チャージドショットサブマシンガンです。荷電粒子技術は、一発ずつのチャージ弾が銃身を出るときに不安定化した荷電エネルギーを加速して射出します。命中した衝撃により放出される荷電エネルギーは、ダメージをより大きくします。\n\n連射可能ですが、射程が短いので目標に接近する必要があります。</VWE_Gun_ChargeSMG.description>
+  <VWE_Gun_ChargeSMG.tools.barrel.label>バレル</VWE_Gun_ChargeSMG.tools.barrel.label>
+  <VWE_Gun_ChargeSMG.verbs.Verb_Shoot.label>チャージサブマシンガン</VWE_Gun_ChargeSMG.verbs.Verb_Shoot.label>
+
+
+  <!-- Charge LMG -->
+
+  <VWE_Bullet_ChargeLMG.label>チャージ軽機関銃弾</VWE_Bullet_ChargeLMG.label>
+
+  <VWE_Gun_ChargeLMG.label>チャージ軽機関銃</VWE_Gun_ChargeLMG.label>
+  <VWE_Gun_ChargeLMG.description>チャージドショット軽機関銃です。荷電粒子技術は、一発ずつのチャージ弾が銃身を出るときに不安定化した荷電エネルギーを加速して射出します。命中した衝撃により放出される荷電エネルギーは、ダメージをより大きくします。\n\nチャージ軽機関銃は、超高速で発射体を連射できるので、エリア制圧に理想的な武器です。</VWE_Gun_ChargeLMG.description>
+  <VWE_Gun_ChargeLMG.tools.barrel.label>バレル</VWE_Gun_ChargeLMG.tools.barrel.label>
+  <VWE_Gun_ChargeLMG.verbs.Verb_Shoot.label>チャージ軽機関銃</VWE_Gun_ChargeLMG.verbs.Verb_Shoot.label>
+
+
+  <!-- Charge Sniper Rifle -->
+
+  <VWE_Bullet_ChargeSniperRifle.label>チャージ狙撃弾</VWE_Bullet_ChargeSniperRifle.label>
+
+  <VWE_Gun_ChargeSniperRifle.label>チャージ狙撃銃</VWE_Gun_ChargeSniperRifle.label>
+  <VWE_Gun_ChargeSniperRifle.description>銃身が三本あるチャージドショットスナイパーライフルです。荷電粒子技術は、一発ずつのチャージ弾が銃身を出るときに不安定化した荷電エネルギーを加速して射出します。命中した衝撃により放出される荷電エネルギーは、ダメージをより大きくします。\n\n3本別々の銃身がそれぞれ同時に発砲するため、武器の威力と発射速度が低下します。</VWE_Gun_ChargeSniperRifle.description>
+  <VWE_Gun_ChargeSniperRifle.tools.stock.label>ストック</VWE_Gun_ChargeSniperRifle.tools.stock.label>
+  <VWE_Gun_ChargeSniperRifle.tools.barrel.label>バレル</VWE_Gun_ChargeSniperRifle.tools.barrel.label>
+  <VWE_Gun_ChargeSniperRifle.verbs.Verb_Shoot.label>チャージ狙撃銃</VWE_Gun_ChargeSniperRifle.verbs.Verb_Shoot.label>
+
+
+  <!-- Charge Minigun -->
+
+  <VWE_Bullet_ChargeMinigun.label>チャージガトリング弾</VWE_Bullet_ChargeMinigun.label>
+
+  <VWE_Gun_ChargeMinigun.label>チャージガトリング</VWE_Gun_ChargeMinigun.label>
+  <VWE_Gun_ChargeMinigun.description>チャージドショットガトリングです。荷電粒子技術は、一発ずつのチャージ弾が銃身を出るときに不安定化した荷電エネルギーを加速して射出します。命中した衝撃により放出される荷電エネルギーは、ダメージをより大きくします。\n\n対装甲チャージ弾を一斉射撃してエリア全体を制圧射撃できるこのガトリング銃は、GlitterWorldの悪名高い傭兵部隊の降下攻撃の際によく使用されています。</VWE_Gun_ChargeMinigun.description>
+  <VWE_Gun_ChargeMinigun.tools.stock.label>ストック</VWE_Gun_ChargeMinigun.tools.stock.label>
+  <VWE_Gun_ChargeMinigun.tools.barrel.label>バレル</VWE_Gun_ChargeMinigun.tools.barrel.label>
+  <VWE_Gun_ChargeMinigun.verbs.Verb_Shoot.label>チャージガトリング</VWE_Gun_ChargeMinigun.verbs.Verb_Shoot.label>
+
+</LanguageData>

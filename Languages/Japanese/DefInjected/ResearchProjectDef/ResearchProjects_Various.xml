@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VWE_Longbow.label>ロングボウ</VWE_Longbow.label>
+  <VWE_Longbow.description>新石器時代の狙撃銃に相当するロングボウを作ります。</VWE_Longbow.description>
+
+  <VWE_Crossbow.label>クロスボウ</VWE_Crossbow.label>
+  <VWE_Crossbow.description>鎧を着た敵と戦うために、クロスボウを作ります。</VWE_Crossbow.description>
+
+  <VWE_CompoundBow.label>コンパウンドボウ</VWE_CompoundBow.label>
+  <VWE_CompoundBow.description>通常の弓よりも矢を遠くに放ち、撃つ際に音が出ないように滑車やワイヤーを使う複合材料の弓を作ります。</VWE_CompoundBow.description>
+
+  <VWE_Tools.label>道具類</VWE_Tools.label>
+  <VWE_Tools.description>鍛冶などの日々の作業で役に立つ色々な道具を作ります。</VWE_Tools.description>
+
+  <VWE_Gunpowder.label>黒色火薬</VWE_Gunpowder.label>
+  <VWE_Gunpowder.description>最古の爆発物と知られている黒色火薬を製造します。</VWE_Gunpowder.description>
+
+  <VWE_TrenchWarfare.label>塹壕戦</VWE_TrenchWarfare.label>
+  <VWE_TrenchWarfare.description>塹壕戦のドクトリンを採用して、近距離での遭遇戦に備えた武器の製造を解禁します。</VWE_TrenchWarfare.description>
+
+  <VWE_HeavyWeapons.label>重火器</VWE_HeavyWeapons.label>
+  <VWE_HeavyWeapons.description>取扱いが難しく支える筋力が必要な進歩した銃火器を作ります。</VWE_HeavyWeapons.description>
+
+  <VWE_Flamethrower.label>火炎放射器</VWE_Flamethrower.label>
+  <VWE_Flamethrower.description>長い間文明世界で禁止されていた火炎放射器を作ります。</VWE_Flamethrower.description>
+
+  <VWE_SpecializedFirearms.label>特殊火器</VWE_SpecializedFirearms.label>
+  <VWE_SpecializedFirearms.description>さまざまな戦術シナリオに特化した銃を開発します。</VWE_SpecializedFirearms.description>
+
+  <VWE_DesignatedMarksmanRifle.label>セミオート狙撃銃</VWE_DesignatedMarksmanRifle.label>
+  <VWE_DesignatedMarksmanRifle.description>最先端の半自動式狙撃銃を作ります。</VWE_DesignatedMarksmanRifle.description>
+
+  <VWE_TacticalGrenades.label>戦術手榴弾</VWE_TacticalGrenades.label>
+  <VWE_TacticalGrenades.description>何種類かの特殊な手榴弾を作ります。</VWE_TacticalGrenades.description>
+
+  <VWE_LaserTargetingSystems.label>レーザーマーカーシステム</VWE_LaserTargetingSystems.label>
+  <VWE_LaserTargetingSystems.description>レーザー式の照準システムを利用して、荷電粒子弾頭を正確かつ迅速に命中させます。</VWE_LaserTargetingSystems.description>
+
+</LanguageData>

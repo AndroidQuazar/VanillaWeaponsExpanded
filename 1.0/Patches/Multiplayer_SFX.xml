@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Multiplayer Support -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Multiplayer</li>
+	</mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+		  <li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="VWE_Gun_Musket"]/verbs/li/verbClass</xpath>
+			<value>
+			  <verbClass>Verb_Shoot</verbClass>
+			</value>
+		  </li>
+		  <li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="VWE_Gun_Flintlock"]/verbs/li/verbClass</xpath>
+			<value>
+			  <verbClass>Verb_Shoot</verbClass>
+			</value>
+		  </li>
+		  <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VWE_Rocket_AntiGrain"]/thingClass</xpath>
+			<value>
+			  <thingClass>Projectile_DoomsdayRocket</thingClass>
+			</value>
+		  </li>
+		  <li Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="VWE_Rocket_AntiGrain"]/modExtensions/li[@Class="Submunition.DefSubmunitionExtension"]</xpath>
+		  </li>
+		  <li Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="VWE_Gun_ChargeRocketLauncher"]/verbs/li</xpath>
+			<value>
+			  <forcedMissRadius>0.1</forcedMissRadius>
+			</value>
+		  </li>
+		  <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VWE_Bullet_Flamethrower"]/thingClass</xpath>
+			<value>
+			  <thingClass>Projectile_Explosive</thingClass>
+			</value>
+		  </li>
+		  <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VWE_Bullet_FireExtinguisher"]/thingClass</xpath>
+			<value>
+			  <thingClass>Projectile_Explosive</thingClass>
+			</value>
+		  </li>
+		  <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VWE_Projectile_SmokeGrenade"]/thingClass</xpath>
+			<value>
+			  <thingClass>Projectile_Explosive</thingClass>
+			</value>
+		  </li>
+		  <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="VWE_Projectile_ToxicGrenade"]/thingClass</xpath>
+			<value>
+			  <thingClass>Projectile_Explosive</thingClass>
+			</value>
+		  </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

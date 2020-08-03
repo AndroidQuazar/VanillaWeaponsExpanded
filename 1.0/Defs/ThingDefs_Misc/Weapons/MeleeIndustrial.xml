@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- Shovel -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>VWE_MeleeWeapon_Shovel</defName>
+    <label>shovel</label>
+    <description>Commonly used across the battlefield to dig trenches, this small portable shovel is an excellent close range weapon.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/Shovel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel> <!-- raiders won't wield those -->
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>1.8</Mass>
+    </statBases>
+    <equippedStatOffsets>
+		<MiningSpeed>0.15</MiningSpeed>
+		<PlantHarvestYield>0.15</PlantHarvestYield>	  <!-- 0.15 max, balanced out in comparison with other community tools in its category -->
+    </equippedStatOffsets>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools> <!-- adjust # Document 12  -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+	<weaponTags>
+      <li>ToolDecent</li>
+    </weaponTags>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_TrenchWarfare</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- Baton -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>VWE_MeleeWeapon_Baton</defName>
+    <label>baton</label>
+    <description>A short peacekeeping baton commonly used by prison guards and urbworld militia.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/Baton</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel> <!-- raiders won't wield those -->
+    <costStuffCount>50</costStuffCount>
+    <statBases>
+      <WorkToMake>6600</WorkToMake>
+      <Mass>1.6</Mass>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+	<weaponTags>
+      <li>ToolDecent</li>
+    </weaponTags>
+    <tools> <!-- adjust DPS # Document 14 -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_TrenchWarfare</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- Combat Knife -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<defName>VWE_MeleeWeapon_CombatKnife</defName>
+	<label>combat knife</label>
+	<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nCombat knife is a standard issue melee weapon for most of the military forces.</description> <!-- Vanilla Original Text plus nn -->
+	<graphicData>
+		<texPath>Things/WeaponMelee/CombatKnife</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <techLevel>Industrial</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>50</costStuffCount>
+	<statBases>
+		<WorkToMake>6400</WorkToMake>
+		<Mass>0.5</Mass>
+	</statBases>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+    <tools> <!-- adjust while balancing # Document 14 -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+		<armorPenetration>0.15</armorPenetration>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+	<recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_TrenchWarfare</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- Wrench -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>VWE_MeleeWeapon_Wrench</defName>
+    <label>wrench</label>
+    <description>A universal instrument to make even the sturdiest things work.\n\nAids with construction and breaking down Mechanoid constructs.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/Wrench</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel> <!-- raiders won't wield those -->
+    <costStuffCount>65</costStuffCount>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedStatOffsets>
+	  <ConstructSuccessChance>0.15</ConstructSuccessChance>
+	  <FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
+	  <ButcheryMechanoidEfficiency>0.15</ButcheryMechanoidEfficiency>
+	  <ButcheryMechanoidSpeed>0.15</ButcheryMechanoidSpeed> <!-- my vanilla friendly suggestions -->
+    </equippedStatOffsets>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools> <!-- adjust DPS # Document 16 -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+		<armorPenetration>0.45</armorPenetration>
+        <cooldownTime>2.3</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_Tools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<weaponTags>
+      <li>ToolDecent</li>
+    </weaponTags>
+  </ThingDef>
+
+<!-- Cleaver -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<defName>VWE_MeleeWeapon_Cleaver</defName>
+	<label>cleaver</label>
+	<techLevel>Industrial</techLevel> 
+	<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nThis type of knife is commonly used by chefs to cut meat and bones alike.</description> <!-- Vanilla Original Text plus nn -->
+	<graphicData>
+		<texPath>Things/WeaponMelee/Cleaver</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>65</costStuffCount>
+	<statBases>
+		<WorkToMake>10000</WorkToMake>
+		<Mass>1.2</Mass>
+	</statBases>
+    <equippedStatOffsets>
+	  <CookSpeed>0.15</CookSpeed> <!-- my vanilla friendly suggestions -->
+    </equippedStatOffsets>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+    <tools> <!-- adjust while balancing # Document 16 -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_Tools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- Scalpel -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<defName>VWE_MeleeWeapon_Scalpel</defName>
+	<label>scalpel</label>
+	<techLevel>Industrial</techLevel> 
+	<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting.\n\nThis blade is commonly used by surgeons due to it's extreme sharpness.</description>
+	<graphicData>
+		<texPath>Things/WeaponMelee/Scalpel</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <costStuffCount>65</costStuffCount>
+	<statBases>
+		<WorkToMake>10000</WorkToMake>
+		<Mass>0.8</Mass>
+	</statBases>
+    <equippedStatOffsets>
+	  <MedicalTendQualityOffset>0.1</MedicalTendQualityOffset>
+      <MedicalPotency>0.15</MedicalPotency> <!-- my vanilla friendly suggestions -->
+    </equippedStatOffsets>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+    <tools> <!-- adjust while balancing # Document 18 -->
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>VWE_Tools</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<weaponTags>
+      <li>ToolDecent</li>
+    </weaponTags>
+  </ThingDef>
+
+</Defs>

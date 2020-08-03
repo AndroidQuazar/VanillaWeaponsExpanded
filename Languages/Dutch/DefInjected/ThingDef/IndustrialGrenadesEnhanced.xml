@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SMOKE GRENADE -->
+
+  <VWE_SmokeGrenade.label>rookgranaten</VWE_SmokeGrenade.label>
+  <VWE_SmokeGrenade.description>Standaardrookbommen die ontploffen in een rookgordijn bij impact.</VWE_SmokeGrenade.description>
+  <VWE_SmokeGrenade.verbs.0.label>gooi rookgranaat</VWE_SmokeGrenade.verbs.0.label>
+
+  <VWE_Projectile_SmokeGrenade.label>rookgranaat</VWE_Projectile_SmokeGrenade.label>
+
+
+  <!-- Grenade -->
+
+  <VWE_ToxicGrenade.label>gifgranaat</VWE_ToxicGrenade.label>
+  <VWE_ToxicGrenade.description>Gifgas in werpbare vorm die voor ernstige giftige opbouw zorgt in het lichaam over korte tijd.</VWE_ToxicGrenade.description>
+  <VWE_ToxicGrenade.verbs.0.label>gooi gifgranaat</VWE_ToxicGrenade.verbs.0.label>
+
+  <VWE_Projectile_ToxicGrenade.label>gifgranaat</VWE_Projectile_ToxicGrenade.label>
+
+
+  <!-- Flash grenade -->
+
+  <VWE_FlashGrenade.label>flitsgranaat</VWE_FlashGrenade.label>
+  <VWE_FlashGrenade.description>Een flitsgranaat die tijdelijk de vijand verdooft. Werkt alleen op mensen en dieren.</VWE_FlashGrenade.description>
+  <VWE_FlashGrenade.verbs.0.label>gooi flitsgranaat</VWE_FlashGrenade.verbs.0.label>
+
+  <VWE_Projectile_FlashGrenade.label>flitsgranaat</VWE_Projectile_FlashGrenade.label>
+
+
+</LanguageData>

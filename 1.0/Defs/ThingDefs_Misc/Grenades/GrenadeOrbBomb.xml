@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Grenade -->
+	<ThingDef ParentName="BaseOPToxMakeableGrenade">
+		<defName>VWE_OPOrbBombGrenade</defName> <!-- independent -->
+		<label>Orbital Bombardment Grenade</label>
+		<description>Single use launcher that applies marker gas to call in a bombardment.</description>
+		<graphicData>
+			<texPath>Things/Grenades/OrbitalGrenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>		
+		<soundInteract>Interact_Grenade</soundInteract>
+		<tickerType>Normal</tickerType>
+		<recipeMaker>
+		<researchPrerequisite>VWE_OrbitalSupport</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>11</Crafting> <!-- adapted # Dok 8 -->
+		  	</skillRequirements>
+		    <recipeUsers>
+        			<li>FabricationBench</li>
+      		</recipeUsers>
+		</recipeMaker>
+		<techLevel>Industrial</techLevel>
+    	<weaponTags Inherit="false" />
+   		<thingCategories>
+   	   		<li>Grenades</li>
+    	</thingCategories>
+		<generateCommonality>0.05</generateCommonality>
+		<statBases>
+			<WorkToMake>50000</WorkToMake>
+			<Mass>1.6</Mass>
+			<RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+			<Flammability>1.0</Flammability>
+			<SellPriceFactor>0.5</SellPriceFactor>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<costList>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<label>launch marker grenade</label>
+			    <forcedMissRadius>1.9</forcedMissRadius>			
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>VWE_Grenade_OPOrbBomb</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>30</range>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<onlyManualCast>true</onlyManualCast>
+				<targetParams>
+				    <canTargetLocations>true</canTargetLocations>
+				</targetParams>		
+				<soundCast>ThrowGrenade</soundCast>
+				<!-- <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack> -->
+				<ai_AvoidFriendlyFireRadius>14</ai_AvoidFriendlyFireRadius>
+				<minRange>14</minRange>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+      		<li Class="CompProperties_Explosive">
+        			<explosiveRadius>2.66</explosiveRadius>
+        			<explosiveDamageType>Bomb</explosiveDamageType>
+        			<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+      		</li>
+    	</comps>
+	</ThingDef>		
+
+  <ThingDef ParentName="BaseOPToxGrenadeProjectile">
+    <defName>VWE_Grenade_OPOrbBomb</defName>
+    <label>Orbital Bombardment Flare Marker</label>
+    <graphicData>
+      	<texPath>Things/Projectile/GrenadeOrbital</texPath>
+      	<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      	<damageDef>BombSuper</damageDef> <!-- Dam_OPToxin -->
+      	<speed>40</speed>
+      	<explosionRadius>0.1</explosionRadius>
+      	<flyOverhead>false</flyOverhead>
+      	<soundExplode>DispensePaste</soundExplode>
+      	<postExplosionSpawnThingDef>VWE_Gas_OPBombMark</postExplosionSpawnThingDef>
+      	<postExplosionSpawnChance>1</postExplosionSpawnChance>
+      	<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      	<applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
+		<explosionDelay>50</explosionDelay>
+    </projectile>
+  </ThingDef>
+  
+  	<!-- Gas Thing -->
+	<ThingDef ParentName="BaseGas">
+    		<defName>VWE_Gas_OPBombMark</defName>
+    		<label>OP Bombardment Marker Gas</label>
+    		<graphicData>
+      			<texPath>Things/Projectile/FlareRed</texPath>
+      			<drawSize>1</drawSize>
+				<graphicClass>Graphic_Flicker</graphicClass>
+    		</graphicData>
+    		<gas>
+      			<expireSeconds>
+        				<min>25</min>
+        				<max>30</max>
+      			</expireSeconds>
+      			<blockTurretTracking>true</blockTurretTracking>
+      			<accuracyPenalty>0.5</accuracyPenalty>
+      			<rotationSpeed>10</rotationSpeed>
+    		</gas>
+			<thingClass>OPToxic.OPOrbitalBomb</thingClass>
+  	</ThingDef>
+	
+	<!-- Bombardment Def -->
+	<ThingDef ParentName="OrbitalStrikeBase">
+    	<defName>OPBombardment</defName>
+    	<label>bombardment</label>
+    	<thingClass>OPToxic.OPBombardment</thingClass>
+    	<comps>
+      	<li Class="CompProperties_OrbitalBeam">
+        		<width>0.3</width>
+        		<color>(222, 102, 16, 242)</color>
+        		<sound>OrbitalBeamSubtle</sound>
+      	</li>
+    	</comps>
+		<modExtensions>
+			<li Class="OPToxic.OPBombDefs">
+				<OPBombDmg>45</OPBombDmg>						<!-- integer (1 - 99) -->
+        			<OPBombImpactRadius>6</OPBombImpactRadius>		<!-- integer (1 - 30) -->
+        			<OPBombBlastMinRadius>6</OPBombBlastMinRadius>	<!-- integer (1 - 10) -->
+        			<OPBombBlastMaxRadius>8</OPBombBlastMaxRadius> 	<!-- integer (1 - 10) -->
+			</li>
+		</modExtensions>
+  	</ThingDef>
+
+</Defs>
