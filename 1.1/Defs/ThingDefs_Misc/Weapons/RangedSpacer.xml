@@ -117,7 +117,7 @@
       <AccuracyShort>0.67</AccuracyShort>
       <AccuracyMedium>0.57</AccuracyMedium>
       <AccuracyLong>0.54</AccuracyLong>
-      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
       <WorkToMake>45000</WorkToMake>
     </statBases>
     <recipeMaker>
@@ -142,7 +142,8 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_ChargeShotgun</defaultProjectile>
         <warmupTime>0.9</warmupTime>
-        <range>12.9</range>
+        <range>14.9</range>
+		<burstShotCount>2</burstShotCount>
         <soundCast>VWE_Shot_ChargeShotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -332,7 +333,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>14</damageAmountBase>
+      <damageAmountBase>20</damageAmountBase>
 	  <armorPenetrationBase>0.35</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>80</speed>
@@ -357,8 +358,8 @@
     <statBases>
       <WorkToMake>50000</WorkToMake>
       <Mass>4.6</Mass>
-      <AccuracyTouch>0.50</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
       <AccuracyMedium>0.86</AccuracyMedium>
       <AccuracyLong>0.88</AccuracyLong>
       <RangedWeapon_Cooldown>2.30</RangedWeapon_Cooldown>
@@ -384,9 +385,9 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_ChargeSniperRifle</defaultProjectile>
-        <warmupTime>3.5</warmupTime>
-        <range>38.9</range>
-        <ticksBetweenBurstShots>0</ticksBetweenBurstShots> <!-- check -->
+        <warmupTime>3.0</warmupTime>
+        <range>39.9</range>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
         <soundCast>VWE_Shot_ChargeSniperRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -424,7 +425,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>8</damageAmountBase>
+      <damageAmountBase>9</damageAmountBase>
 	  <armorPenetrationBase>0.25</armorPenetrationBase>
       <speed>60</speed>
     </projectile>
@@ -448,11 +449,11 @@
     <statBases>
       <WorkToMake>90000</WorkToMake>
       <Mass>12</Mass>
-      <AccuracyTouch>0.15</AccuracyTouch>
-      <AccuracyShort>0.25</AccuracyShort>
-      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyTouch>0.20</AccuracyTouch>
+      <AccuracyShort>0.30</AccuracyShort>
+      <AccuracyMedium>0.30</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
@@ -477,9 +478,9 @@
         <defaultProjectile>VWE_Bullet_ChargeMinigun</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <minRange>1.5</minRange>
-        <range>33.9</range>
-        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <burstShotCount>35</burstShotCount>
+        <range>31.9</range>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <burstShotCount>30</burstShotCount>
         <soundCast>VWE_Shot_ChargeMinigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
