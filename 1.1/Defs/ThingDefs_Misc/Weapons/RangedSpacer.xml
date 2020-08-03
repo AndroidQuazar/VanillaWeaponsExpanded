@@ -13,7 +13,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>9</damageAmountBase>
+      <damageAmountBase>8</damageAmountBase>
 	  <armorPenetrationBase>0.35</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
@@ -221,7 +221,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_ChargeSMG</defaultProjectile>
         <warmupTime>0.9</warmupTime>
-        <range>19.9</range>
+        <range>24.9</range>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
         <soundCast>VWE_Shot_ChargeSMG</soundCast>
@@ -254,7 +254,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
+      <damageAmountBase>9</damageAmountBase>
 	  <armorPenetrationBase>0.35</armorPenetrationBase>
       <stoppingPower>1</stoppingPower>
       <speed>60</speed>
@@ -302,7 +302,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>VWE_Bullet_ChargeLMG</defaultProjectile>
         <warmupTime>1.8</warmupTime>
-        <range>25.9</range>
+        <range>27.9</range>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <burstShotCount>12</burstShotCount>
         <soundCast>Shot_ChargeBlaster</soundCast>
