@@ -29,8 +29,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Chemfuel>75</Chemfuel>
-	  <Steel>25</Steel>
+      <Chemfuel>40</Chemfuel>
+	  <Steel>10</Steel>
     </costList>
 		<weaponTags>
 			<li>GrenadeDestructive</li>
@@ -151,9 +151,9 @@
 		<MarketValue>850</MarketValue>
 	</statBases>
 	<costList>
-		<Chemfuel>200</Chemfuel>
-		<Plasteel>65</Plasteel>
-		<ComponentSpacer>2</ComponentSpacer>
+		<Chemfuel>100</Chemfuel>
+		<Plasteel>35</Plasteel>
+		<ComponentSpacer>1</ComponentSpacer>
 	</costList>
 	<tradeTags>
 		<li>Exotic</li>
