@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <napoleonBonaparty.label>皇帝ナポレオン</napoleonBonaparty.label>
+  <napoleonBonaparty.description>マスケット銃を10個作る</napoleonBonaparty.description>
+
+  <poshRockLobber.label>贅沢な投石</poshRockLobber.label>
+  <poshRockLobber.description>ヒスイ製の投石を作る</poshRockLobber.description>
+
+  <burnThemAll.label>汚物は消毒だ！</burnThemAll.label>
+  <burnThemAll.description>火炎放射器を作る</burnThemAll.description>
+
+  <gunsGallore.label>豊富な銃</gunsGallore.label>
+  <gunsGallore.description>全ての武器の研究を完了させる</gunsGallore.description>
+
+  <superCharged.label>オーバーキル！</superCharged.label>
+  <superCharged.description>幻品質のチャージガトリングを作る</superCharged.description>
+
+</LanguageData>

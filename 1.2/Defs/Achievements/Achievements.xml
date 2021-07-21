@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>napoleonBonaparty</defName>
+		<label>Napoleon BonaPARTY</label>
+		<description>Craft 10 Muskets</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>VWE_Gun_Musket</def>
+			<count>10</count>
+		</tracker>
+		
+		<texPath>Achievements/napoleonBonaparty</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>poshRockLobber</defName>
+		<label>Posh Rock Lobber</label>
+		<description>Craft jade throwing rocks</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>VWE_Throwing_Rocks</def>
+			<madeFrom>Jade</madeFrom>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/poshRockLobber</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>burnThemAll</defName>
+		<label>Burn Them All!</label>
+		<description>Craft a flamethrower</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>VWE_Gun_Flamethrower</def>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/burnThemAll</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>gunsGallore</defName>
+		<label>Guns Gallore</label>
+		<description>Research Specialized Firearms</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ResearchTracker">
+			<def>VWE_SpecializedFirearms</def>
+		</tracker>
+		
+		<texPath>Achievements/gunsGallore</texPath>
+		<points>10</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	<AchievementsExpanded.AchievementDef>
+		<defName>superCharged</defName>
+		<label>Supercharged!</label>
+		<description>Craft a legendary charge minigun</description>
+		<tab>VanillaExpanded</tab>
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
+			<def>VWE_Gun_ChargeMinigun</def>
+			<quality>Legendary</quality>
+			<count>1</count>
+		</tracker>
+		
+		<texPath>Achievements/superCharged</texPath>
+		<points>25</points>
+	</AchievementsExpanded.AchievementDef>
+	
+	
+
+</Defs>

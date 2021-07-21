@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TradeCaravanRewardVE.label>トレードキャラバンを呼び出す</TradeCaravanRewardVE.label>
+  <CargoPodsRewardVE.label>輸送ポッドを落下</CargoPodsRewardVE.label>
+
+  <!-- <RandomRewardQuest.label>ランダムクエスト</RandomRewardQuest.label> -->
+
+  <ManInBlackRewardVE.label>黒衣の男を参加させる</ManInBlackRewardVE.label>
+
+</LanguageData>

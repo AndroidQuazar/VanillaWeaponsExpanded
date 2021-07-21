@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <!-- Mod Support for Apex Rimworld Legends -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Apex: Rimworld Legends</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Unify -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Weapon_OPOrbBombGrenade"]/label</xpath>
+				<value>
+					<label>apex orbital bomb marker</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ChargeGrenade"]/label</xpath>
+				<value>
+					<label>apex charge grenades</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_SmokeGrenade"]/label</xpath>
+				<value>
+					<label>apex smoke grenades</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ToxicGrenade"]/label</xpath>
+				<value>
+					<label>apex toxic grenades</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_CombatHandgun"]/label</xpath>
+				<value>
+					<label>apex combat handgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ShotgunHandgun"]/label</xpath>
+				<value>
+					<label>apex shotgun handgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ChargePistol"]/label</xpath>
+				<value>
+					<label>apex charge pistol</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_HandCannon"]/label</xpath>
+				<value>
+					<label>apex hand cannon</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_LeverActionShotgun"]/label</xpath>
+				<value>
+					<label>apex lever-action shotgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_SemiAutomaticShotgun"]/label</xpath>
+				<value>
+					<label>apex semi-automatic shotgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ChargeShotgun"]/label</xpath>
+				<value>
+					<label>apex charge shotgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_LightSMG"]/label</xpath>
+				<value>
+					<label>apex light SMG</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ChargeSMG"]/label</xpath>
+				<value>
+					<label>apex charge SMG</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_CompactSMG"]/label</xpath>
+				<value>
+					<label>apex compact SMG</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ChargeLMG"]/label</xpath>
+				<value>
+					<label>apex charge LMG</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_HMG"]/label</xpath>
+				<value>
+					<label>apex HMG</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_MechanoidLMG"]/label</xpath>
+				<value>
+					<label>apex mechanoid LMG</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_MechanoidRifle"]/label</xpath>
+				<value>
+					<label>apex mechanoid rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_BullpupRifle"]/label</xpath>
+				<value>
+					<label>apex bullpup rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_AssaultCarbine"]/label</xpath>
+				<value>
+					<label>apex assault carbine</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_BattleRifle"]/label</xpath>
+				<value>
+					<label>apex battle rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ChargeSniperRifle"]/label</xpath>
+				<value>
+					<label>apex charge sniper rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_SemiautomaticRifle"]/label</xpath>
+				<value>
+					<label>apex semi-automatic rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_MarksmanRifle"]/label</xpath>
+				<value>
+					<label>apex marksman rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_MechanoidSniperRifle"]/label</xpath>
+				<value>
+					<label>apex mechanoid sniper rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_MechanoidRocketLauncher"]/label</xpath>
+				<value>
+					<label>apex mechanoid inferno launcher</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_GrenadeLauncher"]/label</xpath>
+				<value>
+					<label>apex grenade launcher</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ARL_ChargeMinigun"]/label</xpath>
+				<value>
+					<label>apex charge minigun</label>
+				</value>
+			</li>
+		</operations>
+	</match>
+  </Operation>
+
+</Patch>

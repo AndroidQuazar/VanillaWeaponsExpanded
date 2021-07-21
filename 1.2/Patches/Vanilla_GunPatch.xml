@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Core</li>
+		</mods>
+
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+                    <xpath>/Defs/SoundDef[defName="Shot_SniperRifle"]/subSounds/li/grains/li[clipFolderPath="Weapon/SniperRifle"]/clipFolderPath</xpath>
+                    <value>
+						<clipFolderPath>Things/VanillaSniperShot</clipFolderPath>
+                    </value>
+                  </li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

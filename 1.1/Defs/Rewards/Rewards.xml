@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AchievementsExpanded.Reward_EnemyRaid>
+		<defName>EnemyRaidRewardVE</defName>
+		<label>Summon A Raid</label>
+		<tab>VFE_VanillaExpanded</tab>
+		
+		<cost>10</cost>
+		<incident>RaidEnemy</incident>
+	</AchievementsExpanded.Reward_EnemyRaid>
+	
+	<AchievementsExpanded.Reward_MapIncident>
+		<defName>TradeCaravanRewardVE</defName>
+		<label>Summon a Trade Caravan</label>
+		<tab>VFE_VanillaExpanded</tab>
+		
+		<cost>15</cost>
+		<incident>TraderCaravanArrival</incident>
+	</AchievementsExpanded.Reward_MapIncident>
+	
+	<AchievementsExpanded.Reward_RandomEvent>
+		<defName>RandomEventRewardVE</defName>
+		<label>Random Event</label>
+		<tab>VFE_VanillaExpanded</tab>
+		
+		<cost>25</cost>
+	</AchievementsExpanded.Reward_RandomEvent>
+	
+	<AchievementsExpanded.Reward_MapIncident>
+		<defName>CargoPodsRewardVE</defName>
+		<label>Spawn Cargo Pods</label>
+		<tab>VFE_VanillaExpanded</tab>
+		
+		<cost>25</cost>
+		<incident>ResourcePodCrash</incident>
+	</AchievementsExpanded.Reward_MapIncident>
+
+	<!--
+	<AchievementsExpanded.Reward_RandomQuest>
+		<defName>RandomRewardQuest</defName>
+		<label>Random Quest</label>
+		
+		<cost>50</cost>
+	</AchievementsExpanded.Reward_RandomQuest>
+	-->
+	
+	<AchievementsExpanded.Reward_RandomQuestItem>
+		<defName>RandomRewardQuestItemVE</defName>
+		<label>Random Quest Item</label>
+		<tab>VFE_VanillaExpanded</tab>
+		
+		<cost>100</cost>
+		<thingSetMakerTags>
+			<li>RewardStandardMidFreq</li>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</AchievementsExpanded.Reward_RandomQuestItem>
+	
+	<AchievementsExpanded.Reward_MapIncident>
+		<defName>ManInBlackRewardVE</defName>
+		<label>Man in Black Joins</label>
+		<tab>VFE_VanillaExpanded</tab>
+		
+		<cost>150</cost>
+		<incident>StrangerInBlackJoin</incident>
+	</AchievementsExpanded.Reward_MapIncident>
+</Defs>

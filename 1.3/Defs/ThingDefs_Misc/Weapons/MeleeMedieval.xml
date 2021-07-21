@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Pickaxe -->
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>VWE_MeleeWeapon_Pickaxe</defName> <!-- unique -->
+    <label>pickaxe</label>
+    <description>This basic invention is effective as a weapon, while being a tool at the same time. Needs some muscles to work with, but makes digging through mountains overall more comfortable.\n\nThe shape of the head allows to pierce thicker armor.</description>
+    <graphicData>
+      <texPath>Things/WeaponMelee/Pickaxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel> <!-- no raiders wielding -->
+    <costStuffCount>60</costStuffCount>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1.8</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MiningSpeed>0.33</MiningSpeed> <!-- 0.15 to 0.33 max, balanced out in comparison with other community tools in its category -->
+    </equippedStatOffsets>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<weaponTags>
+		<li>MedievalMeleeDecent</li>
+	</weaponTags>
+    <tools> <!-- needs adjustment maybe # Document 13 -->
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>13</power>
+		<armorPenetration>0.35</armorPenetration>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+	  <researchPrerequisite>Smithing</researchPrerequisite>
+			<skillRequirements>
+			<Crafting>3</Crafting>
+	  </skillRequirements>
+	</recipeMaker>
+</ThingDef>
+
+<!-- Hammer -->
+ <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+	<defName>VWE_MeleeWeapon_Hammer</defName> <!-- unique -->
+	<label>hammer</label>
+	<description>A hammer is a tool that consists of a heavy piece of metal or stone at the end of a handle. It is used, for example, to hit nails into a piece of wood or a wall.\n\nThis basic invention is effective as a weapon, while being a tool at the same time. Needs some muscles to work with, but lets you construct with more ease.</description> <!-- adjust -->
+	<graphicData>
+		<texPath>Things/WeaponMelee/Hammer</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+    <techLevel>Medieval</techLevel> <!-- no raiders wielding -->
+	<costStuffCount>70</costStuffCount>
+	<statBases>
+		<WorkToMake>8000</WorkToMake>
+		<Mass>2</Mass>
+	</statBases>
+	<equippedStatOffsets> <!-- much stuff to choose from or to use it all -->
+		<ConstructionSpeed>0.33</ConstructionSpeed> <!-- 0.15 to 0.33 max, balanced -->
+		<ConstructSuccessChance>0.25</ConstructSuccessChance>
+		<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+	</equippedStatOffsets>
+	<equippedAngleOffset>-65</equippedAngleOffset>
+	<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+	</stuffCategories>
+	<tools> <!-- needs adjustment maybe # Document 14 only, hammer is massive tho -->
+		<li>
+			<label>handle</label>
+			<capacities>
+			  <li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>head</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>14</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+    </tools>
+	<weaponTags>
+		<li>MedievalMeleeDecent</li>
+	</weaponTags>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+	  <researchPrerequisite>Smithing</researchPrerequisite>
+	   <skillRequirements>
+			<Crafting>3</Crafting>
+	  </skillRequirements>
+	</recipeMaker>
+  </ThingDef>
+
+<!-- Battle Axe -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>VWE_MeleeWeapon_BattleAxe</defName> <!-- unique -->
+    <label>battle axe</label>
+    <description>A mighty weapon on the battlefield in the right kind of hands. Made to cut through flesh and bones alike.\n\nFavored by the Berserker clans, the battle axe is a weapon usually used by medieval knights. With a powerful swing it is capable of eliminating most enemies in close quarters.</description> <!-- inspiration -->
+    <graphicData>
+      <texPath>Things/WeaponMelee/BattleAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>2.6</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23</power>
+		<armorPenetration>0.15</armorPenetration> <!-- More with a thorn at the backside only -->
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+	  <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- Halberd -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>VWE_MeleeWeapon_Halberd</defName> <!-- unique -->
+    <label>halberd</label>
+    <description>Halberd is a pike fitted with a light axe head. Due to the spear-like sharp tip, it's a great tool against armored enemies.\n\nUsed to fight down horse-mounted warriors in medieval times thanks to its its extraordinary length.</description> <!-- inspiration -->
+    <graphicData>
+      <texPath>Things/WeaponMelee/Halberd</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.21</drawSize>
+    </graphicData>
+	<comps>
+      <li> <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <costStuffCount>110</costStuffCount>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>2.8</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+		<armorPenetration>0.7</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+	  <recipeUsers>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	  </recipeUsers>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+	  <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>
