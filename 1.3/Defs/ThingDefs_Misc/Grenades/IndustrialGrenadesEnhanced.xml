@@ -271,9 +271,6 @@
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
       </li>
     </comps>
-    <smeltProducts>
-      <Steel>10</Steel>
-    </smeltProducts>
   </ThingDef>
   
     <ThingDef ParentName="BaseGrenadeProjectile">

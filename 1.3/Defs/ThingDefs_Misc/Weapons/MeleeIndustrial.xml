@@ -304,8 +304,7 @@
 		<Mass>0.8</Mass>
 	</statBases>
     <equippedStatOffsets>
-	  <MedicalTendQualityOffset>0.1</MedicalTendQualityOffset>
-      <MedicalPotency>0.15</MedicalPotency> <!-- my vanilla friendly suggestions -->
+	  <MedicalTendSpeed>0.15</MedicalTendSpeed>
     </equippedStatOffsets>
 	<equippedAngleOffset>-65</equippedAngleOffset>
 	<stuffCategories>
